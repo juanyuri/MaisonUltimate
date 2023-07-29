@@ -1,19 +1,27 @@
+<template>
+  <div class="app">
+    <NavigationBar />
+  </div>
+</template>
+
+
+
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import NavigationBar from '@/components/NavigationBar.vue'
 
 </script>
 
-<template>
-  <header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
 
-  <RouterView />
-</template>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
 
-<style scoped></style>
+:root {
+    --Navigation-Bar-bg-color: #177D6B;
+    --Navigation-Bar-item-bg-color: #0D6354;
+    --Navigation-Bar-item-height: 60px;
+    --Navigation-Bar-item-border-radius: 8px;
+}
+</style>

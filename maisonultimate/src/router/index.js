@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-/* import HomeView from '../views/HomeView.vue' */
 import MaisonSets from '@/views/MaisonSets.vue'
+import PokemonTeam from '@/views/PokemonTeam.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,9 +11,9 @@ const router = createRouter({
       component: MaisonSets
     },
     {
-      path: '/about',
-      name: 'about',
-      /* component: () => import('../views/AboutView.vue') */
+      path: '/team',
+      name: 'team',
+      component: PokemonTeam
     }
   ]
 })

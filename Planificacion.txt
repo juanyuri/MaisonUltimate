@@ -4,5 +4,6 @@
     Implementar Composable relacionado con los Stats de los Pokemon
     Implementar Tests relacionados con los Composables de los Stats
 
-30/07/2023      1h
+30/07/2023      2h
     Añadida Persistencia en el LocalStorage del equipo del Jugador
+    Añadido NavigationBar con Vue Router
