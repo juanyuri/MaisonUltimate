@@ -1,0 +1,4 @@
+29/07/2023. Trabajo: 1º30' + 30' 
+    Añadidos Composables de los Sets de Pokemon
+    Añadido el Modelo de PkmnSet.js
+    Añadida Vista inicial de la web
