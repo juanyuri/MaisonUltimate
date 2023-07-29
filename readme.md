@@ -30,7 +30,7 @@ To run the tests for the app, you can use the following command:
 - `components/`: Contains Vue components for the app.
 - `composables/`: Contains Vue composables for the app.
 - `data/`: Contains the `sets.json` file with data for the sets and their Pokemon.
-- `models/`: Contains JavaScript classes for the app.
+- `interfaces/`: Contains JavaScript classes for the app.
 - `App.vue`: The root Vue component for the app.
 - `main.js`: The entry point for the app.
 

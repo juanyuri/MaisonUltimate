@@ -1,4 +1,8 @@
-29/07/2023. Trabajo: 1º30' + 30' 
-    Añadidos Composables de los Sets de Pokemon
-    Añadido el Modelo de PkmnSet.js
-    Añadida Vista inicial de la web
+29/07/2023.     2hr 31 min
+    Implementar Composable relacionado con los Sets de los Pokemon
+    Añadido como parte del Modelo la interfaz/clase PkmnSet
+    Implementar Composable relacionado con los Stats de los Pokemon
+    Implementar Tests relacionados con los Composables de los Stats
+
+30/07/2023      1h
+    Añadida Persistencia en el LocalStorage del equipo del Jugador
