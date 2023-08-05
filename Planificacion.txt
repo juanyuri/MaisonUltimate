@@ -4,6 +4,19 @@
     Implementar Composable relacionado con los Stats de los Pokemon
     Implementar Tests relacionados con los Composables de los Stats
 
+
 30/07/2023      2h
     Añadida Persistencia en el LocalStorage del equipo del Jugador
     Añadido NavigationBar con Vue Router
+
+
+02/08/2023 - 04/08/2023
+    Añadidos scripts en Python para obtener datos de Pokemon de manera automática
+    Creada interfaz Pokemon
+    Creado Composable para obtener los datos de los Pokemon para formar Equipos
+    Creada Vista para visualizar todos los Pokemon
+
+
+TODO:
+    Aprender a crear entornos Anaconda desde terminal y utilizarlos en Visual Studio Code.
+    Hacer diseños web con Adobe XD.

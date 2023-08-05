@@ -9,7 +9,6 @@ export const useStore = defineStore('storeTeam', () => {
     /* Persistance key */
     const STORAGE_KEY = 'pokemon_team'
 
-
     /* Load from LocalStorage */
     const savedTeam = localStorage.getItem(STORAGE_KEY)
     if(savedTeam){
@@ -18,7 +17,7 @@ export const useStore = defineStore('storeTeam', () => {
         console.log("No hay un equipo guardado en el LocalStorage")
     }
 
-    // Save the team to LocalStorage whenever it changes
+    // Save to LocalStorage whenever it changes the team
     watch(team, (newTeam) => {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(newTeam))
     })
