@@ -16,6 +16,9 @@
     Creado Composable para obtener los datos de los Pokemon para formar Equipos
     Creada Vista para visualizar todos los Pokemon
 
+07/08/2023
+    Creada Vista Pokemon Team Planner. Modificación del Pokémon
+
 
 TODO:
     Aprender a crear entornos Anaconda desde terminal y utilizarlos en Visual Studio Code.

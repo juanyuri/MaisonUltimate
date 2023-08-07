@@ -41,7 +41,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ## Contributing
 
 Contributions are welcome! If you find a bug or want to add a new feature, please open an issue or submit a pull request.
-
-## Acknowledgments
-
-This app was inspired by the Pokemon TCG and the [PokeAPI](https://pokeapi.co/).

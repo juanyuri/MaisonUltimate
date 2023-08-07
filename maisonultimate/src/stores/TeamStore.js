@@ -1,13 +1,11 @@
 import { ref, watch } from 'vue'
 import { defineStore } from 'pinia'
 /* import { useSets } from '@/composables/sets.comp.js' */
+import {STORAGE_KEY} from '@/const/storage.js'
 
 export const useStore = defineStore('storeTeam', () => {
     /* Define the state */
     const team = ref([])
-
-    /* Persistance key */
-    const STORAGE_KEY = 'pokemon_team'
 
     /* Load from LocalStorage */
     const savedTeam = localStorage.getItem(STORAGE_KEY)
