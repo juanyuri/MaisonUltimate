@@ -1,5 +1,11 @@
 import { ref, computed } from "vue"
 
+/**
+ * Calculates and returns the stats of a given Pokemon.
+ *
+ * @param {Object} pkmn - The Pokemon object to calculate the stats for.
+ * @returns {Array<number>} An array of the calculated stats.
+ */
 export const stats = (pkmn) => {
     let stats = []
     for (let i = 0; i < 6; i++) {
@@ -9,6 +15,13 @@ export const stats = (pkmn) => {
     return stats
 }
 
+/**
+ * Calculates a specific stat for a given Pokemon based on its base stats, IVs, EVs, level, nature, item, and ability.
+ *
+ * @param {Object} pokemon - The Pokemon object to calculate the stat for.
+ * @param {number} statIndex - The index of the stat to calculate.
+ * @returns {number} The calculated value of the stat.
+ */
 const calculateStat = (pokemon, statIndex) => {
     const base = ~~Number(pokemon.baseStats[statIndex])
     const ivs = ~~Number(pokemon.ivs[statIndex])

@@ -28,9 +28,8 @@
 
 <script setup>
 import { usePokemon } from '@/data/composables/pokedex.comp.js'
-
 const allPkmn = usePokemon()
-console.log(allPkmn)
+
 </script>
 
 
