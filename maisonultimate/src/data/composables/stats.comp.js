@@ -7,11 +7,17 @@ import { ref, computed } from "vue"
  * @returns {Array<number>} An array of the calculated stats.
  */
 export const stats = (pkmn) => {
+
+    /* Non-truthy variable: false, null, undefined, empty string, etc. */
+    if (!pkmn || Object.keys(pkmn).length === 0)
+        throw new Error('Invalid Pokemon object provided')
+
+
     let stats = []
     for (let i = 0; i < 6; i++) {
         stats.push(calculateStat(pkmn, i))
     }
-    
+
     return stats
 }
 
@@ -22,26 +28,37 @@ export const stats = (pkmn) => {
  * @param {number} statIndex - The index of the stat to calculate.
  * @returns {number} The calculated value of the stat.
  */
-const calculateStat = (pokemon, statIndex) => {
+export const calculateStat = (pokemon, statIndex) => {
     const base = ~~Number(pokemon.baseStats[statIndex])
     const ivs = ~~Number(pokemon.ivs[statIndex])
     const evs = ~~Number(pokemon.evs[statIndex])
     const level = pokemon.level
-    const nature = pokemon.nature
+
+
+    if (base < 0 || ivs < 0 || evs < 0 || level < 0)
+        throw new Error('Invalid negative Input Pokemon Stats')
+
+    if (base > 255 || ivs > 31 || evs > 252 || level > 100)
+        throw new Error('Invalid positive Input Pokemon Stats')
+
 
     /* Calculations are different for HP */
     let statValue = 0
-    if(statIndex === 0){
+    if (statIndex === 0) {
         statValue = ~~((2 * base + ivs + ~~(evs / 4)) * level / 100) + level + 10
-    }else{ /* for other stats */
+    } else { /* for other stats */
+        const nature = natureEffect(pokemon.nature, statIndex)
+        if (nature < 0.9 || nature > 1.1)
+            throw new Error('Invalid NatureEffect Calculation')
+
         statValue = ~~(
-            (((2 * base + ivs + ~~(evs / 4)) * level) / 100 + 5) *
-            natureEffect(nature, statIndex)
+            (((2 * base + ivs + ~~(evs / 4)) * level) / 100 + 5) * nature
         )
     }
 
     const newStatValue = getModifiedStatWithItem(statIndex, statValue, pokemon.item)
-    const modifiedValue = getModifiedStatWithAbility(pokemon.chosenAbility, statIndex, newStatValue)
+    /* const modifiedValue = getModifiedStatWithAbility(pokemon.chosenAbility, statIndex, newStatValue) */
+    const modifiedValue = getModifiedStatWithAbility(pokemon.abilities[0], statIndex, newStatValue)
 
     return modifiedValue
 }
@@ -56,6 +73,9 @@ const calculateStat = (pokemon, statIndex) => {
  * @returns {string} The new type of the move.
  */
 export const getModifiedMoveType = (abilityName, moveType) => {
+
+    if (!abilityName || !moveType)
+        throw new Error('Invalid Ability or Move at changing move based on ability')
 
     if (abilityName == 'Aerilate' && moveType == 'Normal') return 'Flying'
     if (abilityName == 'Pixilate' && moveType == 'Normal') return 'Fairy'
@@ -76,10 +96,12 @@ export const getModifiedMoveType = (abilityName, moveType) => {
  * @returns {number} The new power of the move.
  */
 export const getModifiedMovePower = (abilityName, bp, moveType) => {
+    if (!abilityName || !bp || !moveType)
+        throw new Error('Invalid inputs at changing bp based on ability')
 
-    if (abilityName == 'Aerilate' && moveType == 'Normal') return bp *= 1.3
-    if (abilityName == 'Pixilate' && moveType == 'Normal') return bp *= 1.3
-    if (abilityName == 'Refrigerate' && moveType == 'Normal') return bp *= 1.3
+    if (abilityName == 'Aerilate' && moveType == 'Normal') return ~~(bp *= 1.3)
+    if (abilityName == 'Pixilate' && moveType == 'Normal') return ~~(bp *= 1.3)
+    if (abilityName == 'Refrigerate' && moveType == 'Normal') return ~~(bp *= 1.3)
 
     return bp
 }
@@ -94,7 +116,21 @@ export const getModifiedMovePower = (abilityName, bp, moveType) => {
  * @param {string} itemName - The name of the Pokemon's held item.
  * @returns {number} The modified value of the stat.
  */
-const getModifiedStatWithItem = (statIndex, statValue, itemName) => {
+export const getModifiedStatWithItem = (statIndex, statValue, itemName) => {
+
+    if (statIndex === false || statIndex === undefined || statIndex === '' ||
+        statIndex === NaN || statIndex === null)
+        throw new Error('Invalid Stat Value or Item at changing Stat based on item')
+
+    if (statValue === false || statValue === undefined || statValue === '' ||
+        statValue === NaN || statValue === null)
+        throw new Error('Invalid Stat Value or Item at changing Stat based on item')
+
+    if (itemName === false || itemName === undefined || itemName === '' ||
+        itemName === NaN || itemName === null)
+        throw new Error('Invalid Stat Value or Item at changing Stat based on item')
+    
+
     /* Special Defense changes */
     if (itemName == 'Assault Vest' && statIndex == 4) return ~~(statValue * 1.5)
 
@@ -115,8 +151,23 @@ const getModifiedStatWithItem = (statIndex, statValue, itemName) => {
  * @param {string} ability_name - The name of the Pokemon's ability.
  * @returns {number} The modified value of the stat.
  */
-const getModifiedStatWithAbility = (abilityName, statIndex, statValue) => {
+export const getModifiedStatWithAbility = (abilityName, statIndex, statValue) => {
 
+    console.log(abilityName + ", " + statIndex + ", " + statValue)
+    
+    if (statIndex === false || statIndex === undefined || statIndex === '' ||
+        statIndex === NaN || statIndex === null)
+        throw new Error('Invalid Stat Value or Item at changing Stat based on ability')
+
+    if (statValue === false || statValue === undefined || statValue === '' ||
+        statValue === NaN || statValue === null)
+        throw new Error('Invalid Stat Value or Item at changing Stat based on ability')
+
+    if (abilityName === false || abilityName === undefined || abilityName === '' ||
+        abilityName === NaN || abilityName === null)
+        throw new Error('Invalid Stat Value or Item at changing Stat based on ability')
+
+        
     if (abilityName == 'Huge Power' && statIndex == 1) return ~~(statValue * 2)
     if (abilityName == 'Slow Start' && (statIndex == 1 || statIndex == 5)) return ~~(statValue *= 0.5)
 
@@ -131,8 +182,13 @@ const getModifiedStatWithAbility = (abilityName, statIndex, statValue) => {
  * @param {string} statName - The name of the stat to calculate.
  * @returns {number} The effect of the Pokemon's nature on the stat.
  */
-const natureEffect = (nature, statName) => {
-    var resultado = 1.0
+export const natureEffect = (nature, statName) => {
+
+    if (!nature || !statName) {
+        throw new Error('Invalid Input in Nature Effect Calculation')
+    }
+
+    let resultado = 1.0
 
     if (statName == 1) {
         if (nature == 'Lonely' || nature == 'Adamant' ||
