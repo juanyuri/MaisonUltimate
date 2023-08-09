@@ -1,7 +1,7 @@
 import { ref, watch } from 'vue'
 import { defineStore } from 'pinia'
 /* import { useSets } from '@/composables/sets.comp.js' */
-import {STORAGE_KEY} from '@/const/storage.js'
+import { STORAGE_KEY } from '@/const/storage.js'
 
 export const useStore = defineStore('storeTeam', () => {
     /* Define the state */
@@ -9,9 +9,9 @@ export const useStore = defineStore('storeTeam', () => {
 
     /* Load from LocalStorage */
     const savedTeam = localStorage.getItem(STORAGE_KEY)
-    if(savedTeam){
+    if (savedTeam) {
         team.value = JSON.parse(savedTeam)
-    }else{
+    } else {
         console.log("No hay un equipo guardado en el LocalStorage")
     }
 
@@ -20,5 +20,13 @@ export const useStore = defineStore('storeTeam', () => {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(newTeam))
     })
 
-    return {team}
+    const addToTeam = (pkmn) => {
+        team.value.push(pkmn)
+    }
+
+    const removeFromTeam = (pkmnSpecies) => {
+        team.value = team.value.filter(p => p.species !== pkmnSpecies)
+    }
+
+    return { team, addToTeam, removeFromTeam }
 })

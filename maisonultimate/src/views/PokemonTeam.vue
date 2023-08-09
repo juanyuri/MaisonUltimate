@@ -2,25 +2,12 @@
   <h1>Pokemon Team Planner</h1>
 
   <div id="Pkmn">
-    <table id="Pkmn-Table">
-      <thead class="Pkmn-Table-Header">
-        <tr>
-          <th class="pkmn-table-th">Pokedex</th>
-          <th class="Header-SetName">Pokemon Name</th>
-          <th class="pkmn-table-th">Tipo 1</th>
-          <th class="pkmn-table-th">Tipo 2</th>
-        </tr>
-      </thead>
 
-      <tbody>
-        <tr v-for="pkmn in allPkmn" :key="pkmn">
-          <td>{{ pkmn.numDex }}</td>
-          <td>{{ pkmn.species }}</td>
-          <td>{{ pkmn.type1 }}</td>
-          <td>{{ pkmn.type2 }}</td>
-        </tr>
-      </tbody>
-    </table>
+    <h2>Search for a result:</h2>
+    <YuriSeach :items="allPkmn" placeholderText="Elige un Pokemon..." attrToShow="species" :minLength="1"
+      @onItemSelected="(event) => updateSelection(event)" />
+
+
   </div>
 </template>
 
@@ -28,8 +15,19 @@
 
 <script setup>
 import { usePokemon } from '@/data/composables/pokedex.comp.js'
-const allPkmn = usePokemon()
+import { useStore } from '@/stores/TeamStore.js'
 
+import YuriSeach from '@/components/YuriSearch.vue'
+
+/* What to do when item object comes from Search component */
+const updateSelection = (item) => {
+  console.log(item)
+}
+
+const allPkmn = usePokemon()
+const store = useStore()
+/* store.addToTeam(allPkmn[0])
+store.removeFromTeam(allPkmn[0].species) */
 </script>
 
 
