@@ -27,8 +27,7 @@ To set up the project, you'll need to have Node.js and npm installed on your mac
 
 Once you have Node.js and npm installed, you can clone this repository and install the dependencies by running the following commands:
 
-git clone https://github.com/your-username/pokemon-sets-app.git
-cd pokemon-sets-app npm install
+`git clone https://github.com/juanyuri/MaisonUltimate.git`
 
 
 ## Running the app
@@ -43,7 +42,13 @@ This will start a development server at `http://localhost:5173` where you can vi
 
 To run the tests for the app, you can use the following command:
 
-`cd .\maisonultimate\` and then `nightwatch ./tests/e2e/example.js`
+`cd .\maisonultimate\` <br>
+
+For End To End Tests use:
+`nightwatch ./tests/e2e/example.js`
+
+For Unit Testing use:
+`npx vitest`
 
 ## Contributing
 
@@ -53,4 +58,7 @@ Please see [the contributing guide](CONTRIBUTING.md) for guidance.
 ## TODO:
 
 - [x] Pokemon Team Planner View
-- [ ] Items and Moves Composables for Vue.js with its own Python Web Scraping
+- [ ] Data for Sets, Pokemon and Abilities (Composable, Documentation and Testing)
+- [ ] Data for Stats, Items and Moves (Composable, Documentation and Testing)
+- [ ] Data for Trainers and Pokemon Battle Maison Groups
+- [ ] Pokemon Battle Maison Dashboard View
