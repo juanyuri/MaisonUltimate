@@ -15,17 +15,17 @@ export const useStore = defineStore('storeTeam', () => {
         console.log("No hay un equipo guardado en el LocalStorage")
     }
 
-    // Save to LocalStorage whenever it changes the team
-    watch(team, (newTeam) => {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(newTeam))
-    })
-
     const addToTeam = (pkmn) => {
-        team.value.push(pkmn)
+        if(team.value.length < 4){
+            team.value.push(pkmn)
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(team.value))
+        }
     }
 
     const removeFromTeam = (pkmnSpecies) => {
-        team.value = team.value.filter(p => p.species !== pkmnSpecies)
+       let filtering = team.value.filter(p => p.species !== pkmnSpecies)
+       team.value = filtering
+       localStorage.setItem(STORAGE_KEY, JSON.stringify(filtering))
     }
 
     return { team, addToTeam, removeFromTeam }
