@@ -152,8 +152,6 @@ export const getModifiedStatWithItem = (statIndex, statValue, itemName) => {
  * @returns {number} The modified value of the stat.
  */
 export const getModifiedStatWithAbility = (abilityName, statIndex, statValue) => {
-
-    console.log(abilityName + ", " + statIndex + ", " + statValue)
     
     if (statIndex === false || statIndex === undefined || statIndex === '' ||
         statIndex === NaN || statIndex === null)

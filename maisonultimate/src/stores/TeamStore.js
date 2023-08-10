@@ -28,5 +28,15 @@ export const useStore = defineStore('storeTeam', () => {
        localStorage.setItem(STORAGE_KEY, JSON.stringify(filtering))
     }
 
-    return { team, addToTeam, removeFromTeam }
+    const updatePokemon = (pkmn) => {
+        const index = team.value.findIndex((p) => p.species === pkmn.species)
+
+        /* If the index is not -1, use splice function to replace the Pokemon object at the index with the new pkmn */
+        if (index !== -1) {
+          team.value.splice(index, 1, pkmn)
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(team.value))
+        }
+      }
+
+    return { team, addToTeam, removeFromTeam, updatePokemon }
 })

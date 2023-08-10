@@ -17,8 +17,8 @@ export const usePokemon = () => {
         const pkmn = new Pkmn(
             id, numDex, species, level, abilities, baseStats,
             evs, ivs, weight, type1, type2, moves,
-            nature, boosts, item,
-            totalStats, sprite
+            'Adamant', boosts, 'Salamencite',
+            [0,0,0,0,0,0], sprite
         )
         pkmnList.push(pkmn)
     }
