@@ -6,8 +6,8 @@
   </div>
 
   <h2>Search for a result:</h2>
-  <YuriSeach :items="allPkmn" placeholderText="Elige un Pokemon..." attrToShow="species" :minLength="1"
-    @onItemSelected="(event) => updateSelection(event)" />
+  <!-- <YuriSeach :items="allPkmn" placeholderText="Elige un Pokemon..." attrToShow="species" :minLength="1"
+    @onItemSelected="(event) => updateSelection(event)" /> -->
 
 
   <p>{{ currentPokemon.species }}</p>
@@ -108,11 +108,15 @@
 <script setup>
 import { ref, watchEffect } from 'vue'
 import { usePokemon } from '@/data/composables/pokedex.comp.js'
+import { useMoves } from '@/data/composables/moves.comp.js'
 import { stats } from '@/data/composables/stats.comp.js'
 import { useStore } from '@/stores/TeamStore.js'
 
-import YuriSeach from '@/components/YuriSearch.vue'
+/* import YuriSearch from '@/components/YuriSearch.vue'
+ */
 
+ const allMoves = useMoves()
+ console.log(allMoves)
 
 const allPkmn = usePokemon()
 const store = useStore()
