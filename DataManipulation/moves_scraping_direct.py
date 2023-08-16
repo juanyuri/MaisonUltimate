@@ -57,7 +57,8 @@ def extract_moves():
         description = move.get('description', '')
 
         move_obj = Move(name, move_type, category, int(bp), int(pp), int(accuracy), int(priority), description)
-        move_results.append(move_obj)
+        if(move_obj.name != 'Paleo Wave' and move_obj.name != 'Shadow Strike'):
+            move_results.append(move_obj)
 
     # Sort the list of Move objects by name and convert it to a dictionary
     sorted_results = sorted(move_results, key=lambda x: x.name)

@@ -3699,16 +3699,6 @@
         "priority": 0,
         "description": "Shares HP of user and target equally."
     },
-    "Paleo Wave": {
-        "name": "Paleo Wave",
-        "move_type": "Rock",
-        "category": "Special",
-        "bp": 85,
-        "pp": 15,
-        "accuracy": 100,
-        "priority": 0,
-        "description": "20% chance to lower the target's Attack by 1."
-    },
     "Parabolic Charge": {
         "name": "Parabolic Charge",
         "move_type": "Electric",
@@ -4728,16 +4718,6 @@
         "accuracy": 100,
         "priority": 1,
         "description": "Usually goes first."
-    },
-    "Shadow Strike": {
-        "name": "Shadow Strike",
-        "move_type": "Ghost",
-        "category": "Physical",
-        "bp": 80,
-        "pp": 10,
-        "accuracy": 95,
-        "priority": 0,
-        "description": "50% chance to lower the target's Defense by 1."
     },
     "Sharpen": {
         "name": "Sharpen",

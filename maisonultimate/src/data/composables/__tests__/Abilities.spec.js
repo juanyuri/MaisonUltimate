@@ -10,6 +10,7 @@ describe('abilities.comp.js', () => {
             const abilities = useAbilities()
             expect(abilities.value).toBeInstanceOf(Array)
             expect(abilities.value.length).toBeGreaterThan(0)
+            expect(abilities.value.length).toBe(192)
 
             abilities.value.forEach( ability => {
                 expect(typeof ability).toBe('object')

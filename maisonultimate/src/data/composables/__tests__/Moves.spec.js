@@ -8,6 +8,7 @@ describe('moves.comp.js', ()=> {
         const moves = useMoves()
         expect(moves.value).toBeInstanceOf(Array)
         expect(moves.value.length).toBeGreaterThan(0)
+        expect(moves.value.length).toBe(621)
 
         moves.value.forEach( move => {
             expect(typeof move).toBe('object')
