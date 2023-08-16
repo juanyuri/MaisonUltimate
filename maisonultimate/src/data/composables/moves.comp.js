@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import moves_data from '@/data/moves.json'
+import moves_data from '@/data/movedex.json'
 import Move from '@/data/interfaces/Move.js'
 
 /**
@@ -10,13 +10,15 @@ import Move from '@/data/interfaces/Move.js'
 export const useMoves = () => {
     const moves = []
 
-    for (let move of Object.values(moves_data)) {
+    for (let move_data of Object.values(moves_data)) {
         const {
-            bp, category, description, name, pp, type            
-        } = move
+            name, type, category, bp, pp, accuracy, priority, description          
+        } = move_data
 
-        const mv = new Move(name, type, category, bp, pp, description, '')
-        moves.push(mv)
+        const move = new Move(
+            name, type, category, bp, pp, accuracy, priority, description
+        )
+        moves.push(move)
     }
 
     return ref(moves)

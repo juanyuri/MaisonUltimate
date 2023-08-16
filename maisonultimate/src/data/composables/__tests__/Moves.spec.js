@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest'
-import moves_data from '@/data/moves.json'
 
 import { useMoves } from '@/data/composables/moves.comp.js'
 
