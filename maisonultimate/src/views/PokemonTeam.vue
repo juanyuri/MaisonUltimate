@@ -116,7 +116,6 @@ import { useStore } from '@/stores/TeamStore.js'
  */
 
  const allMoves = useMoves()
- console.log(allMoves)
 
 const allPkmn = usePokemon()
 const store = useStore()

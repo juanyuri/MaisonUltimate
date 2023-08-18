@@ -30,6 +30,10 @@ import { useSets } from '@/data/composables/sets.comp.js'
 import { stats } from '@/data/composables/stats.comp.js'
 /* STORE */
 import { useStore } from '@/stores/TeamStore.js'
+import { useTrainers } from '@/data/composables/trainers.comp.js'
+
+const allTrainers = useTrainers()
+console.log(allTrainers)
 
 const sets = useSets()
 /* const pkmn = stats(sets[0]) */

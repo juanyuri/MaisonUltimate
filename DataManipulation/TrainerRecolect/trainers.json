@@ -1,0 +1,1177 @@
+[
+    {
+        "name": "Karina",
+        "trainer_type": "Chica Mala",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 149,
+        "pkmn_group": "Dark_Poison_1",
+        "ivs": 19,
+        "pokemon": [
+            "Victreebel",
+            "Crobat",
+            "Houndoom",
+            "Umbreon",
+            "Roserade",
+            "Absol",
+            "Mandibuzz",
+            "Weavile",
+            "Hydreigon",
+            "Krookodile"
+        ]
+    },
+    {
+        "name": "Alonso",
+        "trainer_type": "Niño Bien",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 120,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "Tangrowth",
+            "Hippowdon",
+            "Weavile",
+            "Drifblim",
+            "Walrein",
+            "Carracosta",
+            "Crobat",
+            "Magnezone"
+        ]
+    },
+    {
+        "name": "Ander",
+        "trainer_type": "Entrenador Promesa",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 141,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "Crobat",
+            "Salamence",
+            "Porygon-Z",
+            "Bronzong",
+            "Porygon2",
+            "Hippowdon",
+            "Garchomp",
+            "Steelix",
+            "Muk",
+            "Gallade",
+            "Magmortar",
+            "Yanmega"
+        ]
+    },
+    {
+        "name": "Julio",
+        "trainer_type": "Estudiante Hombre",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 116,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "Roserade",
+            "Crobat",
+            "Espeon",
+            "Donphan",
+            "Gallade",
+            "Crobat",
+            "Gardevoir",
+            "Flygon"
+        ]
+    },
+    {
+        "name": "Tato",
+        "trainer_type": "Preescolar Niño",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 123,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "Scizor",
+            "Flareon",
+            "Drapion",
+            "Machamp",
+            "Krookodile",
+            "Flareon",
+            "Lapras",
+            "Garchomp",
+            "Porygon-Z",
+            "Haxorus",
+            "Houndoom",
+            "Starmie",
+            "Gardevoir",
+            "Gallade",
+            "Zoroark"
+        ]
+    },
+    {
+        "name": "Montserrat",
+        "trainer_type": "Modelo",
+        "win_streak_range": [
+            "11-20"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Houndoom",
+            "Krookodile",
+            "Umbreon",
+            ""
+        ]
+    },
+    {
+        "name": "Anja",
+        "trainer_type": "Artista",
+        "win_streak_range": [
+            "11-20"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Feraligatr",
+            "Golem",
+            "Breloom",
+            "Dugtrio",
+            "Altaria",
+            "Musharna",
+            "Absol",
+            "Florges",
+            "Trevenant",
+            "Cradily",
+            "Wailord",
+            "Druddigon"
+        ]
+    },
+    {
+        "name": "Aramís",
+        "trainer_type": "Modelo",
+        "win_streak_range": [
+            "11-20"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Tauros",
+            "Staraptor",
+            "Porygon-Z",
+            ""
+        ]
+    },
+    {
+        "name": "Romeo",
+        "trainer_type": "Artista",
+        "win_streak_range": [
+            "11-20"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Torterra",
+            "Weezing",
+            "Barbaracle",
+            "Carbink",
+            "Aurorus",
+            "Unfezant",
+            "Sceptile",
+            "Avalugg",
+            "Marowak",
+            "Gothitelle"
+        ]
+    },
+    {
+        "name": "Elisenda",
+        "trainer_type": "Estudiante Mujer",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 118,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "Victreebel",
+            "Altaria",
+            "Swampert",
+            "Abomasnow",
+            "Torterra",
+            "Typhlosion",
+            "Ambipon"
+        ]
+    },
+    {
+        "name": "Odette",
+        "trainer_type": "Niña Soñadora",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 143,
+        "pkmn_group": "Normal_Fairy_Psychic_1",
+        "ivs": 19,
+        "pokemon": [
+            "Ursaring",
+            "Porygon2",
+            "Carbink",
+            "Lopunny"
+        ]
+    },
+    {
+        "name": "Bobby",
+        "trainer_type": "Joven",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 111,
+        "pkmn_group": "Normal_Bug_1",
+        "ivs": 19,
+        "pokemon": [
+            "Armaldo",
+            "Braviary",
+            "Unfezant",
+            "Miltank"
+        ]
+    },
+    {
+        "name": "Eliseo",
+        "trainer_type": "Patinador",
+        "win_streak_range": [
+            "11-20"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Eelektross",
+            "Gliscor",
+            "Charizard",
+            "Crobat",
+            "Talonflame",
+            "Hawlucha",
+            "Ampharos",
+            "Braviary"
+        ]
+    },
+    {
+        "name": "Ted",
+        "trainer_type": "Chico Malo",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 148,
+        "pkmn_group": "Dark_Poison_1",
+        "ivs": 19,
+        "pokemon": [
+            "Scrafty",
+            "Drapion",
+            "Toxicroak",
+            "Vileplume"
+        ]
+    },
+    {
+        "name": "Dorotea",
+        "trainer_type": "Criada",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 160,
+        "pkmn_group": "Sapphire1",
+        "ivs": 19,
+        "pokemon": [
+            "Froslass",
+            "Weezing",
+            "Zoroark",
+            "Rhyperior",
+            "Ursaring",
+            "Claydol",
+            "Bouffalant",
+            "Aromatisse"
+        ]
+    },
+    {
+        "name": "Pili",
+        "trainer_type": "Preescolar Niña",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 126,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "Mienshao",
+            "Leafeon",
+            "Blissey",
+            "Ursaring",
+            "Bouffalant",
+            "Tangrowth",
+            "Zoroark",
+            "Rhyperior",
+            "Lapras",
+            "Chandelure",
+            "Ursaring",
+            "Pinsir",
+            "Floatzel",
+            "Steelix",
+            "Carracosta"
+        ]
+    },
+    {
+        "name": "Augusta",
+        "trainer_type": "Criada",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 158,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "Rapidash",
+            "Krookodile",
+            "Escavalier",
+            "Blissey",
+            "Lapras",
+            "Rampardos",
+            "Tyranitar",
+            "Tentacruel",
+            "Poliwrath",
+            "Garchomp",
+            "Steelix"
+        ]
+    },
+    {
+        "name": "Jeremías",
+        "trainer_type": "Mayordomo Leal",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 155,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "Poliwrath",
+            "Slaking",
+            "Escavalier",
+            "Roserade",
+            "Mienshao",
+            "Eelektross",
+            "Beartik",
+            "Tyranitar",
+            "Flygon",
+            "Roserade",
+            "Magmortar",
+            "Ampharos",
+            "Vaporeon",
+            "Donphan",
+            "Mamoswine",
+            "Yanmega",
+            "Yanmega",
+            "Weavile",
+            "Leafeon"
+        ]
+    },
+    {
+        "name": "Alexandre",
+        "trainer_type": "Mayordomo Leal",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 156,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "Breloom",
+            "Nidoking",
+            "Froslass",
+            "Chesnaught",
+            "Alakazam",
+            "Cofagrigus",
+            "Durant",
+            "Abomasnow"
+        ]
+    },
+    {
+        "name": "Nadine",
+        "trainer_type": "Chica",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 114,
+        "pkmn_group": "Normal_Fairy_1",
+        "ivs": 19,
+        "pokemon": [
+            "Gardevoir",
+            "Pyroar",
+            "Togekiss",
+            "Loppuny",
+            "Pyroar",
+            "Granbull",
+            "Porygon-Z",
+            "Loppuny",
+            "Aromatisse",
+            "Braviary",
+            "Slurpuff",
+            "Tauros"
+        ]
+    },
+    {
+        "name": "Rebeca",
+        "trainer_type": "Preescolar Niña",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 125,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "Electrode",
+            "Loppuny",
+            "Ambipon",
+            "Gastrodon",
+            "Staraptor",
+            "Greninja",
+            "Altaria",
+            "Charizard",
+            "Sawk",
+            "Meganium"
+        ]
+    },
+    {
+        "name": "Josefina",
+        "trainer_type": "Camarera",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 133,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "Talonflame",
+            "Ferrothorn",
+            "Trevenant",
+            "Lopunny"
+        ]
+    },
+    {
+        "name": "Antonia",
+        "trainer_type": "Pokéfan Mujer",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 137,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "Carracosta",
+            "Rampardos",
+            "Gardevoir",
+            "Floatzel",
+            "Ampharos",
+            "Exeggutor",
+            "Tentacruel",
+            "Snorlax"
+        ]
+    },
+    {
+        "name": "Marius",
+        "trainer_type": "Cocinero",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 154,
+        "pkmn_group": "Fire_Grass_Water_1",
+        "ivs": 19,
+        "pokemon": [
+            "Lilligant",
+            "Vaporeon",
+            "Venusaur",
+            "Torterra",
+            "Meganium",
+            "Roserade",
+            "Blastoise"
+        ]
+    },
+    {
+        "name": "Dalila",
+        "trainer_type": "Chica Mala",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 151,
+        "pkmn_group": "Dark_Poison_1",
+        "ivs": 19,
+        "pokemon": [
+            "Weavile",
+            "Tyranitar",
+            "Victreebel",
+            "Mandibuzz",
+            "Bisharp"
+        ]
+    },
+    {
+        "name": "Serge",
+        "trainer_type": "Artista",
+        "win_streak_range": [
+            "11-20"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Porygon-Z",
+            "Crobat",
+            "Vanilluxe",
+            "Conkeldurr"
+        ]
+    },
+    {
+        "name": "Simoneta",
+        "trainer_type": "Artista",
+        "win_streak_range": [
+            "11-20"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Throh",
+            "Electrode",
+            "Honchkrow",
+            "Muk",
+            "Excadrill",
+            "Cryogonal",
+            "Slowking"
+        ]
+    },
+    {
+        "name": "Trinidad",
+        "trainer_type": "Criada",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 159,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "Golurk",
+            "Jynx",
+            "Throh",
+            "",
+            "Darmanitan",
+            "Scrafty",
+            "Manectric",
+            "Torterra"
+        ]
+    },
+    {
+        "name": "Pamela",
+        "trainer_type": "Damisela",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 122,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "Exploud",
+            "Unfezant",
+            "Alakazam",
+            "Sceptile"
+        ]
+    },
+    {
+        "name": "Gastón",
+        "trainer_type": "Cocinero",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 153,
+        "pkmn_group": "Fire_Grass_Water_1",
+        "ivs": 19,
+        "pokemon": [
+            "Abomasnow",
+            "Blaziken",
+            "Meganium",
+            "Magmortar"
+        ]
+    },
+    {
+        "name": "René",
+        "trainer_type": "Cocinero",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 152,
+        "pkmn_group": "Fire_Grass_Water_1",
+        "ivs": 19,
+        "pokemon": [
+            "Cradily",
+            "Lilligant",
+            "Blaziken",
+            "Poliwrath"
+        ]
+    },
+    {
+        "name": "Andy",
+        "trainer_type": "Chico Malo",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 146,
+        "pkmn_group": "Dark_Poison_1",
+        "ivs": 19,
+        "pokemon": [
+            "Absol",
+            "Roserade",
+            "Gengar",
+            "Honchkrow",
+            "Weavile",
+            "Honchkrow",
+            "Roserade",
+            "Krookodile",
+            "Weavile",
+            "Drapion",
+            "Krookodile",
+            "Houndoom"
+        ]
+    },
+    {
+        "name": "Estíbaliz",
+        "trainer_type": "Entrenadora Promesa",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 142,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "Gourgeist",
+            "Durant",
+            "Druddigon",
+            "Cofagrigus",
+            "Florges",
+            "Blastoise",
+            "Breloom",
+            "Vileplume"
+        ]
+    },
+    {
+        "name": "Sancho",
+        "trainer_type": "Niño Bien",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 119,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "Breloom",
+            "Jynx",
+            "Abomasnow",
+            "Torterra"
+        ]
+    },
+    {
+        "name": "Pitita",
+        "trainer_type": "Damisela",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 121,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "Dragonite",
+            "Drapion",
+            "Scizor",
+            "Accelgor"
+        ]
+    },
+    {
+        "name": "Estrella",
+        "trainer_type": "Patinadora",
+        "win_streak_range": [
+            "11-20"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Electrike",
+            "Noivern",
+            "Dragonite",
+            "Lanturn"
+        ]
+    },
+    {
+        "name": "Jesus",
+        "trainer_type": "Joven",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 112,
+        "pkmn_group": "Normal_Bug_1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Fulgencio",
+        "trainer_type": "Mayordomo Leal",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 157,
+        "pkmn_group": "Sapphire1",
+        "ivs": 19,
+        "pokemon": [
+            "Poliwrath",
+            "Cofagrigus",
+            "Braviary",
+            "Lopunny"
+        ]
+    },
+    {
+        "name": "John",
+        "trainer_type": "Chico Malo",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 147,
+        "pkmn_group": "Dark_Poison_1",
+        "ivs": 19,
+        "pokemon": []
+    },
+    {
+        "name": "Desirée",
+        "trainer_type": "Chica Mala",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 150,
+        "pkmn_group": "Dark_Poison_1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Dorothy",
+        "trainer_type": "Niña Soñadora",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 144,
+        "pkmn_group": "Normal_Fairy_Psychic_1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Jasmine",
+        "trainer_type": "Niña Soñadora",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 145,
+        "pkmn_group": "Normal_Fairy_Psychic_1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Antoinette",
+        "trainer_type": "Chica",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 113,
+        "pkmn_group": "Normal_Fairy_1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Calvin",
+        "trainer_type": "Estudiante Hombre",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 115,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Mireia",
+        "trainer_type": "Estudiante Mujer",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 117,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Denis",
+        "trainer_type": "Preescolar Niño",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 124,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Eduardo",
+        "trainer_type": "Mochilero",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 127,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Benja",
+        "trainer_type": "Mochilero",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 128,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Janet",
+        "trainer_type": "Turista Mujer",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 129,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Marit",
+        "trainer_type": "Turista Mujer",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 130,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Giuseppe",
+        "trainer_type": "Garçon",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 131,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Marcel",
+        "trainer_type": "Garçon",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 132,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Manuela",
+        "trainer_type": "Camarera",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 134,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Josefa",
+        "trainer_type": "Pokéfan Mujer",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 138,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Bienvenido",
+        "trainer_type": "Pokéfan Hombre",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 135,
+        "pkmn_group": "Ruby1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Domingo",
+        "trainer_type": "Pokéfan Hombre",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 136,
+        "pkmn_group": "Emerald1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "François",
+        "trainer_type": "Montañero",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 139,
+        "pkmn_group": "Ground_Rock_Steel_1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Hunter",
+        "trainer_type": "Montañero",
+        "win_streak_range": [
+            "1-10"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": 140,
+        "pkmn_group": "Ground_Rock_Steel_1",
+        "ivs": 19,
+        "pokemon": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    }
+]
