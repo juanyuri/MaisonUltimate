@@ -1,0 +1,21 @@
+{
+    "Acero": "Steel",
+    "Agua": "Water",
+    "Bicho": "Bug",
+    "Dragón": "Dragon",
+    "Eléctrico": "Electric",
+    "Fantasma": "Ghost",
+    "Fuego": "Fire",
+    "Hada": "Fairy",
+    "Lucha": "Fighting",
+    "Planta": "Grass",
+    "Roca": "Rock",
+    "Siniestro": "Dark",
+    "Tierra": "Ground",
+    "Volador": "Flying",
+    "Veneno": "Poison",
+    "Normal": "Normal",
+    "Hielo": "Ice",
+    "Psíquico": "Psychic",
+    "undefined":"undefined"
+}

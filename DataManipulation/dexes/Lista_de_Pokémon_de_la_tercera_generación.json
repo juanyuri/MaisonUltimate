@@ -2,7 +2,7 @@
     {
         "numDex": "0252",
         "species": "Treecko",
-        "type1": "Planta",
+        "type1": "Grass",
         "type2": "undefined",
         "ivs": [
             0,
@@ -39,7 +39,7 @@
     {
         "numDex": "0253",
         "species": "Grovyle",
-        "type1": "Planta",
+        "type1": "Grass",
         "type2": "undefined",
         "ivs": [
             0,
@@ -76,7 +76,7 @@
     {
         "numDex": "0254",
         "species": "Sceptile",
-        "type1": "Planta",
+        "type1": "Grass",
         "type2": "undefined",
         "ivs": [
             0,
@@ -113,7 +113,7 @@
     {
         "numDex": "0255",
         "species": "Torchic",
-        "type1": "Fuego",
+        "type1": "Fire",
         "type2": "undefined",
         "ivs": [
             0,
@@ -150,8 +150,8 @@
     {
         "numDex": "0256",
         "species": "Combusken",
-        "type1": "Fuego",
-        "type2": "Lucha",
+        "type1": "Fire",
+        "type2": "Fighting",
         "ivs": [
             0,
             0,
@@ -187,8 +187,8 @@
     {
         "numDex": "0257",
         "species": "Blaziken",
-        "type1": "Fuego",
-        "type2": "Lucha",
+        "type1": "Fire",
+        "type2": "Fighting",
         "ivs": [
             0,
             0,
@@ -224,7 +224,7 @@
     {
         "numDex": "0258",
         "species": "Mudkip",
-        "type1": "Agua",
+        "type1": "Water",
         "type2": "undefined",
         "ivs": [
             0,
@@ -261,8 +261,8 @@
     {
         "numDex": "0259",
         "species": "Marshtomp",
-        "type1": "Agua",
-        "type2": "Tierra",
+        "type1": "Water",
+        "type2": "Ground",
         "ivs": [
             0,
             0,
@@ -298,8 +298,8 @@
     {
         "numDex": "0260",
         "species": "Swampert",
-        "type1": "Agua",
-        "type2": "Tierra",
+        "type1": "Water",
+        "type2": "Ground",
         "ivs": [
             0,
             0,
@@ -335,7 +335,7 @@
     {
         "numDex": "0261",
         "species": "Poochyena",
-        "type1": "Siniestro",
+        "type1": "Dark",
         "type2": "undefined",
         "ivs": [
             0,
@@ -373,7 +373,7 @@
     {
         "numDex": "0262",
         "species": "Mightyena",
-        "type1": "Siniestro",
+        "type1": "Dark",
         "type2": "undefined",
         "ivs": [
             0,
@@ -449,7 +449,7 @@
     {
         "numDex": "0263",
         "species": "Zigzagoon de Galar",
-        "type1": "Siniestro",
+        "type1": "Dark",
         "type2": "Normal",
         "ivs": [
             0,
@@ -525,7 +525,7 @@
     {
         "numDex": "0264",
         "species": "Linoone de Galar",
-        "type1": "Siniestro",
+        "type1": "Dark",
         "type2": "Normal",
         "ivs": [
             0,
@@ -563,7 +563,7 @@
     {
         "numDex": "0265",
         "species": "Wurmple",
-        "type1": "Bicho",
+        "type1": "Bug",
         "type2": "undefined",
         "ivs": [
             0,
@@ -600,7 +600,7 @@
     {
         "numDex": "0266",
         "species": "Silcoon",
-        "type1": "Bicho",
+        "type1": "Bug",
         "type2": "undefined",
         "ivs": [
             0,
@@ -636,8 +636,8 @@
     {
         "numDex": "0267",
         "species": "Beautifly",
-        "type1": "Bicho",
-        "type2": "Volador",
+        "type1": "Bug",
+        "type2": "Flying",
         "ivs": [
             0,
             0,
@@ -673,7 +673,7 @@
     {
         "numDex": "0268",
         "species": "Cascoon",
-        "type1": "Bicho",
+        "type1": "Bug",
         "type2": "undefined",
         "ivs": [
             0,
@@ -709,8 +709,8 @@
     {
         "numDex": "0269",
         "species": "Dustox",
-        "type1": "Bicho",
-        "type2": "Veneno",
+        "type1": "Bug",
+        "type2": "Poison",
         "ivs": [
             0,
             0,
@@ -746,8 +746,8 @@
     {
         "numDex": "0270",
         "species": "Lotad",
-        "type1": "Agua",
-        "type2": "Planta",
+        "type1": "Water",
+        "type2": "Grass",
         "ivs": [
             0,
             0,
@@ -784,8 +784,8 @@
     {
         "numDex": "0271",
         "species": "Lombre",
-        "type1": "Agua",
-        "type2": "Planta",
+        "type1": "Water",
+        "type2": "Grass",
         "ivs": [
             0,
             0,
@@ -822,8 +822,8 @@
     {
         "numDex": "0272",
         "species": "Ludicolo",
-        "type1": "Agua",
-        "type2": "Planta",
+        "type1": "Water",
+        "type2": "Grass",
         "ivs": [
             0,
             0,
@@ -860,7 +860,7 @@
     {
         "numDex": "0273",
         "species": "Seedot",
-        "type1": "Planta",
+        "type1": "Grass",
         "type2": "undefined",
         "ivs": [
             0,
@@ -898,8 +898,8 @@
     {
         "numDex": "0274",
         "species": "Nuzleaf",
-        "type1": "Planta",
-        "type2": "Siniestro",
+        "type1": "Grass",
+        "type2": "Dark",
         "ivs": [
             0,
             0,
@@ -936,8 +936,8 @@
     {
         "numDex": "0275",
         "species": "Shiftry",
-        "type1": "Planta",
-        "type2": "Siniestro",
+        "type1": "Grass",
+        "type2": "Dark",
         "ivs": [
             0,
             0,
@@ -975,7 +975,7 @@
         "numDex": "0276",
         "species": "Taillow",
         "type1": "Normal",
-        "type2": "Volador",
+        "type2": "Flying",
         "ivs": [
             0,
             0,
@@ -1012,7 +1012,7 @@
         "numDex": "0277",
         "species": "Swellow",
         "type1": "Normal",
-        "type2": "Volador",
+        "type2": "Flying",
         "ivs": [
             0,
             0,
@@ -1048,8 +1048,8 @@
     {
         "numDex": "0278",
         "species": "Wingull",
-        "type1": "Agua",
-        "type2": "Volador",
+        "type1": "Water",
+        "type2": "Flying",
         "ivs": [
             0,
             0,
@@ -1086,8 +1086,8 @@
     {
         "numDex": "0279",
         "species": "Pelipper",
-        "type1": "Agua",
-        "type2": "Volador",
+        "type1": "Water",
+        "type2": "Flying",
         "ivs": [
             0,
             0,
@@ -1124,8 +1124,8 @@
     {
         "numDex": "0280",
         "species": "Ralts",
-        "type1": "Psíquico",
-        "type2": "Hada",
+        "type1": "Psychic",
+        "type2": "Fairy",
         "ivs": [
             0,
             0,
@@ -1162,8 +1162,8 @@
     {
         "numDex": "0281",
         "species": "Kirlia",
-        "type1": "Psíquico",
-        "type2": "Hada",
+        "type1": "Psychic",
+        "type2": "Fairy",
         "ivs": [
             0,
             0,
@@ -1200,8 +1200,8 @@
     {
         "numDex": "0282",
         "species": "Gardevoir",
-        "type1": "Psíquico",
-        "type2": "Hada",
+        "type1": "Psychic",
+        "type2": "Fairy",
         "ivs": [
             0,
             0,
@@ -1238,8 +1238,8 @@
     {
         "numDex": "0283",
         "species": "Surskit",
-        "type1": "Bicho",
-        "type2": "Agua",
+        "type1": "Bug",
+        "type2": "Water",
         "ivs": [
             0,
             0,
@@ -1275,8 +1275,8 @@
     {
         "numDex": "0284",
         "species": "Masquerain",
-        "type1": "Bicho",
-        "type2": "Volador",
+        "type1": "Bug",
+        "type2": "Flying",
         "ivs": [
             0,
             0,
@@ -1312,7 +1312,7 @@
     {
         "numDex": "0285",
         "species": "Shroomish",
-        "type1": "Planta",
+        "type1": "Grass",
         "type2": "undefined",
         "ivs": [
             0,
@@ -1350,8 +1350,8 @@
     {
         "numDex": "0286",
         "species": "Breloom",
-        "type1": "Planta",
-        "type2": "Lucha",
+        "type1": "Grass",
+        "type2": "Fighting",
         "ivs": [
             0,
             0,
@@ -1496,8 +1496,8 @@
     {
         "numDex": "0290",
         "species": "Nincada",
-        "type1": "Bicho",
-        "type2": "Tierra",
+        "type1": "Bug",
+        "type2": "Ground",
         "ivs": [
             0,
             0,
@@ -1533,8 +1533,8 @@
     {
         "numDex": "0291",
         "species": "Ninjask",
-        "type1": "Bicho",
-        "type2": "Volador",
+        "type1": "Bug",
+        "type2": "Flying",
         "ivs": [
             0,
             0,
@@ -1570,8 +1570,8 @@
     {
         "numDex": "0292",
         "species": "Shedinja",
-        "type1": "Bicho",
-        "type2": "Fantasma",
+        "type1": "Bug",
+        "type2": "Ghost",
         "ivs": [
             0,
             0,
@@ -1717,7 +1717,7 @@
     {
         "numDex": "0296",
         "species": "Makuhita",
-        "type1": "Lucha",
+        "type1": "Fighting",
         "type2": "undefined",
         "ivs": [
             0,
@@ -1755,7 +1755,7 @@
     {
         "numDex": "0297",
         "species": "Hariyama",
-        "type1": "Lucha",
+        "type1": "Fighting",
         "type2": "undefined",
         "ivs": [
             0,
@@ -1794,7 +1794,7 @@
         "numDex": "0298",
         "species": "Azurill",
         "type1": "Normal",
-        "type2": "Hada",
+        "type2": "Fairy",
         "ivs": [
             0,
             0,
@@ -1831,7 +1831,7 @@
     {
         "numDex": "0299",
         "species": "Nosepass",
-        "type1": "Roca",
+        "type1": "Rock",
         "type2": "undefined",
         "ivs": [
             0,
@@ -1945,8 +1945,8 @@
     {
         "numDex": "0302",
         "species": "Sableye",
-        "type1": "Siniestro",
-        "type2": "Fantasma",
+        "type1": "Dark",
+        "type2": "Ghost",
         "ivs": [
             0,
             0,
@@ -1983,8 +1983,8 @@
     {
         "numDex": "0303",
         "species": "Mawile",
-        "type1": "Acero",
-        "type2": "Hada",
+        "type1": "Steel",
+        "type2": "Fairy",
         "ivs": [
             0,
             0,
@@ -2021,8 +2021,8 @@
     {
         "numDex": "0304",
         "species": "Aron",
-        "type1": "Acero",
-        "type2": "Roca",
+        "type1": "Steel",
+        "type2": "Rock",
         "ivs": [
             0,
             0,
@@ -2059,8 +2059,8 @@
     {
         "numDex": "0305",
         "species": "Lairon",
-        "type1": "Acero",
-        "type2": "Roca",
+        "type1": "Steel",
+        "type2": "Rock",
         "ivs": [
             0,
             0,
@@ -2097,8 +2097,8 @@
     {
         "numDex": "0306",
         "species": "Aggron",
-        "type1": "Acero",
-        "type2": "Roca",
+        "type1": "Steel",
+        "type2": "Rock",
         "ivs": [
             0,
             0,
@@ -2135,8 +2135,8 @@
     {
         "numDex": "0307",
         "species": "Meditite",
-        "type1": "Lucha",
-        "type2": "Psíquico",
+        "type1": "Fighting",
+        "type2": "Psychic",
         "ivs": [
             0,
             0,
@@ -2172,8 +2172,8 @@
     {
         "numDex": "0308",
         "species": "Medicham",
-        "type1": "Lucha",
-        "type2": "Psíquico",
+        "type1": "Fighting",
+        "type2": "Psychic",
         "ivs": [
             0,
             0,
@@ -2209,7 +2209,7 @@
     {
         "numDex": "0309",
         "species": "Electrike",
-        "type1": "Eléctrico",
+        "type1": "Electric",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2247,7 +2247,7 @@
     {
         "numDex": "0310",
         "species": "Manectric",
-        "type1": "Eléctrico",
+        "type1": "Electric",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2285,7 +2285,7 @@
     {
         "numDex": "0311",
         "species": "Plusle",
-        "type1": "Eléctrico",
+        "type1": "Electric",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2322,7 +2322,7 @@
     {
         "numDex": "0312",
         "species": "Minun",
-        "type1": "Eléctrico",
+        "type1": "Electric",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2359,7 +2359,7 @@
     {
         "numDex": "0313",
         "species": "Volbeat",
-        "type1": "Bicho",
+        "type1": "Bug",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2397,7 +2397,7 @@
     {
         "numDex": "0314",
         "species": "Illumise",
-        "type1": "Bicho",
+        "type1": "Bug",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2435,8 +2435,8 @@
     {
         "numDex": "0315",
         "species": "Roselia",
-        "type1": "Planta",
-        "type2": "Veneno",
+        "type1": "Grass",
+        "type2": "Poison",
         "ivs": [
             0,
             0,
@@ -2473,7 +2473,7 @@
     {
         "numDex": "0316",
         "species": "Gulpin",
-        "type1": "Veneno",
+        "type1": "Poison",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2511,7 +2511,7 @@
     {
         "numDex": "0317",
         "species": "Swalot",
-        "type1": "Veneno",
+        "type1": "Poison",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2549,8 +2549,8 @@
     {
         "numDex": "0318",
         "species": "Carvanha",
-        "type1": "Agua",
-        "type2": "Siniestro",
+        "type1": "Water",
+        "type2": "Dark",
         "ivs": [
             0,
             0,
@@ -2586,8 +2586,8 @@
     {
         "numDex": "0319",
         "species": "Sharpedo",
-        "type1": "Agua",
-        "type2": "Siniestro",
+        "type1": "Water",
+        "type2": "Dark",
         "ivs": [
             0,
             0,
@@ -2623,7 +2623,7 @@
     {
         "numDex": "0320",
         "species": "Wailmer",
-        "type1": "Agua",
+        "type1": "Water",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2661,7 +2661,7 @@
     {
         "numDex": "0321",
         "species": "Wailord",
-        "type1": "Agua",
+        "type1": "Water",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2699,8 +2699,8 @@
     {
         "numDex": "0322",
         "species": "Numel",
-        "type1": "Fuego",
-        "type2": "Tierra",
+        "type1": "Fire",
+        "type2": "Ground",
         "ivs": [
             0,
             0,
@@ -2737,8 +2737,8 @@
     {
         "numDex": "0323",
         "species": "Camerupt",
-        "type1": "Fuego",
-        "type2": "Tierra",
+        "type1": "Fire",
+        "type2": "Ground",
         "ivs": [
             0,
             0,
@@ -2775,7 +2775,7 @@
     {
         "numDex": "0324",
         "species": "Torkoal",
-        "type1": "Fuego",
+        "type1": "Fire",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2813,7 +2813,7 @@
     {
         "numDex": "0325",
         "species": "Spoink",
-        "type1": "Psíquico",
+        "type1": "Psychic",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2851,7 +2851,7 @@
     {
         "numDex": "0326",
         "species": "Grumpig",
-        "type1": "Psíquico",
+        "type1": "Psychic",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2927,7 +2927,7 @@
     {
         "numDex": "0328",
         "species": "Trapinch",
-        "type1": "Tierra",
+        "type1": "Ground",
         "type2": "undefined",
         "ivs": [
             0,
@@ -2965,8 +2965,8 @@
     {
         "numDex": "0329",
         "species": "Vibrava",
-        "type1": "Tierra",
-        "type2": "Dragón",
+        "type1": "Ground",
+        "type2": "Dragon",
         "ivs": [
             0,
             0,
@@ -3001,8 +3001,8 @@
     {
         "numDex": "0330",
         "species": "Flygon",
-        "type1": "Tierra",
-        "type2": "Dragón",
+        "type1": "Ground",
+        "type2": "Dragon",
         "ivs": [
             0,
             0,
@@ -3037,7 +3037,7 @@
     {
         "numDex": "0331",
         "species": "Cacnea",
-        "type1": "Planta",
+        "type1": "Grass",
         "type2": "undefined",
         "ivs": [
             0,
@@ -3074,8 +3074,8 @@
     {
         "numDex": "0332",
         "species": "Cacturne",
-        "type1": "Planta",
-        "type2": "Siniestro",
+        "type1": "Grass",
+        "type2": "Dark",
         "ivs": [
             0,
             0,
@@ -3112,7 +3112,7 @@
         "numDex": "0333",
         "species": "Swablu",
         "type1": "Normal",
-        "type2": "Volador",
+        "type2": "Flying",
         "ivs": [
             0,
             0,
@@ -3148,8 +3148,8 @@
     {
         "numDex": "0334",
         "species": "Altaria",
-        "type1": "Dragón",
-        "type2": "Volador",
+        "type1": "Dragon",
+        "type2": "Flying",
         "ivs": [
             0,
             0,
@@ -3222,7 +3222,7 @@
     {
         "numDex": "0336",
         "species": "Seviper",
-        "type1": "Veneno",
+        "type1": "Poison",
         "type2": "undefined",
         "ivs": [
             0,
@@ -3259,8 +3259,8 @@
     {
         "numDex": "0337",
         "species": "Lunatone",
-        "type1": "Roca",
-        "type2": "Psíquico",
+        "type1": "Rock",
+        "type2": "Psychic",
         "ivs": [
             0,
             0,
@@ -3295,8 +3295,8 @@
     {
         "numDex": "0338",
         "species": "Solrock",
-        "type1": "Roca",
-        "type2": "Psíquico",
+        "type1": "Rock",
+        "type2": "Psychic",
         "ivs": [
             0,
             0,
@@ -3331,8 +3331,8 @@
     {
         "numDex": "0339",
         "species": "Barboach",
-        "type1": "Agua",
-        "type2": "Tierra",
+        "type1": "Water",
+        "type2": "Ground",
         "ivs": [
             0,
             0,
@@ -3369,8 +3369,8 @@
     {
         "numDex": "0340",
         "species": "Whiscash",
-        "type1": "Agua",
-        "type2": "Tierra",
+        "type1": "Water",
+        "type2": "Ground",
         "ivs": [
             0,
             0,
@@ -3407,7 +3407,7 @@
     {
         "numDex": "0341",
         "species": "Corphish",
-        "type1": "Agua",
+        "type1": "Water",
         "type2": "undefined",
         "ivs": [
             0,
@@ -3445,8 +3445,8 @@
     {
         "numDex": "0342",
         "species": "Crawdaunt",
-        "type1": "Agua",
-        "type2": "Siniestro",
+        "type1": "Water",
+        "type2": "Dark",
         "ivs": [
             0,
             0,
@@ -3483,8 +3483,8 @@
     {
         "numDex": "0343",
         "species": "Baltoy",
-        "type1": "Tierra",
-        "type2": "Psíquico",
+        "type1": "Ground",
+        "type2": "Psychic",
         "ivs": [
             0,
             0,
@@ -3519,8 +3519,8 @@
     {
         "numDex": "0344",
         "species": "Claydol",
-        "type1": "Tierra",
-        "type2": "Psíquico",
+        "type1": "Ground",
+        "type2": "Psychic",
         "ivs": [
             0,
             0,
@@ -3555,8 +3555,8 @@
     {
         "numDex": "0345",
         "species": "Lileep",
-        "type1": "Roca",
-        "type2": "Planta",
+        "type1": "Rock",
+        "type2": "Grass",
         "ivs": [
             0,
             0,
@@ -3592,8 +3592,8 @@
     {
         "numDex": "0346",
         "species": "Cradily",
-        "type1": "Roca",
-        "type2": "Planta",
+        "type1": "Rock",
+        "type2": "Grass",
         "ivs": [
             0,
             0,
@@ -3629,8 +3629,8 @@
     {
         "numDex": "0347",
         "species": "Anorith",
-        "type1": "Roca",
-        "type2": "Bicho",
+        "type1": "Rock",
+        "type2": "Bug",
         "ivs": [
             0,
             0,
@@ -3666,8 +3666,8 @@
     {
         "numDex": "0348",
         "species": "Armaldo",
-        "type1": "Roca",
-        "type2": "Bicho",
+        "type1": "Rock",
+        "type2": "Bug",
         "ivs": [
             0,
             0,
@@ -3703,7 +3703,7 @@
     {
         "numDex": "0349",
         "species": "Feebas",
-        "type1": "Agua",
+        "type1": "Water",
         "type2": "undefined",
         "ivs": [
             0,
@@ -3741,7 +3741,7 @@
     {
         "numDex": "0350",
         "species": "Milotic",
-        "type1": "Agua",
+        "type1": "Water",
         "type2": "undefined",
         "ivs": [
             0,
@@ -3815,7 +3815,7 @@
     {
         "numDex": "0351",
         "species": "Castform",
-        "type1": "Fuego",
+        "type1": "Fire",
         "type2": "undefined",
         "ivs": [
             0,
@@ -3851,7 +3851,7 @@
     {
         "numDex": "0351",
         "species": "Castform",
-        "type1": "Agua",
+        "type1": "Water",
         "type2": "undefined",
         "ivs": [
             0,
@@ -3887,7 +3887,7 @@
     {
         "numDex": "0351",
         "species": "Castform",
-        "type1": "Hielo",
+        "type1": "Ice",
         "type2": "undefined",
         "ivs": [
             0,
@@ -3960,7 +3960,7 @@
     {
         "numDex": "0353",
         "species": "Shuppet",
-        "type1": "Fantasma",
+        "type1": "Ghost",
         "type2": "undefined",
         "ivs": [
             0,
@@ -3998,7 +3998,7 @@
     {
         "numDex": "0354",
         "species": "Banette",
-        "type1": "Fantasma",
+        "type1": "Ghost",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4036,7 +4036,7 @@
     {
         "numDex": "0355",
         "species": "Duskull",
-        "type1": "Fantasma",
+        "type1": "Ghost",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4073,7 +4073,7 @@
     {
         "numDex": "0356",
         "species": "Dusclops",
-        "type1": "Fantasma",
+        "type1": "Ghost",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4110,8 +4110,8 @@
     {
         "numDex": "0357",
         "species": "Tropius",
-        "type1": "Planta",
-        "type2": "Volador",
+        "type1": "Grass",
+        "type2": "Flying",
         "ivs": [
             0,
             0,
@@ -4148,7 +4148,7 @@
     {
         "numDex": "0358",
         "species": "Chimecho",
-        "type1": "Psíquico",
+        "type1": "Psychic",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4184,7 +4184,7 @@
     {
         "numDex": "0359",
         "species": "Absol",
-        "type1": "Siniestro",
+        "type1": "Dark",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4222,7 +4222,7 @@
     {
         "numDex": "0360",
         "species": "Wynaut",
-        "type1": "Psíquico",
+        "type1": "Psychic",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4259,7 +4259,7 @@
     {
         "numDex": "0361",
         "species": "Snorunt",
-        "type1": "Hielo",
+        "type1": "Ice",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4297,7 +4297,7 @@
     {
         "numDex": "0362",
         "species": "Glalie",
-        "type1": "Hielo",
+        "type1": "Ice",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4335,8 +4335,8 @@
     {
         "numDex": "0363",
         "species": "Spheal",
-        "type1": "Hielo",
-        "type2": "Agua",
+        "type1": "Ice",
+        "type2": "Water",
         "ivs": [
             0,
             0,
@@ -4373,8 +4373,8 @@
     {
         "numDex": "0364",
         "species": "Sealeo",
-        "type1": "Hielo",
-        "type2": "Agua",
+        "type1": "Ice",
+        "type2": "Water",
         "ivs": [
             0,
             0,
@@ -4411,8 +4411,8 @@
     {
         "numDex": "0365",
         "species": "Walrein",
-        "type1": "Hielo",
-        "type2": "Agua",
+        "type1": "Ice",
+        "type2": "Water",
         "ivs": [
             0,
             0,
@@ -4449,7 +4449,7 @@
     {
         "numDex": "0366",
         "species": "Clamperl",
-        "type1": "Agua",
+        "type1": "Water",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4486,7 +4486,7 @@
     {
         "numDex": "0367",
         "species": "Huntail",
-        "type1": "Agua",
+        "type1": "Water",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4523,7 +4523,7 @@
     {
         "numDex": "0368",
         "species": "Gorebyss",
-        "type1": "Agua",
+        "type1": "Water",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4560,8 +4560,8 @@
     {
         "numDex": "0369",
         "species": "Relicanth",
-        "type1": "Agua",
-        "type2": "Roca",
+        "type1": "Water",
+        "type2": "Rock",
         "ivs": [
             0,
             0,
@@ -4598,7 +4598,7 @@
     {
         "numDex": "0370",
         "species": "Luvdisc",
-        "type1": "Agua",
+        "type1": "Water",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4635,7 +4635,7 @@
     {
         "numDex": "0371",
         "species": "Bagon",
-        "type1": "Dragón",
+        "type1": "Dragon",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4672,7 +4672,7 @@
     {
         "numDex": "0372",
         "species": "Shelgon",
-        "type1": "Dragón",
+        "type1": "Dragon",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4709,8 +4709,8 @@
     {
         "numDex": "0373",
         "species": "Salamence",
-        "type1": "Dragón",
-        "type2": "Volador",
+        "type1": "Dragon",
+        "type2": "Flying",
         "ivs": [
             0,
             0,
@@ -4746,8 +4746,8 @@
     {
         "numDex": "0374",
         "species": "Beldum",
-        "type1": "Acero",
-        "type2": "Psíquico",
+        "type1": "Steel",
+        "type2": "Psychic",
         "ivs": [
             0,
             0,
@@ -4783,8 +4783,8 @@
     {
         "numDex": "0375",
         "species": "Metang",
-        "type1": "Acero",
-        "type2": "Psíquico",
+        "type1": "Steel",
+        "type2": "Psychic",
         "ivs": [
             0,
             0,
@@ -4820,8 +4820,8 @@
     {
         "numDex": "0376",
         "species": "Metagross",
-        "type1": "Acero",
-        "type2": "Psíquico",
+        "type1": "Steel",
+        "type2": "Psychic",
         "ivs": [
             0,
             0,
@@ -4857,7 +4857,7 @@
     {
         "numDex": "0377",
         "species": "Regirock",
-        "type1": "Roca",
+        "type1": "Rock",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4894,7 +4894,7 @@
     {
         "numDex": "0378",
         "species": "Regice",
-        "type1": "Hielo",
+        "type1": "Ice",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4931,7 +4931,7 @@
     {
         "numDex": "0379",
         "species": "Registeel",
-        "type1": "Acero",
+        "type1": "Steel",
         "type2": "undefined",
         "ivs": [
             0,
@@ -4968,8 +4968,8 @@
     {
         "numDex": "0380",
         "species": "Latias",
-        "type1": "Dragón",
-        "type2": "Psíquico",
+        "type1": "Dragon",
+        "type2": "Psychic",
         "ivs": [
             0,
             0,
@@ -5004,8 +5004,8 @@
     {
         "numDex": "0381",
         "species": "Latios",
-        "type1": "Dragón",
-        "type2": "Psíquico",
+        "type1": "Dragon",
+        "type2": "Psychic",
         "ivs": [
             0,
             0,
@@ -5040,7 +5040,7 @@
     {
         "numDex": "0382",
         "species": "Kyogre",
-        "type1": "Agua",
+        "type1": "Water",
         "type2": "undefined",
         "ivs": [
             0,
@@ -5076,7 +5076,7 @@
     {
         "numDex": "0383",
         "species": "Groudon",
-        "type1": "Tierra",
+        "type1": "Ground",
         "type2": "undefined",
         "ivs": [
             0,
@@ -5112,8 +5112,8 @@
     {
         "numDex": "0384",
         "species": "Rayquaza",
-        "type1": "Dragón",
-        "type2": "Volador",
+        "type1": "Dragon",
+        "type2": "Flying",
         "ivs": [
             0,
             0,
@@ -5148,8 +5148,8 @@
     {
         "numDex": "0385",
         "species": "Jirachi",
-        "type1": "Acero",
-        "type2": "Psíquico",
+        "type1": "Steel",
+        "type2": "Psychic",
         "ivs": [
             0,
             0,
@@ -5184,7 +5184,7 @@
     {
         "numDex": "0386",
         "species": "Deoxys",
-        "type1": "Psíquico",
+        "type1": "Psychic",
         "type2": "undefined",
         "ivs": [
             0,

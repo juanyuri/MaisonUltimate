@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 import items_data from '@/data/items.json'
-import Item from '@/data/interfaces/Move.js'
+import Item from '@/data/interfaces/Item.js'
 
 /**
  * Returns a reactive reference to an array of all items.

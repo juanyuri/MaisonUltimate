@@ -8,6 +8,7 @@ export default class Pkmn {
         this.species = species;
         this.level = level;
         this.abilities = abilities;
+        this.chosenAbility = abilities[0]
         if(baseStats){
             let stats = []
             stats.push(baseStats['hp'])

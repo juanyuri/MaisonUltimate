@@ -16,6 +16,7 @@ import NavigationBar from '@/components/NavigationBar.vue'
 * {
   margin: 0;
   padding: 0;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif; 
 }
 
 :root {
