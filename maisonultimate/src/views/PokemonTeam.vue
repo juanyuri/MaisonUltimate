@@ -90,11 +90,10 @@ const allAbilities = useAbilities()
 const allPkmn = usePokemon()
 const store = useStore()
 
-let currentPokemon
-if(!store.team)
-  currentPokemon = ref(allPkmn[0])
-else
-  currentPokemon = ref(store.team[0])
+let currentPokemon = ref(allPkmn[0])
+console.log(store.team)
+if(store.team.length > 0)
+  currentPokemon.value = store.team[0]
 
 let totalStats = stats(currentPokemon.value)
 

@@ -40,13 +40,13 @@ export const useTrainers = () => {
         trainers.push(trainer)
     }
     
-    console.group()
+    /* console.group()
     console.log("Number of trainers: " + trainers.length)
     console.log("Number of trainers with ids: " + countWithIds)
     console.log("Number of trainers with 19 IVS: " + count19ivs)
     console.log("Number of trainers with 23 IVS: " + count23ivs)
     console.log("Number of trainers with Groups: " + countGroups)
-    console.groupEnd()
+    console.groupEnd() */
 
     return ref(trainers)
 }

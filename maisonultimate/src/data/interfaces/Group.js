@@ -1,6 +1,7 @@
 export default class Group {
-    constructor(name, pokemonSets) {
+    constructor(name, sets_in_group, trainers_using_groups) {
         this.name = name;
-        this.pokemonSets = pokemonSets;
+        this.pkmnSets = sets_in_group;
+        this.trainers = trainers_using_groups
     }
 }
