@@ -96,7 +96,11 @@ export const getModifiedMoveType = (abilityName, moveType) => {
  * @returns {number} The new power of the move.
  */
 export const getModifiedMovePower = (abilityName, bp, moveType) => {
-    if (!abilityName || !bp || !moveType)
+    
+    if (!abilityName || !moveType)
+        throw new Error('Invalid inputs at changing bp based on ability')
+
+    if (bp === false || bp === undefined || bp === '' || bp === NaN || bp === null)
         throw new Error('Invalid inputs at changing bp based on ability')
 
     if (abilityName == 'Aerilate' && moveType == 'Normal') return ~~(bp *= 1.3)

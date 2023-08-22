@@ -1,6 +1,7 @@
 import { ref } from 'vue'
 import sets_data from '@/data/sets.json'
 import PkmnSet from '@/data/interfaces/PkmnSet.js'
+import { useGroups } from '@/data/composables/groups.comp.js'
 
 export const findById = (setId) => {
     let pkmn = sets_data.find((set) => set.id === setId)
@@ -36,5 +37,14 @@ export const useSets = () => {
         sets.push(pkmn_set)
     }
 
-    return sets
+    return ref(sets)
+}
+
+/* Find all sets based on a group name */
+export const findSets = (groupName) => {
+    const grupos = useGroups()
+    const setsNames = grupos.value.filter( g => g.name === groupName)[0]['pkmnSets']
+
+    const filtered = sets_data.filter(s => setsNames.includes(s.setName))
+    return filtered
 }

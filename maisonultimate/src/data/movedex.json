@@ -4313,7 +4313,7 @@
         "name": "Return",
         "move_type": "Normal",
         "category": "Physical",
-        "bp": 0,
+        "bp": 102,
         "pp": 20,
         "accuracy": 100,
         "priority": 0,

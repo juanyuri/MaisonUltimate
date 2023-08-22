@@ -12,11 +12,11 @@ export const useMoves = () => {
 
     for (let move_data of Object.values(moves_data)) {
         const {
-            name, type, category, bp, pp, accuracy, priority, description          
+            name, move_type, category, bp, pp, accuracy, priority, description          
         } = move_data
 
         const move = new Move(
-            name, type, category, bp, pp, accuracy, priority, description
+            name, move_type, category, bp, pp, accuracy, priority, description
         )
         moves.push(move)
     }
