@@ -30,7 +30,7 @@ def add_trainer(trainers):
             print(f"New Pokemon added to trainer '{name}'!")
             return
     trainer_type = input("Enter trainer type: ")
-    win_streak_range = input("Enter win streak range (e.g. 1-10, 20-30): ")
+    win_streak_range = input("Enter win streak range (e.g. 1-10, 21-30): ")
     win_streak_range = win_streak_range.split(",")
     win_streak_range = [range.strip() for range in win_streak_range]
     name_xy = input("Enter name in Pokemon X/Y (optional): ")

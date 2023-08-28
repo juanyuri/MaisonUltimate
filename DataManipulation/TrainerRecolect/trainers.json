@@ -1173,5 +1173,96 @@
             "",
             ""
         ]
+    },
+    {
+        "name": "Noah",
+        "trainer_type": "Patinador",
+        "win_streak_range": [
+            "21-30"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Magnezone",
+            "Salamence",
+            "Hawlucha",
+            ""
+        ]
+    },
+    {
+        "name": "Ronald",
+        "trainer_type": "Turista",
+        "win_streak_range": [
+            "21-30"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Torterra",
+            "Cradily",
+            "Breloom",
+            "Vileplume",
+            "Typhlosion"
+        ]
+    },
+    {
+        "name": "Zoe",
+        "trainer_type": "Jovencita con Kimono",
+        "win_streak_range": [
+            "21-30"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Vaporeon",
+            "Jolteon",
+            "Umbreon",
+            "Leafeon"
+        ]
+    },
+    {
+        "name": "Jeremy",
+        "trainer_type": "Turista Hombre",
+        "win_streak_range": [
+            "21-30"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Golurk",
+            "Carracosta",
+            "Braviary",
+            "Tokicroak"
+        ]
+    },
+    {
+        "name": "Delarc",
+        "trainer_type": "Monsieur",
+        "win_streak_range": [
+            "21-30"
+        ],
+        "name_xy": "",
+        "name_oras": "",
+        "trainer_id": "",
+        "pkmn_group": "",
+        "ivs": 23,
+        "pokemon": [
+            "Escavalier",
+            "Espeon",
+            "",
+            ""
+        ]
     }
 ]
