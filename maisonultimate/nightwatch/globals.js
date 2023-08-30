@@ -7,7 +7,7 @@ module.exports = {
   before(done) {
     setup()
     waitOn({
-      resources: [`http-get://localhost:${serverPort}`],
+      resources: [`http-get://127.0.0.1:${serverPort}`],
       verbose: true,
       headers: {
         accept: 'text/html'

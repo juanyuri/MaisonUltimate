@@ -46,7 +46,7 @@ module.exports = {
   test_settings: {
     default: {
       disable_error_log: false,
-      launch_url: `http://localhost:${process.env.CI ? '4173' : '5173'}`,
+      launch_url: `http://127.0.0.1:${process.env.CI ? '4173' : '5173'}`,
 
       screenshots: {
         enabled: false,
@@ -111,7 +111,7 @@ module.exports = {
           args: [
             //'--no-sandbox',
             //'--ignore-certificate-errors',
-            //'--allow-insecure-localhost',
+            //'--allow-insecure-127.0.0.1',
             //'--headless'
           ]
         }
