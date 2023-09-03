@@ -22,13 +22,17 @@
           :minLength="1" @onItemSelected="(event) => updateSelection(event)" />
 
         <YuriSearch :items="allAbilities"
-          :placeholderText="currentPokemon.chosenAbility ? currentPokemon.chosenAbility : 'Elige una Abilidad...'"
+          :placeholderText="currentPokemon.chosenAbility ? currentPokemon.chosenAbility : 'Choose an Abiltiy...'"
           attrToShow="name" :minLength="1"
-          @onItemSelected="(event) => update('chosenAbility', event, 'name', currentPokemon.species)" />
+          @onItemSelected="(event) => update('chosenAbility', event, 'name')" />
 
-        <YuriSearch :items="allItems" :placeholderText="currentPokemon.item ? currentPokemon.item : 'Elige un Objeto...'"
+        <YuriSearch :items="allItems" :placeholderText="currentPokemon.item ? currentPokemon.item : 'Choose an Object...'"
           attrToShow="name" :minLength="1"
-          @onItemSelected="(event) => update('item', event, 'name', currentPokemon.species)" />
+          @onItemSelected="(event) => update('item', event, 'name')" />
+
+        <YuriSearch :items="natures" :placeholderText="currentPokemon.nature ? currentPokemon.nature : 'Choose a Nature...'"
+          attrToShow="name" :minLength="1"
+          @onItemSelected="(event) => update('nature', event, 'name')" />
       </div>
     </div>
 
@@ -76,6 +80,7 @@ import { useMoves } from '@/data/composables/moves.comp.js'
 import { useAbilities } from '@/data/composables/abilities.comp.js'
 import { useItems } from '@/data/composables/items.comp.js'
 import { stats } from '@/data/composables/stats.comp.js'
+import {useNatures} from '@/data/composables/natures.comp.js'
 
 /* Pinia Store for saving Team Composition */
 import { useStore } from '@/stores/TeamStore.js'
@@ -89,6 +94,10 @@ const allMoves = useMoves()
 const allAbilities = useAbilities()
 const allPkmn = usePokemon()
 const store = useStore()
+const natures = useNatures()
+
+
+
 
 let currentPokemon = ref(allPkmn[0])
 console.log(store.team)
