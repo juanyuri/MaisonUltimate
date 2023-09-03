@@ -5216,5 +5216,41 @@
             "sd": 50,
             "sp": 150
         }
+    },
+    {
+        "numDex": "0373",
+        "species": "M-Salamence",
+        "type1": "Dragon",
+        "type2": "Flying",
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "level": 50,
+        "sprite": "https://cdn.toast-studio.com/typedex/home/_373b_regular.png",
+        "weight": 112.6,
+        "abilities": {
+            "0": "Aerilate"
+        },
+        "baseStats": {
+            "hp": 95,
+            "at": 145,
+            "df": 130,
+            "sa": 120,
+            "sd": 90,
+            "sp": 120
+        }
     }
 ]
