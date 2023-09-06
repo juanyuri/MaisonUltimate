@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 
 @dataclass
-class Move:
+class Move(slots=True):
     name: str
     move_type: str
     category: str

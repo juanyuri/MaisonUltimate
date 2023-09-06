@@ -16,7 +16,6 @@ save_url = './dexes/movedex_direct.json'
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-
 @dataclass
 class Move:
     name: str
