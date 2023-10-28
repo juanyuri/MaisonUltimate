@@ -1,8 +1,8 @@
 import { describe, it, expect } from 'vitest'
-import { stats, calculateStat, natureEffect } from '@/data/composables/stats.comp.js'
-import { getModifiedMoveType, getModifiedMovePower } from '@/data/composables/stats.comp.js'
-import { getModifiedStatWithItem, getModifiedStatWithAbility } from '@/data/composables/stats.comp.js'
-import Pkmn from '@/data/interfaces/Pkmn.js'
+import { stats, calculateStat, natureEffect } from '@/composables/stats.comp.js'
+import { getModifiedMoveType, getModifiedMovePower } from '@/composables/stats.comp.js'
+import { getModifiedStatWithItem, getModifiedStatWithAbility } from '@/composables/stats.comp.js'
+import Pkmn from '@/interfaces/Pkmn.js'
 
 
 describe('stats.comp.js', () => {

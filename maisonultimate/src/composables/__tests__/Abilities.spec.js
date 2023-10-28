@@ -1,7 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import abilities_data from '@/data/abilities.json'
-
-import { useAbilities, getAbilitiesNames } from '@/data/composables/abilities.comp.js'
+import { useAbilities, getAbilitiesNames } from '@/composables/abilities.comp.js'
 
 describe('abilities.comp.js', () => {
 

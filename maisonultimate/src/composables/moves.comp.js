@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 import moves_data from '@/data/movedex.json'
-import Move from '@/data/interfaces/Move.js'
+import Move from '@/interfaces/Move.js'
 
 /**
  * Returns a reactive reference to an array of all moves.

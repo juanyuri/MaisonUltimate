@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 import pokedex_data from '@/data/pokedex.json'
-import Pkmn from '@/data/interfaces/Pkmn.js'
+import Pkmn from '@/interfaces/Pkmn.js'
 
 export const usePokemon = () => {
     const pkmnList = []

@@ -18,16 +18,16 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import { useSets, findSets } from '@/data/composables/sets.comp.js'
-import { useMoves } from '@/data/composables/moves.comp.js'
-import { stats, natureEffect } from '@/data/composables/stats.comp.js'
-import { getModifiedMoveType, getModifiedMovePower } from '@/data/composables/stats.comp.js'
-import { getModifiedStatWithItem, getModifiedStatWithAbility } from '@/data/composables/stats.comp.js'
+import { useSets, findSets } from '@/composables/sets.comp.js'
+import { useMoves } from '@/composables/moves.comp.js'
+import { stats, natureEffect } from '@/composables/stats.comp.js'
+import { getModifiedMoveType, getModifiedMovePower } from '@/composables/stats.comp.js'
+import { getModifiedStatWithItem, getModifiedStatWithAbility } from '@/composables/stats.comp.js'
 
 /* STORE */
 import { useStore } from '@/stores/TeamStore.js'
-import { useTrainers } from '@/data/composables/trainers.comp.js'
-import { useGroups } from '@/data/composables/groups.comp.js'
+import { useTrainers } from '@/composables/trainers.comp.js'
+/* import { useGroups } from '@/composables/groups.comp.js' */
 
 import SetCard from '@/components/SetCard.vue'
 import YuriSearch from '@/components/YuriSearch.vue'

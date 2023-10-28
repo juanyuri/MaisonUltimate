@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 import trainers_data from '@/data/trainers.json'
-import Trainer from '@/data/interfaces/Trainer.js'
+import Trainer from '@/interfaces/Trainer.js'
 
 /**
  * Returns a reactive reference to an array of all trainers.

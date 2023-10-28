@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { findById } from '@/data/composables/sets.comp.js'
+import { findById } from '@/composables/sets.comp.js'
 
 import sets_data from '@/data/sets.json'
 

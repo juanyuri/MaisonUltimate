@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest'
-
-import { useItems } from '@/data/composables/items.comp.js'
+import { useItems } from '@/composables/items.comp.js'
 
 describe('items.comp.js', ()=> {
 

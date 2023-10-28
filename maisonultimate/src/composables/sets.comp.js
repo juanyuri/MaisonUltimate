@@ -1,7 +1,7 @@
 import { ref } from 'vue'
 import sets_data from '@/data/sets.json'
-import PkmnSet from '@/data/interfaces/PkmnSet.js'
-import { useGroups } from '@/data/composables/groups.comp.js'
+import PkmnSet from '@/interfaces/PkmnSet.js'
+import { useGroups } from '@/composables/groups.comp.js'
 
 export const findById = (setId) => {
     let pkmn = sets_data.find((set) => set.id === setId)

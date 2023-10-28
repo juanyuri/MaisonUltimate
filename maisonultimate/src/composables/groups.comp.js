@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 import groups_data from '@/data/groups.json'
-import Group from '@/data/interfaces/Group.js'
+import Group from '@/interfaces/Group.js'
 
 /**
  * Returns a reactive reference to an array of all groups.

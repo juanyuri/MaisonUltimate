@@ -67,7 +67,7 @@
   
 <script setup>
 import { ref, computed } from 'vue'
-import { natureEffect } from '@/data/composables/stats.comp.js'
+import { natureEffect } from '@/composables/stats.comp.js'
 
 const props = defineProps({
     pkmn: Object

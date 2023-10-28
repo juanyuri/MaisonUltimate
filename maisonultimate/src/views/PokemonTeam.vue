@@ -75,12 +75,12 @@
 import { ref, watchEffect } from 'vue'
 
 /* Import Data */
-import { usePokemon } from '@/data/composables/pokedex.comp.js'
-import { useMoves } from '@/data/composables/moves.comp.js'
-import { useAbilities } from '@/data/composables/abilities.comp.js'
-import { useItems } from '@/data/composables/items.comp.js'
-import { stats } from '@/data/composables/stats.comp.js'
-import {useNatures} from '@/data/composables/natures.comp.js'
+import { usePokemon } from '@/composables/pokedex.comp.js'
+import { useMoves } from '@/composables/moves.comp.js'
+import { useAbilities } from '@/composables/abilities.comp.js'
+import { useItems } from '@/composables/items.comp.js'
+import { stats } from '@/composables/stats.comp.js'
+import {useNatures} from '@/composables/natures.comp.js'
 
 /* Pinia Store for saving Team Composition */
 import { useStore } from '@/stores/TeamStore.js'

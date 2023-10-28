@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { useGroups, getGroupsNames } from '@/data/composables/groups.comp.js'
+import { useGroups, getGroupsNames } from '@/composables/groups.comp.js'
 
 describe('groups.comp.js', () => {
 
