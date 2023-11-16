@@ -10,7 +10,7 @@
         @onItemSelected="(event) => updateTrainer(event)"
       />
       <p v-if="filteredSets.length === 864">Showing all sets</p>
-      <p v-else>Showing {{ filteredSets.length }} sets this trainer has.</p>
+      <p v-else>{{ query }} has {{ filteredSets.length }} sets available.</p>
     </div>
       
 

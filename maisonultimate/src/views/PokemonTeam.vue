@@ -59,11 +59,6 @@
           :placeholderText="currentPokemon.moves[3] ? currentPokemon.moves[3] : 'Elige un Movimiento...'"
           attrToShow="name" :minLength="1" @onItemSelected="(event) => updateMove(3, event, 'name', currentPokemon.species)" />
       </div>
-
-      <div class="button">
-        <button class="normal-icon" @click="updatePoke">Update</button>
-        <button class="remove-icon" @click="removePoke">Remove</button>
-      </div>
     </div>
 
   </div>
@@ -112,10 +107,6 @@ const selectPokemon = (poke) => {
   currentPokemon.value.totalStats = totalStats
 }
 
-const updatePoke = () => {
-  store.updatePokemon(currentPokemon.value)
-}
-
 const removePoke = () => {
   store.removeFromTeam(currentPokemon.value.species)
   currentPokemon.value = store.team[0] /* TODO: caught error when no more pokemon can be removed */
@@ -127,14 +118,14 @@ const updateSelection = (item) => {
 }
 
 const update = (attr, newValue, attrFromDB) => {
-
   currentPokemon.value[attr] = newValue[attrFromDB]
-  /* store.updateAttribute(attr, newValue[attrFromDB], species) */
+  store.updatePokemon(currentPokemon.value)
 }
 
 const updateMove = (idxMove, newMove, attrFromDB) => {
-  /* store.updateMove(idxMove, newMove[attrFromDB]) */
+  /* store.updateAttribute(idxMove, newMove[attrFromDB]) */
   currentPokemon.value.moves[idxMove] = newMove[attrFromDB]
+  store.updatePokemon(currentPokemon.value)
 }
 
 watchEffect(() => {
@@ -284,57 +275,6 @@ const type2Url = () => {
 
   gap: 10px;
 }
-
-.button {
-  grid-area: button;
-  /* background-color: red; */
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-
-.normal-icon {
-  background-color: #177D6B;
-  border: 2.5px solid transparent;
-  border-radius: 5px;
-  height: 38px;
-  width: 100px;
-  color: white;
-  font-weight: 500;
-  font-size: 16px;
-
-}
-
-.normal-icon:hover {
-  cursor: pointer;
-  /* background-color:rgb(243, 243, 243); */
-  color: white;
-  transition-duration: .3s;
-}
-
-.remove-icon {
-  background-color: #c61717;
-  border: 2.5px solid transparent;
-  border-radius: 5px;
-  height: 38px;
-  width: 100px;
-  color: white;
-  font-weight: 500;
-  font-size: 16px;
-
-}
-
-.remove-icon:hover {
-  cursor: pointer;
-  color: white;
-  transition-duration: .3s;
-}
-
-
-
-
 
 .types {
   position: absolute;
