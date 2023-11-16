@@ -1,11 +1,34 @@
 <template>
   <main>
 
-    <YuriSearch :items="allTrainers" placeholderText="Elige un entrenador" attrToShow="name" :minLength="1"
-      @onItemSelected="(event) => updateTrainer(event)" />
+    <div class="search-container">
+      <YuriSearch 
+        :items="allTrainers" 
+        placeholderText="Elige un entrenador" 
+        attrToShow="name" 
+        :minLength="1"
+        @onItemSelected="(event) => updateTrainer(event)"
+      />
+      <p v-if="filteredSets.length === 864">Showing all sets</p>
+      <p v-else>Showing {{ filteredSets.length }} sets this trainer has.</p>
+    </div>
+      
 
-    <p v-if="filteredSets.length === 864">Showing all sets</p>
-    <p v-else>Showing {{ filteredSets.length }} sets this trainer may have</p>
+      <div class="pkmn-cards-container">
+        <div class="pkmn-card" @click="changePokemon(0)">
+          <p class="pkmn-card-info">{{ store.team[0].species }}</p>
+        </div>
+        <div class="pkmn-card" @click="changePokemon(1)" v-if="store.team[1]">
+          <p class="pkmn-card-info">{{ store.team[1].species }}</p>
+        </div>
+        <div class="pkmn-card" @click="changePokemon(2)" v-if="store.team[2]">
+          <p class="pkmn-card-info">{{ store.team[2].species }}</p>
+        </div>
+        <div class="pkmn-card" @click="changePokemon(3)" v-if="store.team[3]">
+          <p class="pkmn-card-info">{{ store.team[3].species }}</p>
+        </div>
+      </div>
+
 
     <div id="speed-comparator">
       <table id="pkmn-table">
@@ -67,6 +90,10 @@ const sets = useSets()
 const store = useStore()
 let currentPokemon = ref(store.team[0])
 let query = ref(TRAINER_DEFAULT)
+
+let changePokemon = (number) => {
+  currentPokemon.value = store.team[number]
+}
 
 const filteredSets = computed(() => {
   return query.value === ''
@@ -212,5 +239,56 @@ table#pkmn-table tr:not(.header):hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+
+
+
+
+
+
+
+.pkmn-cards-container{
+  display: flex;
+  /* background-color: blue; */
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom:35px;
+  gap: 20px;
+}
+
+.pkmn-card{
+  width:150px;
+  height: 45px;
+  background-color:#177D6B;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+.pkmn-card:hover{
+  background-color:#115a4d;
+  cursor: pointer;
+}
+
+.search-container{
+  display: flex;
+  /* background-color: blue; */
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:35px;
+  padding-top:40px;
+  gap: 20px;
 }
 </style>
