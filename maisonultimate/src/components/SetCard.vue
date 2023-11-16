@@ -1,12 +1,12 @@
 <template>
     <div class="PkmnSet">
-        <p class="PkmnSet-SetName">{{ props.set.setName }}</p>
-        <p class="PkmnSet-Description">{{ props.minDamagePctg }}% - {{ props.maxDamagePctg }}%</p>
+        <p class="PkmnSet-SetName">{{ props.set.setName }} {{ props.set.moves }}</p>
+        <!-- <p class="PkmnSet-Description">{{ props.minDamagePctg }}% - {{ props.maxDamagePctg }}%</p>
 
         <p class="PkmnSet-Item">{{ props.set.item }}</p>
-        <p v-if="props.setIsSlower" class="PkmnSet-SlowerThanPkmn">Speed</p>
+        <p v-if="props.setIsSlower" class="PkmnSet-SlowerThanPkmn">Speed</p> -->
 
-        <button class="PkmnSet-Button">Ver Detalles</button>
+        <!-- <button class="PkmnSet-Button">Ver Detalles</button> -->
     </div>
 </template>
 
@@ -33,10 +33,10 @@ const props = defineProps({
 .PkmnSet {
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
-    height: 170px;
+/*     width: 250px;
+    height: 170px; */
     background-color: #fff;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
