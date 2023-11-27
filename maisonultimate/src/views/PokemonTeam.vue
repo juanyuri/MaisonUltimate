@@ -90,7 +90,7 @@ const allAbilities = useAbilities()
 const allPkmn = usePokemon()
 const store = useStore()
 const natures = useNatures()
-
+const DEF_IMG_URL = "https://raw.githubusercontent.com/msikma/pokesprite/master/misc/types/go/"
 
 
 
@@ -134,15 +134,14 @@ watchEffect(() => {
 })
 
 
+
 const type1Url = () => {
-  let url = "https://raw.githubusercontent.com/msikma/pokesprite/master/misc/types/go/"
-  return url + currentPokemon.value.type1.toLowerCase() + ".png"
+  return DEF_IMG_URL + currentPokemon.value.type1.toLowerCase() + ".png"
 }
 
 const type2Url = () => {
-  let url = "https://raw.githubusercontent.com/msikma/pokesprite/master/misc/types/go/"
   if (currentPokemon.value.type2) {
-    return url + currentPokemon.value.type2.toLowerCase() + ".png"
+    return DEF_IMG_URL + currentPokemon.value.type2.toLowerCase() + ".png"
   }
   return;
 
