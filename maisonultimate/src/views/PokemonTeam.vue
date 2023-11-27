@@ -88,6 +88,7 @@ const allItems = useItems()
 const allMoves = useMoves()
 const allAbilities = useAbilities()
 const allPkmn = usePokemon()
+console.log(allPkmn)
 const store = useStore()
 const natures = useNatures()
 const DEF_IMG_URL = "https://raw.githubusercontent.com/msikma/pokesprite/master/misc/types/go/"

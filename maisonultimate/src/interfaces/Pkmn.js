@@ -1,7 +1,14 @@
+/* const pkmn = new Pkmn(
+    id, numDex, species, level, abilities, baseStats,
+    evs, ivs, weight, type1, type2, moves,
+    nature, item, sprite_icon, sprite_image
+)
+ */
+
 export default class Pkmn {
     constructor(id, numDex, species, level, abilities, baseStats,
-        evs, ivs, weight, type1, type2, moves, nature, boosts,
-         item, totalStats, sprite) {
+        evs, ivs, weight, type1, type2, moves, nature,
+         item, spriteIcon, spriteImage, totalStats, boosts) {
 
         this.id = id;
         this.numDex = numDex;
@@ -10,16 +17,9 @@ export default class Pkmn {
         this.abilities = abilities;
         this.chosenAbility = abilities[0]
         if(baseStats){
-            let stats = []
-            stats.push(baseStats['hp'])
-            stats.push(baseStats['at'])
-            stats.push(baseStats['df'])
-            stats.push(baseStats['sa'])
-            stats.push(baseStats['sd'])
-            stats.push(baseStats['sp'])
-            this.baseStats = stats
+            this.baseStats = baseStats
         }else{
-            this.baseStats = baseStats;
+            this.baseStats = [0,0,0,0,0,0];
         }
         this.evs = evs;
         this.ivs = ivs;
@@ -36,6 +36,7 @@ export default class Pkmn {
         this.boosts = boosts;
         this.item = item;
         this.totalStats = totalStats;
-        this.sprite = sprite;
+        this.spriteIcon = spriteIcon;
+        this.spriteImage = spriteImage;
     }
 }

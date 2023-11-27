@@ -34222,5 +34222,97 @@
             "",
             ""
         ]
+    },
+    {
+        "id": "HYSCNZSIDB",
+        "numDex": 3,
+        "species": "M-Venusaur",
+        "type1": "Grass",
+        "type2": "Poison",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f0/latest/20230319132050/Mega-Venusaur_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_003b_regular.png",
+        "weight": 155.5,
+        "abilities": {
+            "0": "Thick Fat"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            80,
+            100,
+            123,
+            122,
+            120,
+            80
+        ],
+        "item": "Venusaurite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "WBACFKFDJB",
+        "numDex": 373,
+        "species": "M-Salamence",
+        "type1": "Flying",
+        "type2": "Dragon",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d5/latest/20230319124250/Mega-Salamence_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_373b_regular.png",
+        "weight": 112.6,
+        "abilities": {
+            "0": "Aerilate"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            95,
+            145,
+            130,
+            120,
+            90,
+            120
+        ],
+        "item": "Salamencite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
     }
 ]
