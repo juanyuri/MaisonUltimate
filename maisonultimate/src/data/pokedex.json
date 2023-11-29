@@ -1,12 +1,12 @@
 [
     {
-        "id": "FHEDBSHXGS",
+        "id": "OMNACHLFWM",
         "numDex": 1,
         "species": "Bulbasaur",
         "type1": "Grass",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/e6/latest/20230319130847/Bulbasaur_icono_HOME.png/48px-Bulbasaur_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_1_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_001_regular.png",
         "weight": 6.9,
         "abilities": {
             "0": "Overgrow",
@@ -47,13 +47,13 @@
         ]
     },
     {
-        "id": "RMQEQCDLNM",
+        "id": "RXSLPGZBDS",
         "numDex": 2,
         "species": "Ivysaur",
         "type1": "Grass",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/55/latest/20230319131059/Ivysaur_icono_HOME.png/48px-Ivysaur_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_2_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_002_regular.png",
         "weight": 13.0,
         "abilities": {
             "0": "Overgrow",
@@ -94,13 +94,13 @@
         ]
     },
     {
-        "id": "GXFGVPMRUJ",
+        "id": "JBSICQTPOK",
         "numDex": 3,
         "species": "Venusaur",
         "type1": "Grass",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/e2/latest/20230319124413/Venusaur_icono_HOME.png/48px-Venusaur_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_3_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_003_regular.png",
         "weight": 100.0,
         "abilities": {
             "0": "Overgrow",
@@ -141,13 +141,13 @@
         ]
     },
     {
-        "id": "FGGUDHIJLY",
+        "id": "SNHKEXDMCD",
         "numDex": 4,
         "species": "Charmander",
         "type1": "Fire",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/6d/latest/20230319132533/Charmander_icono_HOME.png/48px-Charmander_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_4_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_004_regular.png",
         "weight": 8.5,
         "abilities": {
             "0": "Blaze",
@@ -188,13 +188,13 @@
         ]
     },
     {
-        "id": "HUPDWAJEMU",
+        "id": "MHEROUHADX",
         "numDex": 5,
         "species": "Charmeleon",
         "type1": "Fire",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/48/latest/20230319130906/Charmeleon_icono_HOME.png/48px-Charmeleon_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_5_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_005_regular.png",
         "weight": 19.0,
         "abilities": {
             "0": "Blaze",
@@ -235,13 +235,13 @@
         ]
     },
     {
-        "id": "OSHVBUQKOW",
+        "id": "PCXCOREQPU",
         "numDex": 6,
         "species": "Charizard",
         "type1": "Fire",
         "type2": "Flying",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b7/latest/20230319124610/Charizard_icono_HOME.png/48px-Charizard_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_6_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_006_regular.png",
         "weight": 90.5,
         "abilities": {
             "0": "Blaze",
@@ -282,13 +282,13 @@
         ]
     },
     {
-        "id": "EYZNBIGTOO",
+        "id": "ENJAMAAUYS",
         "numDex": 7,
         "species": "Squirtle",
         "type1": "Water",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/93/latest/20230319131202/Squirtle_icono_HOME.png/48px-Squirtle_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_7_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_007_regular.png",
         "weight": 9.0,
         "abilities": {
             "0": "Torrent",
@@ -329,13 +329,13 @@
         ]
     },
     {
-        "id": "HTZWKGSXYV",
+        "id": "AVRJUARJJA",
         "numDex": 8,
         "species": "Wartortle",
         "type1": "Water",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/aa/latest/20230319130631/Wartortle_icono_HOME.png/48px-Wartortle_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_8_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_008_regular.png",
         "weight": 22.5,
         "abilities": {
             "0": "Torrent",
@@ -376,13 +376,13 @@
         ]
     },
     {
-        "id": "MPMATMZUWQ",
+        "id": "VIEMXEAMYG",
         "numDex": 9,
         "species": "Blastoise",
         "type1": "Water",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/02/latest/20230319132408/Blastoise_icono_HOME.png/48px-Blastoise_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_9_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_009_regular.png",
         "weight": 85.5,
         "abilities": {
             "0": "Torrent",
@@ -423,13 +423,13 @@
         ]
     },
     {
-        "id": "TUOXODAZTT",
+        "id": "CTENYUKUSE",
         "numDex": 10,
         "species": "Caterpie",
         "type1": "Bug",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/86/latest/20230319130654/Caterpie_icono_HOME.png/48px-Caterpie_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_10_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_010_regular.png",
         "weight": 2.9,
         "abilities": {
             "0": "Shield Dust",
@@ -470,13 +470,13 @@
         ]
     },
     {
-        "id": "IHXLMYXDKV",
+        "id": "UNMFOQWFEZ",
         "numDex": 11,
         "species": "Metapod",
         "type1": "Bug",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/55/latest/20230319132707/Metapod_icono_HOME.png/48px-Metapod_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_11_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_011_regular.png",
         "weight": 9.9,
         "abilities": {
             "0": "Shed Skin"
@@ -516,13 +516,13 @@
         ]
     },
     {
-        "id": "EFAMYPNQQD",
+        "id": "ZVZBXKDONN",
         "numDex": 12,
         "species": "Butterfree",
         "type1": "Bug",
         "type2": "Flying",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/82/latest/20230319131001/Butterfree_icono_HOME.png/48px-Butterfree_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_12_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_012_regular.png",
         "weight": 32.0,
         "abilities": {
             "0": "Compound Eyes",
@@ -563,13 +563,13 @@
         ]
     },
     {
-        "id": "LEFFHCKKZU",
+        "id": "BYREEDYCWN",
         "numDex": 13,
         "species": "Weedle",
         "type1": "Bug",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/0f/latest/20230319125711/Weedle_icono_HOME.png/48px-Weedle_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_13_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_013_regular.png",
         "weight": 3.2,
         "abilities": {
             "0": "Shield Dust",
@@ -610,13 +610,13 @@
         ]
     },
     {
-        "id": "FCLHYPFIPG",
+        "id": "XEMSKXXCQA",
         "numDex": 14,
         "species": "Kakuna",
         "type1": "Bug",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/7e/latest/20230319124617/Kakuna_icono_HOME.png/48px-Kakuna_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_14_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_014_regular.png",
         "weight": 10.0,
         "abilities": {
             "0": "Shed Skin"
@@ -656,13 +656,13 @@
         ]
     },
     {
-        "id": "KGZJQZYIVX",
+        "id": "CWHRAPXBRK",
         "numDex": 15,
         "species": "Beedrill",
         "type1": "Bug",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/ae/latest/20230319125133/Beedrill_icono_HOME.png/48px-Beedrill_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_15_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_015_regular.png",
         "weight": 29.5,
         "abilities": {
             "0": "Swarm",
@@ -703,13 +703,13 @@
         ]
     },
     {
-        "id": "CJAMVYXULB",
+        "id": "EBHMFVFSVO",
         "numDex": 16,
         "species": "Pidgey",
         "type1": "Normal",
         "type2": "Flying",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d5/latest/20230319130614/Pidgey_icono_HOME.png/48px-Pidgey_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_16_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_016_regular.png",
         "weight": 1.8,
         "abilities": {
             "0": "Keen Eye",
@@ -751,13 +751,13 @@
         ]
     },
     {
-        "id": "GAJAWVKTJE",
+        "id": "GPCBTKCTAH",
         "numDex": 17,
         "species": "Pidgeotto",
         "type1": "Normal",
         "type2": "Flying",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/2/27/latest/20230319131451/Pidgeotto_icono_HOME.png/48px-Pidgeotto_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_17_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_017_regular.png",
         "weight": 30.0,
         "abilities": {
             "0": "Keen Eye",
@@ -799,13 +799,13 @@
         ]
     },
     {
-        "id": "WSXBNRIDSE",
+        "id": "YTFJSBTYLR",
         "numDex": 18,
         "species": "Pidgeot",
         "type1": "Normal",
         "type2": "Flying",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/04/latest/20230319132548/Pidgeot_icono_HOME.png/48px-Pidgeot_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_18_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_018_regular.png",
         "weight": 39.5,
         "abilities": {
             "0": "Keen Eye",
@@ -847,13 +847,13 @@
         ]
     },
     {
-        "id": "DCDULUUESR",
+        "id": "VKOMMYSOQZ",
         "numDex": 19,
         "species": "Rattata",
         "type1": "Normal",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/02/latest/20230319130050/Rattata_icono_HOME.png/48px-Rattata_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_19_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_019_regular.png",
         "weight": 3.5,
         "abilities": {
             "0": "Run Away",
@@ -895,13 +895,13 @@
         ]
     },
     {
-        "id": "CIAWPODIUL",
+        "id": "YQCVWLIXYY",
         "numDex": 20,
         "species": "Raticate",
         "type1": "Normal",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/4b/latest/20230319125745/Raticate_icono_HOME.png/48px-Raticate_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_20_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_020_regular.png",
         "weight": 18.5,
         "abilities": {
             "0": "Run Away",
@@ -943,13 +943,13 @@
         ]
     },
     {
-        "id": "UTCSGJERPD",
+        "id": "VGIKRSGARW",
         "numDex": 21,
         "species": "Spearow",
         "type1": "Normal",
         "type2": "Flying",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d6/latest/20230319132404/Spearow_icono_HOME.png/48px-Spearow_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_21_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_021_regular.png",
         "weight": 2.0,
         "abilities": {
             "0": "Keen Eye",
@@ -990,13 +990,13 @@
         ]
     },
     {
-        "id": "VMAQNMQBJT",
+        "id": "QHFNMZHLFV",
         "numDex": 22,
         "species": "Fearow",
         "type1": "Normal",
         "type2": "Flying",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c7/latest/20230319130828/Fearow_icono_HOME.png/48px-Fearow_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_22_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_022_regular.png",
         "weight": 38.0,
         "abilities": {
             "0": "Keen Eye",
@@ -1037,13 +1037,13 @@
         ]
     },
     {
-        "id": "VHXNHAJRBT",
+        "id": "LCREWCTEBH",
         "numDex": 23,
         "species": "Ekans",
         "type1": "Poison",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/13/latest/20230319131403/Ekans_icono_HOME.png/48px-Ekans_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_23_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_023_regular.png",
         "weight": 6.9,
         "abilities": {
             "0": "Intimidate",
@@ -1085,13 +1085,13 @@
         ]
     },
     {
-        "id": "TUYONGVDWH",
+        "id": "QWBPBTWTNE",
         "numDex": 24,
         "species": "Arbok",
         "type1": "Poison",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/9f/latest/20230917181239/Arbok_icono_HOME.png/48px-Arbok_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_24_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_024_regular.png",
         "weight": 65.0,
         "abilities": {
             "0": "Intimidate",
@@ -1133,13 +1133,13 @@
         ]
     },
     {
-        "id": "USLIKRWMWW",
+        "id": "AYFCTRRXEV",
         "numDex": 25,
         "species": "Pikachu",
         "type1": "Electric",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/92/latest/20230319130927/Pikachu_icono_HOME.png/48px-Pikachu_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_25_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_025_regular.png",
         "weight": 6.0,
         "abilities": {
             "0": "Static",
@@ -1180,13 +1180,13 @@
         ]
     },
     {
-        "id": "HQISOKAWAB",
+        "id": "TLNYPCUNTK",
         "numDex": 26,
         "species": "Raichu",
         "type1": "Electric",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/aa/latest/20230319130241/Raichu_icono_HOME.png/48px-Raichu_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_26_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_026_regular.png",
         "weight": 30.0,
         "abilities": {
             "0": "Static",
@@ -1227,13 +1227,13 @@
         ]
     },
     {
-        "id": "ZEKSCFTRDH",
+        "id": "LJYIPZFQMN",
         "numDex": 27,
         "species": "Sandshrew",
         "type1": "Ground",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/4c/latest/20230319125311/Sandshrew_icono_HOME.png/48px-Sandshrew_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_27_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_027_regular.png",
         "weight": 12.0,
         "abilities": {
             "0": "Sand Veil",
@@ -1274,13 +1274,13 @@
         ]
     },
     {
-        "id": "GTVPHGBEVV",
+        "id": "DCSVLNPMTC",
         "numDex": 28,
         "species": "Sandslash",
         "type1": "Ground",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/e4/latest/20230319130600/Sandslash_icono_HOME.png/48px-Sandslash_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_28_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_028_regular.png",
         "weight": 29.5,
         "abilities": {
             "0": "Sand Veil",
@@ -1321,13 +1321,13 @@
         ]
     },
     {
-        "id": "EGLAQDVFXA",
+        "id": "WHPGJARRTD",
         "numDex": 29,
         "species": "Nidoran♀",
         "type1": "Poison",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/72/latest/20230319130644/Nidoran_hembra_icono_HOME.png/48px-Nidoran_hembra_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_29_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_029_regular.png",
         "weight": 7.0,
         "abilities": {
             "0": "Poison Point",
@@ -1369,13 +1369,13 @@
         ]
     },
     {
-        "id": "WMDXVNCBFQ",
+        "id": "LMXAXIPLTI",
         "numDex": 30,
         "species": "Nidorina",
         "type1": "Poison",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c8/latest/20230319132212/Nidorina_icono_HOME.png/48px-Nidorina_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_30_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_030_regular.png",
         "weight": 20.0,
         "abilities": {
             "0": "Poison Point",
@@ -1417,13 +1417,13 @@
         ]
     },
     {
-        "id": "AQQESRIHKH",
+        "id": "LVEITEHUOE",
         "numDex": 31,
         "species": "Nidoqueen",
         "type1": "Poison",
         "type2": "Ground",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/a4/latest/20230319124435/Nidoqueen_icono_HOME.png/48px-Nidoqueen_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_31_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_031_regular.png",
         "weight": 60.0,
         "abilities": {
             "0": "Poison Point",
@@ -1465,13 +1465,13 @@
         ]
     },
     {
-        "id": "GSIIUQFAKX",
+        "id": "KYZUMSSKEZ",
         "numDex": 32,
         "species": "Nidoran♂",
         "type1": "Poison",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b8/latest/20230319125804/Nidoran_macho_icono_HOME.png/48px-Nidoran_macho_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_32_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_032_regular.png",
         "weight": 9.0,
         "abilities": {
             "0": "Poison Point",
@@ -1513,13 +1513,13 @@
         ]
     },
     {
-        "id": "KWFKZZZNYE",
+        "id": "BDEBBWKGEA",
         "numDex": 33,
         "species": "Nidorino",
         "type1": "Poison",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/50/latest/20230319125740/Nidorino_icono_HOME.png/48px-Nidorino_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_33_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_033_regular.png",
         "weight": 19.5,
         "abilities": {
             "0": "Poison Point",
@@ -1561,13 +1561,13 @@
         ]
     },
     {
-        "id": "TUBMYPTFWF",
+        "id": "RXZUGKCDMR",
         "numDex": 34,
         "species": "Nidoking",
         "type1": "Poison",
         "type2": "Ground",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/96/latest/20230319130223/Nidoking_icono_HOME.png/48px-Nidoking_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_34_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_034_regular.png",
         "weight": 62.0,
         "abilities": {
             "0": "Poison Point",
@@ -1609,13 +1609,13 @@
         ]
     },
     {
-        "id": "XTVYNYSJHP",
+        "id": "GCNSHRFRUN",
         "numDex": 35,
         "species": "Clefairy",
         "type1": "Fairy",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f0/latest/20230319130321/Clefairy_icono_HOME.png/48px-Clefairy_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_35_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_035_regular.png",
         "weight": 7.5,
         "abilities": {
             "0": "Cute Charm",
@@ -1657,13 +1657,13 @@
         ]
     },
     {
-        "id": "BSPYGBCHCW",
+        "id": "UDBGPGQTYY",
         "numDex": 36,
         "species": "Clefable",
         "type1": "Fairy",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/87/latest/20230319125159/Clefable_icono_HOME.png/48px-Clefable_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_36_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_036_regular.png",
         "weight": 40.0,
         "abilities": {
             "0": "Cute Charm",
@@ -1705,13 +1705,13 @@
         ]
     },
     {
-        "id": "TUZWDYGDHE",
+        "id": "PDBYFPDYCO",
         "numDex": 37,
         "species": "Vulpix",
         "type1": "Fire",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/dc/latest/20230917181243/Vulpix_icono_HOME.png/48px-Vulpix_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_37_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_037_regular.png",
         "weight": 9.9,
         "abilities": {
             "0": "Flash Fire",
@@ -1752,13 +1752,13 @@
         ]
     },
     {
-        "id": "QNXAEPDHSN",
+        "id": "VDINBAEFUQ",
         "numDex": 38,
         "species": "Ninetales",
         "type1": "Fire",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/67/latest/20230917181245/Ninetales_icono_HOME.png/48px-Ninetales_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_38_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_038_regular.png",
         "weight": 19.9,
         "abilities": {
             "0": "Flash Fire",
@@ -1799,13 +1799,13 @@
         ]
     },
     {
-        "id": "VLEKUARQHJ",
+        "id": "FXRRKGRTRV",
         "numDex": 39,
         "species": "Jigglypuff",
         "type1": "Normal",
         "type2": "Fairy",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/04/latest/20230319130929/Jigglypuff_icono_HOME.png/48px-Jigglypuff_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_39_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_039_regular.png",
         "weight": 5.5,
         "abilities": {
             "0": "Cute Charm",
@@ -1847,13 +1847,13 @@
         ]
     },
     {
-        "id": "WGVXQUYHLP",
+        "id": "OWUJPAGKZG",
         "numDex": 40,
         "species": "Wigglytuff",
         "type1": "Normal",
         "type2": "Fairy",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b7/latest/20230319132059/Wigglytuff_icono_HOME.png/48px-Wigglytuff_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_40_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_040_regular.png",
         "weight": 12.0,
         "abilities": {
             "0": "Cute Charm",
@@ -1895,13 +1895,13 @@
         ]
     },
     {
-        "id": "QBHTMQRERN",
+        "id": "TEXSWPFNLQ",
         "numDex": 41,
         "species": "Zubat",
         "type1": "Poison",
         "type2": "Flying",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/bb/latest/20230319125153/Zubat_icono_HOME.png/48px-Zubat_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_41_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_041_regular.png",
         "weight": 7.5,
         "abilities": {
             "0": "Inner Focus",
@@ -1942,13 +1942,13 @@
         ]
     },
     {
-        "id": "ITPXLHHFGX",
+        "id": "YFLNXEVFIF",
         "numDex": 42,
         "species": "Golbat",
         "type1": "Poison",
         "type2": "Flying",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f4/latest/20230319132745/Golbat_icono_HOME.png/48px-Golbat_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_42_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_042_regular.png",
         "weight": 55.0,
         "abilities": {
             "0": "Inner Focus",
@@ -1989,13 +1989,13 @@
         ]
     },
     {
-        "id": "ZTDNBIOAJV",
+        "id": "VELDOARLKQ",
         "numDex": 43,
         "species": "Oddish",
         "type1": "Grass",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/8f/latest/20230319130534/Oddish_icono_HOME.png/48px-Oddish_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_43_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_043_regular.png",
         "weight": 5.4,
         "abilities": {
             "0": "Chlorophyll",
@@ -2036,13 +2036,13 @@
         ]
     },
     {
-        "id": "EAZKKOZARU",
+        "id": "ZZSTZCREBV",
         "numDex": 44,
         "species": "Gloom",
         "type1": "Grass",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/8f/latest/20230319131949/Gloom_icono_HOME.png/48px-Gloom_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_44_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_044_regular.png",
         "weight": 8.6,
         "abilities": {
             "0": "Chlorophyll",
@@ -2083,13 +2083,13 @@
         ]
     },
     {
-        "id": "BLHILWRAHN",
+        "id": "RNPSMMXAQV",
         "numDex": 45,
         "species": "Vileplume",
         "type1": "Grass",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/8e/latest/20230319125313/Vileplume_icono_HOME.png/48px-Vileplume_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_45_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_045_regular.png",
         "weight": 18.6,
         "abilities": {
             "0": "Chlorophyll",
@@ -2130,13 +2130,13 @@
         ]
     },
     {
-        "id": "MVLQHRXHTQ",
+        "id": "JQVEIEAHVA",
         "numDex": 46,
         "species": "Paras",
         "type1": "Bug",
         "type2": "Grass",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/bf/latest/20230319131308/Paras_icono_HOME.png/48px-Paras_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_46_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_046_regular.png",
         "weight": 5.4,
         "abilities": {
             "0": "Effect Spore",
@@ -2178,13 +2178,13 @@
         ]
     },
     {
-        "id": "RVLEKQAMNH",
+        "id": "XNWVNRQHWW",
         "numDex": 47,
         "species": "Parasect",
         "type1": "Bug",
         "type2": "Grass",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/e1/latest/20230319125923/Parasect_icono_HOME.png/48px-Parasect_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_47_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_047_regular.png",
         "weight": 29.5,
         "abilities": {
             "0": "Effect Spore",
@@ -2226,13 +2226,13 @@
         ]
     },
     {
-        "id": "SHDBOBGBRJ",
+        "id": "DMWKZVIUAK",
         "numDex": 48,
         "species": "Venonat",
         "type1": "Bug",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/70/latest/20230319132811/Venonat_icono_HOME.png/48px-Venonat_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_48_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_048_regular.png",
         "weight": 30.0,
         "abilities": {
             "0": "Compound Eyes",
@@ -2274,13 +2274,13 @@
         ]
     },
     {
-        "id": "AISMFSUXDM",
+        "id": "RJIYQSRMGQ",
         "numDex": 49,
         "species": "Venomoth",
         "type1": "Bug",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/31/latest/20230319131545/Venomoth_icono_HOME.png/48px-Venomoth_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_49_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_049_regular.png",
         "weight": 12.5,
         "abilities": {
             "0": "Shield Dust",
@@ -2322,13 +2322,13 @@
         ]
     },
     {
-        "id": "IHPNALRHOA",
+        "id": "NKOTRSMYYF",
         "numDex": 50,
         "species": "Diglett",
         "type1": "Ground",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/7f/latest/20230319131841/Diglett_icono_HOME.png/48px-Diglett_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_50_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_050_regular.png",
         "weight": 0.8,
         "abilities": {
             "0": "Sand Veil",
@@ -2370,13 +2370,13 @@
         ]
     },
     {
-        "id": "IFFHTVEPWL",
+        "id": "EDCVYZREDS",
         "numDex": 51,
         "species": "Dugtrio",
         "type1": "Ground",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20230319124557/Dugtrio_icono_HOME.png/48px-Dugtrio_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_51_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_051_regular.png",
         "weight": 33.3,
         "abilities": {
             "0": "Sand Veil",
@@ -2418,13 +2418,13 @@
         ]
     },
     {
-        "id": "EUVGEOKZDT",
+        "id": "MZPVTASYEU",
         "numDex": 52,
         "species": "Meowth",
         "type1": "Normal",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b3/latest/20230319130003/Meowth_icono_HOME.png/48px-Meowth_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_52_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_052_regular.png",
         "weight": 4.2,
         "abilities": {
             "0": "Pickup",
@@ -2466,13 +2466,13 @@
         ]
     },
     {
-        "id": "RKOYJNHNEP",
+        "id": "EZUCASUVOL",
         "numDex": 53,
         "species": "Persian",
         "type1": "Normal",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/ba/latest/20230319132621/Persian_icono_HOME.png/48px-Persian_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_53_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_053_regular.png",
         "weight": 32.0,
         "abilities": {
             "0": "Limber",
@@ -2514,13 +2514,13 @@
         ]
     },
     {
-        "id": "RZHAHPYKQU",
+        "id": "EWAZCJBGDN",
         "numDex": 54,
         "species": "Psyduck",
         "type1": "Water",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/1d/latest/20230319132342/Psyduck_icono_HOME.png/48px-Psyduck_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_54_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_054_regular.png",
         "weight": 19.6,
         "abilities": {
             "0": "Damp",
@@ -2562,13 +2562,13 @@
         ]
     },
     {
-        "id": "QEUOMOUAWF",
+        "id": "HWKIZDZTUJ",
         "numDex": 55,
         "species": "Golduck",
         "type1": "Water",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/6f/latest/20230319130025/Golduck_icono_HOME.png/48px-Golduck_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_55_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_055_regular.png",
         "weight": 76.6,
         "abilities": {
             "0": "Damp",
@@ -2610,13 +2610,13 @@
         ]
     },
     {
-        "id": "YPWBRSXOAT",
+        "id": "ASUXMNQGIO",
         "numDex": 56,
         "species": "Mankey",
         "type1": "Fighting",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/7c/latest/20230319124828/Mankey_icono_HOME.png/48px-Mankey_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_56_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_056_regular.png",
         "weight": 28.0,
         "abilities": {
             "0": "Vital Spirit",
@@ -2658,13 +2658,13 @@
         ]
     },
     {
-        "id": "SOFWHENYSG",
+        "id": "GPQPJWSPQO",
         "numDex": 57,
         "species": "Primeape",
         "type1": "Fighting",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c3/latest/20230319130915/Primeape_icono_HOME.png/48px-Primeape_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_57_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_057_regular.png",
         "weight": 32.0,
         "abilities": {
             "0": "Vital Spirit",
@@ -2706,13 +2706,13 @@
         ]
     },
     {
-        "id": "CMBFGFXKSR",
+        "id": "ROELDXEKZB",
         "numDex": 58,
         "species": "Growlithe",
         "type1": "Fire",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b6/latest/20230319124243/Growlithe_icono_HOME.png/48px-Growlithe_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_58_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_058_regular.png",
         "weight": 19.0,
         "abilities": {
             "0": "Intimidate",
@@ -2754,13 +2754,13 @@
         ]
     },
     {
-        "id": "BJYFDWBDIV",
+        "id": "MCTSFTIUUY",
         "numDex": 59,
         "species": "Arcanine",
         "type1": "Fire",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/cd/latest/20230319124411/Arcanine_icono_HOME.png/48px-Arcanine_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_59_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_059_regular.png",
         "weight": 155.0,
         "abilities": {
             "0": "Intimidate",
@@ -2802,13 +2802,13 @@
         ]
     },
     {
-        "id": "TLDPUTEIFM",
+        "id": "MBWVXMGVYF",
         "numDex": 60,
         "species": "Poliwag",
         "type1": "Water",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/cd/latest/20230917181237/Poliwag_icono_HOME.png/48px-Poliwag_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_60_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_060_regular.png",
         "weight": 12.4,
         "abilities": {
             "0": "Water Absorb",
@@ -2850,13 +2850,13 @@
         ]
     },
     {
-        "id": "DLGTCULZGW",
+        "id": "MYYVIUWJYL",
         "numDex": 61,
         "species": "Poliwhirl",
         "type1": "Water",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/30/latest/20230917181248/Poliwhirl_icono_HOME.png/48px-Poliwhirl_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_61_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_061_regular.png",
         "weight": 20.0,
         "abilities": {
             "0": "Water Absorb",
@@ -2898,13 +2898,13 @@
         ]
     },
     {
-        "id": "JHGOYEKBKL",
+        "id": "RYSQAXSWQU",
         "numDex": 62,
         "species": "Poliwrath",
         "type1": "Water",
         "type2": "Fighting",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/8f/latest/20230917181253/Poliwrath_icono_HOME.png/48px-Poliwrath_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_62_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_062_regular.png",
         "weight": 54.0,
         "abilities": {
             "0": "Water Absorb",
@@ -2946,13 +2946,13 @@
         ]
     },
     {
-        "id": "NTSYQXHYJS",
+        "id": "XHXCHEGCVV",
         "numDex": 63,
         "species": "Abra",
         "type1": "Psychic",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/af/latest/20230319130010/Abra_icono_HOME.png/48px-Abra_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_63_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_063_regular.png",
         "weight": 19.5,
         "abilities": {
             "0": "Synchronize",
@@ -2994,13 +2994,13 @@
         ]
     },
     {
-        "id": "LJLFHQBKEX",
+        "id": "RSYKVYJFAD",
         "numDex": 64,
         "species": "Kadabra",
         "type1": "Psychic",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/68/latest/20230319132558/Kadabra_icono_HOME.png/48px-Kadabra_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_64_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_064_regular.png",
         "weight": 56.5,
         "abilities": {
             "0": "Inner Focus",
@@ -3042,13 +3042,13 @@
         ]
     },
     {
-        "id": "OEMOCVUKWL",
+        "id": "NWXMLRQGHZ",
         "numDex": 65,
         "species": "Alakazam",
         "type1": "Psychic",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d9/latest/20230319125719/Alakazam_icono_HOME.png/48px-Alakazam_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_65_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_065_regular.png",
         "weight": 48.0,
         "abilities": {
             "0": "Inner Focus",
@@ -3090,13 +3090,13 @@
         ]
     },
     {
-        "id": "GKABNEBCJM",
+        "id": "RWLWGQYLSE",
         "numDex": 66,
         "species": "Machop",
         "type1": "Fighting",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f2/latest/20230319132506/Machop_icono_HOME.png/48px-Machop_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_66_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_066_regular.png",
         "weight": 19.5,
         "abilities": {
             "0": "Guts",
@@ -3138,13 +3138,13 @@
         ]
     },
     {
-        "id": "RJOFMGBHRD",
+        "id": "YYTEGKZRCG",
         "numDex": 67,
         "species": "Machoke",
         "type1": "Fighting",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/a7/latest/20230319131557/Machoke_icono_HOME.png/48px-Machoke_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_67_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_067_regular.png",
         "weight": 70.5,
         "abilities": {
             "0": "Guts",
@@ -3186,13 +3186,13 @@
         ]
     },
     {
-        "id": "DDUTHDYYQK",
+        "id": "ZBCTRKYESG",
         "numDex": 68,
         "species": "Machamp",
         "type1": "Fighting",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/1e/latest/20230319125844/Machamp_icono_HOME.png/48px-Machamp_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_68_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_068_regular.png",
         "weight": 130.0,
         "abilities": {
             "0": "Guts",
@@ -3234,13 +3234,13 @@
         ]
     },
     {
-        "id": "RMVGNLDQHP",
+        "id": "XGNDEZJRJU",
         "numDex": 69,
         "species": "Bellsprout",
         "type1": "Grass",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/5c/latest/20230319125229/Bellsprout_icono_HOME.png/48px-Bellsprout_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_69_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_069_regular.png",
         "weight": 4.0,
         "abilities": {
             "0": "Chlorophyll",
@@ -3281,13 +3281,13 @@
         ]
     },
     {
-        "id": "GXMKGPKRVK",
+        "id": "PKNYLVMKCX",
         "numDex": 70,
         "species": "Weepinbell",
         "type1": "Grass",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/4a/latest/20230917181234/Weepinbell_icono_HOME.png/48px-Weepinbell_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_70_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_070_regular.png",
         "weight": 6.4,
         "abilities": {
             "0": "Chlorophyll",
@@ -3328,13 +3328,13 @@
         ]
     },
     {
-        "id": "LYFCTDJRRU",
+        "id": "OWOVAMTDUR",
         "numDex": 71,
         "species": "Victreebel",
         "type1": "Grass",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/2/24/latest/20230917181230/Victreebel_icono_HOME.png/48px-Victreebel_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_71_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_071_regular.png",
         "weight": 15.5,
         "abilities": {
             "0": "Chlorophyll",
@@ -3375,13 +3375,13 @@
         ]
     },
     {
-        "id": "ZLEOKMQUQY",
+        "id": "CVHOMBROHE",
         "numDex": 72,
         "species": "Tentacool",
         "type1": "Water",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/8b/latest/20230319124510/Tentacool_icono_HOME.png/48px-Tentacool_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_72_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_072_regular.png",
         "weight": 45.5,
         "abilities": {
             "0": "Clear Body",
@@ -3423,13 +3423,13 @@
         ]
     },
     {
-        "id": "RIVNYMLKMW",
+        "id": "DWTANHYADP",
         "numDex": 73,
         "species": "Tentacruel",
         "type1": "Water",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c7/latest/20230319125652/Tentacruel_icono_HOME.png/48px-Tentacruel_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_73_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_073_regular.png",
         "weight": 55.0,
         "abilities": {
             "0": "Clear Body",
@@ -3471,13 +3471,13 @@
         ]
     },
     {
-        "id": "VXIGTIILEV",
+        "id": "MWZDAIEZNW",
         "numDex": 74,
         "species": "Geodude",
         "type1": "Rock",
         "type2": "Ground",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/e6/latest/20230917181259/Geodude_icono_HOME.png/48px-Geodude_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_74_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_074_regular.png",
         "weight": 20.0,
         "abilities": {
             "0": "Rock Head",
@@ -3519,13 +3519,13 @@
         ]
     },
     {
-        "id": "RULEBGYTJA",
+        "id": "IBWQKKAAZJ",
         "numDex": 75,
         "species": "Graveler",
         "type1": "Rock",
         "type2": "Ground",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/ee/latest/20230917181229/Graveler_icono_HOME.png/48px-Graveler_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_75_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_075_regular.png",
         "weight": 105.0,
         "abilities": {
             "0": "Rock Head",
@@ -3567,13 +3567,13 @@
         ]
     },
     {
-        "id": "DXNMSKDFZL",
+        "id": "DDXHEVHYFW",
         "numDex": 76,
         "species": "Golem",
         "type1": "Rock",
         "type2": "Ground",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b5/latest/20230917181228/Golem_icono_HOME.png/48px-Golem_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_76_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_076_regular.png",
         "weight": 300.0,
         "abilities": {
             "0": "Rock Head",
@@ -3615,13 +3615,13 @@
         ]
     },
     {
-        "id": "TOKQASSFXX",
+        "id": "GULUWFQLEW",
         "numDex": 77,
         "species": "Ponyta",
         "type1": "Fire",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/8d/latest/20230319132527/Ponyta_icono_HOME.png/48px-Ponyta_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_77_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_077_regular.png",
         "weight": 30.0,
         "abilities": {
             "0": "Run Away",
@@ -3663,13 +3663,13 @@
         ]
     },
     {
-        "id": "XRPRUCJOEB",
+        "id": "AHVJXLFGLK",
         "numDex": 78,
         "species": "Rapidash",
         "type1": "Fire",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/5d/latest/20230319124525/Rapidash_icono_HOME.png/48px-Rapidash_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_78_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_078_regular.png",
         "weight": 95.0,
         "abilities": {
             "0": "Run Away",
@@ -3711,13 +3711,13 @@
         ]
     },
     {
-        "id": "YKQLRVMYCD",
+        "id": "JODEECZKJP",
         "numDex": 79,
         "species": "Slowpoke",
         "type1": "Water",
         "type2": "Psychic",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/52/latest/20230319131348/Slowpoke_icono_HOME.png/48px-Slowpoke_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_79_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_079_regular.png",
         "weight": 36.0,
         "abilities": {
             "0": "Oblivious",
@@ -3759,13 +3759,13 @@
         ]
     },
     {
-        "id": "XZITHFFWZG",
+        "id": "AYYTSBWUEU",
         "numDex": 80,
         "species": "Slowbro",
         "type1": "Water",
         "type2": "Psychic",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/6d/latest/20230319132410/Slowbro_icono_HOME.png/48px-Slowbro_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_80_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_080_regular.png",
         "weight": 78.5,
         "abilities": {
             "0": "Oblivious",
@@ -3807,13 +3807,13 @@
         ]
     },
     {
-        "id": "PFFQPBNTWX",
+        "id": "PULLMAFMXP",
         "numDex": 81,
         "species": "Magnemite",
         "type1": "Electric",
         "type2": "Steel",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/a6/latest/20230319124534/Magnemite_icono_HOME.png/48px-Magnemite_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_81_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_081_regular.png",
         "weight": 6.0,
         "abilities": {
             "0": "Magnet Pull",
@@ -3855,13 +3855,13 @@
         ]
     },
     {
-        "id": "OZXXMJCYGT",
+        "id": "CRGLVJONMT",
         "numDex": 82,
         "species": "Magneton",
         "type1": "Electric",
         "type2": "Steel",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/54/latest/20230319131807/Magneton_icono_HOME.png/48px-Magneton_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_82_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_082_regular.png",
         "weight": 60.0,
         "abilities": {
             "0": "Magnet Pull",
@@ -3903,13 +3903,13 @@
         ]
     },
     {
-        "id": "GNKHGJJBCM",
+        "id": "LKSQIHSHHT",
         "numDex": 83,
         "species": "Farfetch'd",
         "type1": "Normal",
         "type2": "Flying",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/62/latest/20230319125457/Farfetch%27d_icono_HOME.png/48px-Farfetch%27d_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_83_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_083_regular.png",
         "weight": 15.0,
         "abilities": {
             "0": "Keen Eye",
@@ -3951,13 +3951,13 @@
         ]
     },
     {
-        "id": "ZSTTVTMTGR",
+        "id": "CLUXVLWXXP",
         "numDex": 84,
         "species": "Doduo",
         "type1": "Normal",
         "type2": "Flying",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/84/latest/20230319131926/Doduo_icono_HOME.png/48px-Doduo_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_84_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_084_regular.png",
         "weight": 39.2,
         "abilities": {
             "0": "Run Away",
@@ -3999,13 +3999,13 @@
         ]
     },
     {
-        "id": "KILLBCVTUC",
+        "id": "JJIPYFVNEZ",
         "numDex": 85,
         "species": "Dodrio",
         "type1": "Normal",
         "type2": "Flying",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f0/latest/20230319130811/Dodrio_icono_HOME.png/48px-Dodrio_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_85_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_085_regular.png",
         "weight": 85.2,
         "abilities": {
             "0": "Run Away",
@@ -4047,13 +4047,13 @@
         ]
     },
     {
-        "id": "RPXCMUHMLP",
+        "id": "VRNYESOUKK",
         "numDex": 86,
         "species": "Seel",
         "type1": "Water",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/e1/latest/20230319124208/Seel_icono_HOME.png/48px-Seel_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_86_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_086_regular.png",
         "weight": 90.0,
         "abilities": {
             "0": "Thick Fat",
@@ -4095,13 +4095,13 @@
         ]
     },
     {
-        "id": "GGWVBISXVM",
+        "id": "RCSXOJHRYN",
         "numDex": 87,
         "species": "Dewgong",
         "type1": "Water",
         "type2": "Ice",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/1b/latest/20230319132035/Dewgong_icono_HOME.png/48px-Dewgong_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_87_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_087_regular.png",
         "weight": 120.0,
         "abilities": {
             "0": "Thick Fat",
@@ -4143,13 +4143,13 @@
         ]
     },
     {
-        "id": "IRAVKUIDTS",
+        "id": "JSIBCKIIHE",
         "numDex": 88,
         "species": "Grimer",
         "type1": "Poison",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/79/latest/20230319125539/Grimer_icono_HOME.png/48px-Grimer_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_88_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_088_regular.png",
         "weight": 30.0,
         "abilities": {
             "0": "Stench",
@@ -4191,13 +4191,13 @@
         ]
     },
     {
-        "id": "PJBXMUWWLQ",
+        "id": "SJEMXNUICD",
         "numDex": 89,
         "species": "Muk",
         "type1": "Poison",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/37/latest/20230319124405/Muk_icono_HOME.png/48px-Muk_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_89_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_089_regular.png",
         "weight": 30.0,
         "abilities": {
             "0": "Stench",
@@ -4239,13 +4239,13 @@
         ]
     },
     {
-        "id": "SYQOLRRGTY",
+        "id": "DHNCYXVOGB",
         "numDex": 90,
         "species": "Shellder",
         "type1": "Water",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d7/latest/20230319132040/Shellder_icono_HOME.png/48px-Shellder_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_90_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_090_regular.png",
         "weight": 4.0,
         "abilities": {
             "0": "Shell Armor",
@@ -4287,13 +4287,13 @@
         ]
     },
     {
-        "id": "MPYDCAKULV",
+        "id": "KFYJVPGFHT",
         "numDex": 91,
         "species": "Cloyster",
         "type1": "Water",
         "type2": "Ice",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/44/latest/20230319130817/Cloyster_icono_HOME.png/48px-Cloyster_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_91_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_091_regular.png",
         "weight": 132.5,
         "abilities": {
             "0": "Shell Armor",
@@ -4335,13 +4335,13 @@
         ]
     },
     {
-        "id": "QXLIHQIBXT",
+        "id": "EZXJEFDZMQ",
         "numDex": 92,
         "species": "Gastly",
         "type1": "Ghost",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/fa/latest/20230319131547/Gastly_icono_HOME.png/48px-Gastly_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_92_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_092_regular.png",
         "weight": 0.1,
         "abilities": {
             "0": "Levitate"
@@ -4381,13 +4381,13 @@
         ]
     },
     {
-        "id": "EPWDQRTFLO",
+        "id": "XULZDZECAQ",
         "numDex": 93,
         "species": "Haunter",
         "type1": "Ghost",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/53/latest/20230319132518/Haunter_icono_HOME.png/48px-Haunter_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_93_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_093_regular.png",
         "weight": 0.1,
         "abilities": {
             "0": "Levitate"
@@ -4427,13 +4427,13 @@
         ]
     },
     {
-        "id": "YPHGHDIEXA",
+        "id": "JOVSOFYUDK",
         "numDex": 94,
         "species": "Gengar",
         "type1": "Ghost",
         "type2": "Poison",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/61/latest/20230319125724/Gengar_icono_HOME.png/48px-Gengar_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_94_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_094_regular.png",
         "weight": 40.5,
         "abilities": {
             "0": "Levitate",
@@ -4474,13 +4474,13 @@
         ]
     },
     {
-        "id": "SGFYHQBIQT",
+        "id": "NBJOJEJTWT",
         "numDex": 95,
         "species": "Onix",
         "type1": "Rock",
         "type2": "Ground",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f8/latest/20230319124512/Onix_icono_HOME.png/48px-Onix_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_95_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_095_regular.png",
         "weight": 210.0,
         "abilities": {
             "0": "Rock Head",
@@ -4522,13 +4522,13 @@
         ]
     },
     {
-        "id": "DGOWMCZUYG",
+        "id": "VISWAAGCBE",
         "numDex": 96,
         "species": "Drowzee",
         "type1": "Psychic",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/0d/latest/20230319124717/Drowzee_icono_HOME.png/48px-Drowzee_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_96_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_096_regular.png",
         "weight": 32.4,
         "abilities": {
             "0": "Insomnia",
@@ -4570,13 +4570,13 @@
         ]
     },
     {
-        "id": "EUSJMPLKSS",
+        "id": "XOKIDZZOEK",
         "numDex": 97,
         "species": "Hypno",
         "type1": "Psychic",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/58/latest/20230319131126/Hypno_icono_HOME.png/48px-Hypno_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_97_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_097_regular.png",
         "weight": 75.6,
         "abilities": {
             "0": "Insomnia",
@@ -4618,13 +4618,13 @@
         ]
     },
     {
-        "id": "KGFXOPBFFD",
+        "id": "KDRGEYVESG",
         "numDex": 98,
         "species": "Krabby",
         "type1": "Water",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/9d/latest/20230319130830/Krabby_icono_HOME.png/48px-Krabby_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_98_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_098_regular.png",
         "weight": 6.5,
         "abilities": {
             "0": "Hyper Cutter",
@@ -4666,13 +4666,13 @@
         ]
     },
     {
-        "id": "POAGGSUPVE",
+        "id": "IUXATGNESS",
         "numDex": 99,
         "species": "Kingler",
         "type1": "Water",
         "type2": "undefined",
         "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/1d/latest/20230319125309/Kingler_icono_HOME.png/48px-Kingler_icono_HOME.png",
-        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_99_regular.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_099_regular.png",
         "weight": 60.0,
         "abilities": {
             "0": "Hyper Cutter",
@@ -4714,7 +4714,7 @@
         ]
     },
     {
-        "id": "HUSBFBEUMW",
+        "id": "JYPTQRQNVQ",
         "numDex": 100,
         "species": "Voltorb",
         "type1": "Electric",
@@ -4762,7 +4762,7 @@
         ]
     },
     {
-        "id": "EUYVBAQWMD",
+        "id": "BFKZPQQEAP",
         "numDex": 101,
         "species": "Electrode",
         "type1": "Electric",
@@ -4810,7 +4810,7 @@
         ]
     },
     {
-        "id": "OEVPYAZROP",
+        "id": "MEYVTQYATW",
         "numDex": 102,
         "species": "Exeggcute",
         "type1": "Grass",
@@ -4857,7 +4857,7 @@
         ]
     },
     {
-        "id": "WRTHKLGCBH",
+        "id": "EJTHKHARTB",
         "numDex": 103,
         "species": "Exeggutor",
         "type1": "Grass",
@@ -4904,7 +4904,7 @@
         ]
     },
     {
-        "id": "REZAJTULCK",
+        "id": "UDGQQWLPMX",
         "numDex": 104,
         "species": "Cubone",
         "type1": "Ground",
@@ -4952,7 +4952,7 @@
         ]
     },
     {
-        "id": "QVOHWTXXZR",
+        "id": "KEFUBVAQTS",
         "numDex": 105,
         "species": "Marowak",
         "type1": "Ground",
@@ -5000,7 +5000,7 @@
         ]
     },
     {
-        "id": "SVKMHKJRQS",
+        "id": "KYZUFGYCSM",
         "numDex": 106,
         "species": "Hitmonlee",
         "type1": "Fighting",
@@ -5048,7 +5048,7 @@
         ]
     },
     {
-        "id": "TAHKQFKRWP",
+        "id": "NRHXPMIBNR",
         "numDex": 107,
         "species": "Hitmonchan",
         "type1": "Fighting",
@@ -5096,7 +5096,7 @@
         ]
     },
     {
-        "id": "KRCOQCADVA",
+        "id": "XRVKZLOUQA",
         "numDex": 108,
         "species": "Lickitung",
         "type1": "Normal",
@@ -5144,7 +5144,7 @@
         ]
     },
     {
-        "id": "GIZJBENNAD",
+        "id": "XBGYOYXXYY",
         "numDex": 109,
         "species": "Koffing",
         "type1": "Poison",
@@ -5192,7 +5192,7 @@
         ]
     },
     {
-        "id": "JBWJPLWVXS",
+        "id": "KGDSSMGBQG",
         "numDex": 110,
         "species": "Weezing",
         "type1": "Poison",
@@ -5240,7 +5240,7 @@
         ]
     },
     {
-        "id": "EVCPWRRUFY",
+        "id": "NAWCMMWYNG",
         "numDex": 111,
         "species": "Rhyhorn",
         "type1": "Ground",
@@ -5288,7 +5288,7 @@
         ]
     },
     {
-        "id": "AETPFHKNOF",
+        "id": "QRTEGHNPGU",
         "numDex": 112,
         "species": "Rhydon",
         "type1": "Ground",
@@ -5336,7 +5336,7 @@
         ]
     },
     {
-        "id": "DAARXIMWOE",
+        "id": "CXSYJHAVMS",
         "numDex": 113,
         "species": "Chansey",
         "type1": "Normal",
@@ -5384,7 +5384,7 @@
         ]
     },
     {
-        "id": "UTTVOMCARC",
+        "id": "WVYIVRYRYZ",
         "numDex": 114,
         "species": "Tangela",
         "type1": "Grass",
@@ -5432,7 +5432,7 @@
         ]
     },
     {
-        "id": "RFQKLCDHLG",
+        "id": "KAOWMDFNCV",
         "numDex": 115,
         "species": "Kangaskhan",
         "type1": "Normal",
@@ -5480,7 +5480,7 @@
         ]
     },
     {
-        "id": "CQVFUHHSLA",
+        "id": "RJBPFZNFRN",
         "numDex": 116,
         "species": "Horsea",
         "type1": "Water",
@@ -5528,7 +5528,7 @@
         ]
     },
     {
-        "id": "BTJMGYSUJZ",
+        "id": "XQLAZQZUEX",
         "numDex": 117,
         "species": "Seadra",
         "type1": "Water",
@@ -5576,7 +5576,7 @@
         ]
     },
     {
-        "id": "OAWRJCGDNR",
+        "id": "EZWRFAQWPI",
         "numDex": 118,
         "species": "Goldeen",
         "type1": "Water",
@@ -5624,7 +5624,7 @@
         ]
     },
     {
-        "id": "OGEYXMUWLL",
+        "id": "VOUYIWYBOS",
         "numDex": 119,
         "species": "Seaking",
         "type1": "Water",
@@ -5672,7 +5672,7 @@
         ]
     },
     {
-        "id": "XMJAQOBZQA",
+        "id": "VROVLHEWOJ",
         "numDex": 120,
         "species": "Staryu",
         "type1": "Water",
@@ -5720,7 +5720,7 @@
         ]
     },
     {
-        "id": "RHAJBLIVPH",
+        "id": "IFVUEXDNEW",
         "numDex": 121,
         "species": "Starmie",
         "type1": "Water",
@@ -5768,7 +5768,7 @@
         ]
     },
     {
-        "id": "AJZOHNSUOI",
+        "id": "JWQNFTOQMS",
         "numDex": 122,
         "species": "Mr. Mime",
         "type1": "Psychic",
@@ -5816,7 +5816,7 @@
         ]
     },
     {
-        "id": "VWMDDSLDYR",
+        "id": "XWAMTGMCQO",
         "numDex": 123,
         "species": "Scyther",
         "type1": "Bug",
@@ -5864,7 +5864,7 @@
         ]
     },
     {
-        "id": "KCNCPKFGXX",
+        "id": "TXVKXUWJUA",
         "numDex": 124,
         "species": "Jynx",
         "type1": "Ice",
@@ -5912,7 +5912,7 @@
         ]
     },
     {
-        "id": "YWKXLOUJQN",
+        "id": "UMBDBUNTCS",
         "numDex": 125,
         "species": "Electabuzz",
         "type1": "Electric",
@@ -5959,7 +5959,7 @@
         ]
     },
     {
-        "id": "AFULRASHXH",
+        "id": "MMSRYQGJHR",
         "numDex": 126,
         "species": "Magmar",
         "type1": "Fire",
@@ -6006,7 +6006,7 @@
         ]
     },
     {
-        "id": "CBJLMHXUDN",
+        "id": "KSCODOVDXH",
         "numDex": 127,
         "species": "Pinsir",
         "type1": "Bug",
@@ -6054,7 +6054,7 @@
         ]
     },
     {
-        "id": "UBYUWBAAQG",
+        "id": "YGLQIRCNPH",
         "numDex": 128,
         "species": "Tauros",
         "type1": "Normal",
@@ -6102,7 +6102,7 @@
         ]
     },
     {
-        "id": "MSIBLNIMCN",
+        "id": "HWPTGKQIIJ",
         "numDex": 129,
         "species": "Magikarp",
         "type1": "Water",
@@ -6149,7 +6149,7 @@
         ]
     },
     {
-        "id": "XSSXYGVKPU",
+        "id": "XGAIAOHGIM",
         "numDex": 130,
         "species": "Gyarados",
         "type1": "Water",
@@ -6196,7 +6196,7 @@
         ]
     },
     {
-        "id": "DBELZTINKN",
+        "id": "ERIKTQAHSN",
         "numDex": 131,
         "species": "Lapras",
         "type1": "Water",
@@ -6244,7 +6244,7 @@
         ]
     },
     {
-        "id": "PIEOFIZLAN",
+        "id": "HYDJQNJXQP",
         "numDex": 132,
         "species": "Ditto",
         "type1": "Normal",
@@ -6291,7 +6291,7 @@
         ]
     },
     {
-        "id": "WKEDFIPESD",
+        "id": "XEFIAXYHKT",
         "numDex": 133,
         "species": "Eevee",
         "type1": "Normal",
@@ -6339,7 +6339,7 @@
         ]
     },
     {
-        "id": "WWPAKLLDOV",
+        "id": "EUOSWIDNGE",
         "numDex": 134,
         "species": "Vaporeon",
         "type1": "Water",
@@ -6386,7 +6386,7 @@
         ]
     },
     {
-        "id": "BEHHNOIUYD",
+        "id": "XXRSDSYDWG",
         "numDex": 135,
         "species": "Jolteon",
         "type1": "Electric",
@@ -6433,7 +6433,7 @@
         ]
     },
     {
-        "id": "YSWYGJUVTG",
+        "id": "OVSHQENACD",
         "numDex": 136,
         "species": "Flareon",
         "type1": "Fire",
@@ -6480,7 +6480,7 @@
         ]
     },
     {
-        "id": "PQAGEWWFSP",
+        "id": "ZMKVTTINNY",
         "numDex": 137,
         "species": "Porygon",
         "type1": "Normal",
@@ -6528,7 +6528,7 @@
         ]
     },
     {
-        "id": "BUPSWQLAHU",
+        "id": "PWFRXEXFVS",
         "numDex": 138,
         "species": "Omanyte",
         "type1": "Rock",
@@ -6576,7 +6576,7 @@
         ]
     },
     {
-        "id": "MXKPGBUMBA",
+        "id": "HPGIRAMSXC",
         "numDex": 139,
         "species": "Omastar",
         "type1": "Rock",
@@ -6624,7 +6624,7 @@
         ]
     },
     {
-        "id": "MUVWSJUFYL",
+        "id": "DXXGXMEXEI",
         "numDex": 140,
         "species": "Kabuto",
         "type1": "Rock",
@@ -6672,7 +6672,7 @@
         ]
     },
     {
-        "id": "GPXHYLIOUI",
+        "id": "UEEFRTLSUD",
         "numDex": 141,
         "species": "Kabutops",
         "type1": "Rock",
@@ -6720,7 +6720,7 @@
         ]
     },
     {
-        "id": "RVWIKJUOCE",
+        "id": "WJORGLRYZX",
         "numDex": 142,
         "species": "Aerodactyl",
         "type1": "Rock",
@@ -6768,7 +6768,7 @@
         ]
     },
     {
-        "id": "YSKUSPLHAL",
+        "id": "IVMRHNKSUX",
         "numDex": 143,
         "species": "Snorlax",
         "type1": "Normal",
@@ -6816,7 +6816,7 @@
         ]
     },
     {
-        "id": "GOASOZVTTP",
+        "id": "FFWDDCVMNI",
         "numDex": 144,
         "species": "Articuno",
         "type1": "Ice",
@@ -6863,7 +6863,7 @@
         ]
     },
     {
-        "id": "VMRTFTZUSA",
+        "id": "KJYPNLZUEV",
         "numDex": 145,
         "species": "Zapdos",
         "type1": "Electric",
@@ -6910,7 +6910,7 @@
         ]
     },
     {
-        "id": "CXLSQIWANQ",
+        "id": "FNPIKXANMG",
         "numDex": 146,
         "species": "Moltres",
         "type1": "Fire",
@@ -6957,7 +6957,7 @@
         ]
     },
     {
-        "id": "CGYHSYEMST",
+        "id": "XPAZVMMSJF",
         "numDex": 147,
         "species": "Dratini",
         "type1": "Dragon",
@@ -7004,7 +7004,7 @@
         ]
     },
     {
-        "id": "SJNLCDVFQA",
+        "id": "MWTFHJEMFX",
         "numDex": 148,
         "species": "Dragonair",
         "type1": "Dragon",
@@ -7051,7 +7051,7 @@
         ]
     },
     {
-        "id": "EGZBYLENMA",
+        "id": "JWWMROTDLR",
         "numDex": 149,
         "species": "Dragonite",
         "type1": "Dragon",
@@ -7098,7 +7098,7 @@
         ]
     },
     {
-        "id": "LQLIHJBIGA",
+        "id": "PEYJGGMRTI",
         "numDex": 150,
         "species": "Mewtwo",
         "type1": "Psychic",
@@ -7145,7 +7145,7 @@
         ]
     },
     {
-        "id": "ITPAKKRUYD",
+        "id": "PQERDQIKMO",
         "numDex": 151,
         "species": "Mew",
         "type1": "Psychic",
@@ -7191,7 +7191,7 @@
         ]
     },
     {
-        "id": "PHTUQAVJCZ",
+        "id": "LCLWGQCRNR",
         "numDex": 152,
         "species": "Chikorita",
         "type1": "Grass",
@@ -7238,7 +7238,7 @@
         ]
     },
     {
-        "id": "FQLVLJNPUU",
+        "id": "TFAAAGVZIB",
         "numDex": 153,
         "species": "Bayleef",
         "type1": "Grass",
@@ -7285,7 +7285,7 @@
         ]
     },
     {
-        "id": "IYIZZAOIIZ",
+        "id": "GGKXJNXTAF",
         "numDex": 154,
         "species": "Meganium",
         "type1": "Grass",
@@ -7332,7 +7332,7 @@
         ]
     },
     {
-        "id": "JFITTNNZBG",
+        "id": "ARRIJBKASP",
         "numDex": 155,
         "species": "Cyndaquil",
         "type1": "Fire",
@@ -7379,7 +7379,7 @@
         ]
     },
     {
-        "id": "XUIYJNDXOP",
+        "id": "JEOIRTCDPZ",
         "numDex": 156,
         "species": "Quilava",
         "type1": "Fire",
@@ -7426,7 +7426,7 @@
         ]
     },
     {
-        "id": "JQFXNJDRBN",
+        "id": "CYRZCQONZU",
         "numDex": 157,
         "species": "Typhlosion",
         "type1": "Fire",
@@ -7473,7 +7473,7 @@
         ]
     },
     {
-        "id": "ADRWFTTGWC",
+        "id": "BZCCOIPAFU",
         "numDex": 158,
         "species": "Totodile",
         "type1": "Water",
@@ -7520,7 +7520,7 @@
         ]
     },
     {
-        "id": "VPXHRMRXHX",
+        "id": "YAUYETDJTC",
         "numDex": 159,
         "species": "Croconaw",
         "type1": "Water",
@@ -7567,7 +7567,7 @@
         ]
     },
     {
-        "id": "LDMFCMERBB",
+        "id": "LPTIHWWLVQ",
         "numDex": 160,
         "species": "Feraligatr",
         "type1": "Water",
@@ -7614,7 +7614,7 @@
         ]
     },
     {
-        "id": "IJKIXNWRKK",
+        "id": "PORHFKQSUJ",
         "numDex": 161,
         "species": "Sentret",
         "type1": "Normal",
@@ -7662,7 +7662,7 @@
         ]
     },
     {
-        "id": "MZUJLYYMDL",
+        "id": "ZCVAIRWDJE",
         "numDex": 162,
         "species": "Furret",
         "type1": "Normal",
@@ -7710,7 +7710,7 @@
         ]
     },
     {
-        "id": "FFGVRSANHE",
+        "id": "KLSEGHCLVG",
         "numDex": 163,
         "species": "Hoothoot",
         "type1": "Normal",
@@ -7758,7 +7758,7 @@
         ]
     },
     {
-        "id": "MKLNTMEXOB",
+        "id": "YCAWBJWGCY",
         "numDex": 164,
         "species": "Noctowl",
         "type1": "Normal",
@@ -7806,7 +7806,7 @@
         ]
     },
     {
-        "id": "GTAXMPBTSY",
+        "id": "QFOLIVUUSN",
         "numDex": 165,
         "species": "Ledyba",
         "type1": "Bug",
@@ -7854,7 +7854,7 @@
         ]
     },
     {
-        "id": "WSZZMTEAHU",
+        "id": "YHQTSCELLR",
         "numDex": 166,
         "species": "Ledian",
         "type1": "Bug",
@@ -7902,7 +7902,7 @@
         ]
     },
     {
-        "id": "HDKZLFWZPE",
+        "id": "MIHFBUNQVX",
         "numDex": 167,
         "species": "Spinarak",
         "type1": "Bug",
@@ -7950,7 +7950,7 @@
         ]
     },
     {
-        "id": "HZZHQKZHXJ",
+        "id": "VTYTBCTCCV",
         "numDex": 168,
         "species": "Ariados",
         "type1": "Bug",
@@ -7998,7 +7998,7 @@
         ]
     },
     {
-        "id": "BYHBNVCXPH",
+        "id": "YSBVRNDABB",
         "numDex": 169,
         "species": "Crobat",
         "type1": "Poison",
@@ -8045,7 +8045,7 @@
         ]
     },
     {
-        "id": "AUEXEACWJV",
+        "id": "TVXSDYMBVJ",
         "numDex": 170,
         "species": "Chinchou",
         "type1": "Water",
@@ -8093,7 +8093,7 @@
         ]
     },
     {
-        "id": "XOMZPQOEXD",
+        "id": "LRBBYQZXMI",
         "numDex": 171,
         "species": "Lanturn",
         "type1": "Water",
@@ -8141,7 +8141,7 @@
         ]
     },
     {
-        "id": "ZWRXXBIDKP",
+        "id": "XSCWAMNXIB",
         "numDex": 172,
         "species": "Pichu",
         "type1": "Electric",
@@ -8188,7 +8188,7 @@
         ]
     },
     {
-        "id": "LKVSQQYQSS",
+        "id": "SIEAQXZXIG",
         "numDex": 173,
         "species": "Cleffa",
         "type1": "Fairy",
@@ -8236,7 +8236,7 @@
         ]
     },
     {
-        "id": "YIAJHSOSFY",
+        "id": "OXCWACWTFY",
         "numDex": 174,
         "species": "Igglybuff",
         "type1": "Normal",
@@ -8284,7 +8284,7 @@
         ]
     },
     {
-        "id": "IMZMPKICSQ",
+        "id": "GGOZWRZFPG",
         "numDex": 175,
         "species": "Togepi",
         "type1": "Fairy",
@@ -8332,7 +8332,7 @@
         ]
     },
     {
-        "id": "BEOELJQWIO",
+        "id": "AAXPSHRGHG",
         "numDex": 176,
         "species": "Togetic",
         "type1": "Fairy",
@@ -8380,7 +8380,7 @@
         ]
     },
     {
-        "id": "OSWPJLECRF",
+        "id": "XLHBKGUNKH",
         "numDex": 177,
         "species": "Natu",
         "type1": "Psychic",
@@ -8428,7 +8428,7 @@
         ]
     },
     {
-        "id": "ECCHUOZBCD",
+        "id": "APSFLWXJTR",
         "numDex": 178,
         "species": "Xatu",
         "type1": "Psychic",
@@ -8476,7 +8476,7 @@
         ]
     },
     {
-        "id": "RXZJLEINAD",
+        "id": "ZOOWWBZXPX",
         "numDex": 179,
         "species": "Mareep",
         "type1": "Electric",
@@ -8523,7 +8523,7 @@
         ]
     },
     {
-        "id": "UGCEANHFRM",
+        "id": "LQPXLJNIWV",
         "numDex": 180,
         "species": "Flaaffy",
         "type1": "Electric",
@@ -8570,7 +8570,7 @@
         ]
     },
     {
-        "id": "UAOMXYIIPH",
+        "id": "QCOSGFXBUW",
         "numDex": 181,
         "species": "Ampharos",
         "type1": "Electric",
@@ -8617,7 +8617,7 @@
         ]
     },
     {
-        "id": "DAYPSZJXIJ",
+        "id": "JJKTKWCRHE",
         "numDex": 182,
         "species": "Bellossom",
         "type1": "Grass",
@@ -8664,7 +8664,7 @@
         ]
     },
     {
-        "id": "VDWLCPVATG",
+        "id": "NZDXJATVKF",
         "numDex": 183,
         "species": "Marill",
         "type1": "Water",
@@ -8712,7 +8712,7 @@
         ]
     },
     {
-        "id": "VMQXFCSORT",
+        "id": "IPWLKLRNHI",
         "numDex": 184,
         "species": "Azumarill",
         "type1": "Water",
@@ -8760,7 +8760,7 @@
         ]
     },
     {
-        "id": "ZRILLTJLPN",
+        "id": "CLEPVAIQXO",
         "numDex": 185,
         "species": "Sudowoodo",
         "type1": "Rock",
@@ -8808,7 +8808,7 @@
         ]
     },
     {
-        "id": "WWGRJTTFMT",
+        "id": "MZQNWARWYA",
         "numDex": 186,
         "species": "Politoed",
         "type1": "Water",
@@ -8856,7 +8856,7 @@
         ]
     },
     {
-        "id": "DBKIZKZUPS",
+        "id": "EBWRJWEPST",
         "numDex": 187,
         "species": "Hoppip",
         "type1": "Grass",
@@ -8904,7 +8904,7 @@
         ]
     },
     {
-        "id": "TKYKFUTCRI",
+        "id": "OENXISGAGB",
         "numDex": 188,
         "species": "Skiploom",
         "type1": "Grass",
@@ -8952,7 +8952,7 @@
         ]
     },
     {
-        "id": "ZOYFUKBWJX",
+        "id": "ILBLRLXXOK",
         "numDex": 189,
         "species": "Jumpluff",
         "type1": "Grass",
@@ -9000,7 +9000,7 @@
         ]
     },
     {
-        "id": "HALYNVHVTU",
+        "id": "NZZKEWLYOJ",
         "numDex": 190,
         "species": "Aipom",
         "type1": "Normal",
@@ -9048,7 +9048,7 @@
         ]
     },
     {
-        "id": "TSUXHNBBHC",
+        "id": "HJRDPJLOTP",
         "numDex": 191,
         "species": "Sunkern",
         "type1": "Grass",
@@ -9096,7 +9096,7 @@
         ]
     },
     {
-        "id": "KVFIYCUDIL",
+        "id": "OEJIUIREJS",
         "numDex": 192,
         "species": "Sunflora",
         "type1": "Grass",
@@ -9144,7 +9144,7 @@
         ]
     },
     {
-        "id": "QDTELVSUOF",
+        "id": "PQEOESTBWE",
         "numDex": 193,
         "species": "Yanma",
         "type1": "Bug",
@@ -9192,7 +9192,7 @@
         ]
     },
     {
-        "id": "DZKEJSAYGQ",
+        "id": "KNUBLSUHUZ",
         "numDex": 194,
         "species": "Wooper",
         "type1": "Water",
@@ -9240,7 +9240,7 @@
         ]
     },
     {
-        "id": "IFWXUUBMGX",
+        "id": "PZIEJYREUL",
         "numDex": 195,
         "species": "Quagsire",
         "type1": "Water",
@@ -9288,7 +9288,7 @@
         ]
     },
     {
-        "id": "NWRABLYNNJ",
+        "id": "ZOWUKSPIWL",
         "numDex": 196,
         "species": "Espeon",
         "type1": "Psychic",
@@ -9335,7 +9335,7 @@
         ]
     },
     {
-        "id": "XFLVIHGMEF",
+        "id": "KTCQIHVXER",
         "numDex": 197,
         "species": "Umbreon",
         "type1": "Dark",
@@ -9382,7 +9382,7 @@
         ]
     },
     {
-        "id": "BLAQLVYKYZ",
+        "id": "GVXCRBJGNI",
         "numDex": 198,
         "species": "Murkrow",
         "type1": "Dark",
@@ -9430,7 +9430,7 @@
         ]
     },
     {
-        "id": "CUYYVDYUOW",
+        "id": "VGEZFDVKWV",
         "numDex": 199,
         "species": "Slowking",
         "type1": "Water",
@@ -9478,7 +9478,7 @@
         ]
     },
     {
-        "id": "WUTGYWMSYK",
+        "id": "PYFEJATAEN",
         "numDex": 200,
         "species": "Misdreavus",
         "type1": "Ghost",
@@ -9524,7 +9524,7 @@
         ]
     },
     {
-        "id": "CLWFSWHKSX",
+        "id": "YTYUJAIUBA",
         "numDex": 201,
         "species": "Unown",
         "type1": "Psychic",
@@ -9570,7 +9570,7 @@
         ]
     },
     {
-        "id": "UOCUDEQJLI",
+        "id": "OVAQHDLRKN",
         "numDex": 202,
         "species": "Wobbuffet",
         "type1": "Psychic",
@@ -9617,7 +9617,7 @@
         ]
     },
     {
-        "id": "YOXLMXCWOD",
+        "id": "LHEMSNVSQR",
         "numDex": 203,
         "species": "Girafarig",
         "type1": "Normal",
@@ -9665,7 +9665,7 @@
         ]
     },
     {
-        "id": "QOGRYTMEDQ",
+        "id": "OQXQQLCRKK",
         "numDex": 204,
         "species": "Pineco",
         "type1": "Bug",
@@ -9712,7 +9712,7 @@
         ]
     },
     {
-        "id": "UZWLOBYSWV",
+        "id": "VKMPKUZLYX",
         "numDex": 205,
         "species": "Forretress",
         "type1": "Bug",
@@ -9759,7 +9759,7 @@
         ]
     },
     {
-        "id": "FJAWUDJAFD",
+        "id": "NWKKUUMGTP",
         "numDex": 206,
         "species": "Dunsparce",
         "type1": "Normal",
@@ -9807,7 +9807,7 @@
         ]
     },
     {
-        "id": "MRLMQZKIQC",
+        "id": "YRTDELEZKT",
         "numDex": 207,
         "species": "Gligar",
         "type1": "Ground",
@@ -9855,7 +9855,7 @@
         ]
     },
     {
-        "id": "CABMOUBNOY",
+        "id": "FDKODULAFS",
         "numDex": 208,
         "species": "Steelix",
         "type1": "Steel",
@@ -9903,7 +9903,7 @@
         ]
     },
     {
-        "id": "ZIEVAEJIQD",
+        "id": "VPKNVQXRST",
         "numDex": 209,
         "species": "Snubbull",
         "type1": "Fairy",
@@ -9951,7 +9951,7 @@
         ]
     },
     {
-        "id": "GIIWZRXZKT",
+        "id": "ECYWZFEITK",
         "numDex": 210,
         "species": "Granbull",
         "type1": "Fairy",
@@ -9999,7 +9999,7 @@
         ]
     },
     {
-        "id": "IZIMRZRKBW",
+        "id": "QBPKPMUSTM",
         "numDex": 211,
         "species": "Qwilfish",
         "type1": "Water",
@@ -10047,7 +10047,7 @@
         ]
     },
     {
-        "id": "YXFIOTJLAE",
+        "id": "YZZXURIXWU",
         "numDex": 212,
         "species": "Scizor",
         "type1": "Bug",
@@ -10095,7 +10095,7 @@
         ]
     },
     {
-        "id": "SEESIDKAPW",
+        "id": "VDKSBSABYO",
         "numDex": 213,
         "species": "Shuckle",
         "type1": "Bug",
@@ -10143,7 +10143,7 @@
         ]
     },
     {
-        "id": "FNJMUTJYBM",
+        "id": "OTNPDNFRYA",
         "numDex": 214,
         "species": "Heracross",
         "type1": "Bug",
@@ -10191,7 +10191,7 @@
         ]
     },
     {
-        "id": "DKJSANDFIP",
+        "id": "SWLLUMSEAS",
         "numDex": 215,
         "species": "Sneasel",
         "type1": "Dark",
@@ -10239,7 +10239,7 @@
         ]
     },
     {
-        "id": "OBTKUHIFYM",
+        "id": "PYUSNPULDU",
         "numDex": 216,
         "species": "Teddiursa",
         "type1": "Normal",
@@ -10287,7 +10287,7 @@
         ]
     },
     {
-        "id": "TMFCFZEIQL",
+        "id": "DFUKSYQYEN",
         "numDex": 217,
         "species": "Ursaring",
         "type1": "Normal",
@@ -10335,7 +10335,7 @@
         ]
     },
     {
-        "id": "JWJNQMTKYH",
+        "id": "CYKDAGZXLL",
         "numDex": 218,
         "species": "Slugma",
         "type1": "Fire",
@@ -10383,7 +10383,7 @@
         ]
     },
     {
-        "id": "YCUYUMIILN",
+        "id": "DHARISBHHV",
         "numDex": 219,
         "species": "Magcargo",
         "type1": "Fire",
@@ -10431,7 +10431,7 @@
         ]
     },
     {
-        "id": "LDVNATMOXO",
+        "id": "RGBIBUYLBG",
         "numDex": 220,
         "species": "Swinub",
         "type1": "Ice",
@@ -10479,7 +10479,7 @@
         ]
     },
     {
-        "id": "YLOOVICSAV",
+        "id": "LWNGQYHYKF",
         "numDex": 221,
         "species": "Piloswine",
         "type1": "Ice",
@@ -10527,7 +10527,7 @@
         ]
     },
     {
-        "id": "RGMOMNSXFR",
+        "id": "XSMVNZAQNY",
         "numDex": 222,
         "species": "Corsola",
         "type1": "Water",
@@ -10575,7 +10575,7 @@
         ]
     },
     {
-        "id": "FZUGAVICFC",
+        "id": "UDMZKTJOVQ",
         "numDex": 223,
         "species": "Remoraid",
         "type1": "Water",
@@ -10623,7 +10623,7 @@
         ]
     },
     {
-        "id": "FYXJXAKJEH",
+        "id": "MEXKGSMCAZ",
         "numDex": 224,
         "species": "Octillery",
         "type1": "Water",
@@ -10671,7 +10671,7 @@
         ]
     },
     {
-        "id": "KBTUISLJER",
+        "id": "CVVMBHUSYX",
         "numDex": 225,
         "species": "Delibird",
         "type1": "Ice",
@@ -10719,7 +10719,7 @@
         ]
     },
     {
-        "id": "HLZFEILMDE",
+        "id": "FHWMNTLKYJ",
         "numDex": 226,
         "species": "Mantine",
         "type1": "Water",
@@ -10767,7 +10767,7 @@
         ]
     },
     {
-        "id": "AKICQKGWSJ",
+        "id": "FFVUXCDMBH",
         "numDex": 227,
         "species": "Skarmory",
         "type1": "Steel",
@@ -10815,7 +10815,7 @@
         ]
     },
     {
-        "id": "VIDKMETTHC",
+        "id": "RJSDHROUXL",
         "numDex": 228,
         "species": "Houndour",
         "type1": "Dark",
@@ -10863,7 +10863,7 @@
         ]
     },
     {
-        "id": "ETNCMXAEGC",
+        "id": "APQQMSEMVD",
         "numDex": 229,
         "species": "Houndoom",
         "type1": "Dark",
@@ -10911,7 +10911,7 @@
         ]
     },
     {
-        "id": "RJNOCPTABW",
+        "id": "CYCFZFXMTO",
         "numDex": 230,
         "species": "Kingdra",
         "type1": "Water",
@@ -10959,7 +10959,7 @@
         ]
     },
     {
-        "id": "WGZHUNLRBO",
+        "id": "JTFCTIRULO",
         "numDex": 231,
         "species": "Phanpy",
         "type1": "Ground",
@@ -11006,7 +11006,7 @@
         ]
     },
     {
-        "id": "HRFHZPAGUR",
+        "id": "JHAPJWSWIY",
         "numDex": 232,
         "species": "Donphan",
         "type1": "Ground",
@@ -11053,7 +11053,7 @@
         ]
     },
     {
-        "id": "KVMSANCFKI",
+        "id": "HDULDRWATB",
         "numDex": 233,
         "species": "Porygon2",
         "type1": "Normal",
@@ -11101,7 +11101,7 @@
         ]
     },
     {
-        "id": "STTKTJSQFG",
+        "id": "BAKKSHBDRG",
         "numDex": 234,
         "species": "Stantler",
         "type1": "Normal",
@@ -11149,7 +11149,7 @@
         ]
     },
     {
-        "id": "ZTNQOIRSNF",
+        "id": "ODRQRGRXOJ",
         "numDex": 235,
         "species": "Smeargle",
         "type1": "Normal",
@@ -11197,7 +11197,7 @@
         ]
     },
     {
-        "id": "LDAQQLZVQW",
+        "id": "HSWPRVDKCV",
         "numDex": 236,
         "species": "Tyrogue",
         "type1": "Fighting",
@@ -11245,7 +11245,7 @@
         ]
     },
     {
-        "id": "TUKEUWJJOE",
+        "id": "KCUHFPXMQO",
         "numDex": 237,
         "species": "Hitmontop",
         "type1": "Fighting",
@@ -11293,7 +11293,7 @@
         ]
     },
     {
-        "id": "AESPZIKYEZ",
+        "id": "IMEAGBKSZR",
         "numDex": 238,
         "species": "Smoochum",
         "type1": "Ice",
@@ -11341,7 +11341,7 @@
         ]
     },
     {
-        "id": "FHPRDKXSPD",
+        "id": "IPHYLVZGRF",
         "numDex": 239,
         "species": "Elekid",
         "type1": "Electric",
@@ -11388,7 +11388,7 @@
         ]
     },
     {
-        "id": "RJZHPTBMFJ",
+        "id": "VSFMSZVAVN",
         "numDex": 240,
         "species": "Magby",
         "type1": "Fire",
@@ -11435,7 +11435,7 @@
         ]
     },
     {
-        "id": "MJBQETYDGK",
+        "id": "FPHBFDDOXI",
         "numDex": 241,
         "species": "Miltank",
         "type1": "Normal",
@@ -11483,7 +11483,7 @@
         ]
     },
     {
-        "id": "ALITUBTDQN",
+        "id": "QEVFYOETUZ",
         "numDex": 242,
         "species": "Blissey",
         "type1": "Normal",
@@ -11531,7 +11531,7 @@
         ]
     },
     {
-        "id": "ZVONMZHPPG",
+        "id": "TBSRJAVVBY",
         "numDex": 243,
         "species": "Raikou",
         "type1": "Electric",
@@ -11578,7 +11578,7 @@
         ]
     },
     {
-        "id": "GGVZMRHPKT",
+        "id": "WMTIOJFOWB",
         "numDex": 244,
         "species": "Entei",
         "type1": "Fire",
@@ -11625,7 +11625,7 @@
         ]
     },
     {
-        "id": "ICBHDPGAGD",
+        "id": "MTNTEEMBHQ",
         "numDex": 245,
         "species": "Suicune",
         "type1": "Water",
@@ -11672,7 +11672,7 @@
         ]
     },
     {
-        "id": "UTWUPTXXDC",
+        "id": "SXMAMFRUBH",
         "numDex": 246,
         "species": "Larvitar",
         "type1": "Rock",
@@ -11719,7 +11719,7 @@
         ]
     },
     {
-        "id": "GJEUDXUBGE",
+        "id": "JGLGCSYOPA",
         "numDex": 247,
         "species": "Pupitar",
         "type1": "Rock",
@@ -11765,7 +11765,7 @@
         ]
     },
     {
-        "id": "AEECRGOSIK",
+        "id": "KFQAWJESTT",
         "numDex": 248,
         "species": "Tyranitar",
         "type1": "Rock",
@@ -11812,7 +11812,7 @@
         ]
     },
     {
-        "id": "EYYTKXTZVD",
+        "id": "CHCSHGKCCZ",
         "numDex": 249,
         "species": "Lugia",
         "type1": "Psychic",
@@ -11859,7 +11859,7 @@
         ]
     },
     {
-        "id": "XFNUXPCEEX",
+        "id": "OYWMMBXHHL",
         "numDex": 250,
         "species": "Ho-Oh",
         "type1": "Fire",
@@ -11906,7 +11906,7 @@
         ]
     },
     {
-        "id": "KNUJKLENTP",
+        "id": "HFKTBYMCCH",
         "numDex": 251,
         "species": "Celebi",
         "type1": "Psychic",
@@ -11952,7 +11952,7 @@
         ]
     },
     {
-        "id": "FMZGECVKIV",
+        "id": "DDBRDRQNJC",
         "numDex": 252,
         "species": "Treecko",
         "type1": "Grass",
@@ -11999,7 +11999,7 @@
         ]
     },
     {
-        "id": "SSSYKRATCK",
+        "id": "WCXJFBZERG",
         "numDex": 253,
         "species": "Grovyle",
         "type1": "Grass",
@@ -12046,7 +12046,7 @@
         ]
     },
     {
-        "id": "SBEBLGKITN",
+        "id": "USOVWRTLHU",
         "numDex": 254,
         "species": "Sceptile",
         "type1": "Grass",
@@ -12093,7 +12093,7 @@
         ]
     },
     {
-        "id": "DXWHXXRNZD",
+        "id": "NXFGKBELHC",
         "numDex": 255,
         "species": "Torchic",
         "type1": "Fire",
@@ -12140,7 +12140,7 @@
         ]
     },
     {
-        "id": "SLJHMEXSXS",
+        "id": "GWNCPHXNKU",
         "numDex": 256,
         "species": "Combusken",
         "type1": "Fire",
@@ -12187,7 +12187,7 @@
         ]
     },
     {
-        "id": "YRVQAQCBSP",
+        "id": "URNGPXXGKH",
         "numDex": 257,
         "species": "Blaziken",
         "type1": "Fire",
@@ -12234,7 +12234,7 @@
         ]
     },
     {
-        "id": "GGRXOOOJZI",
+        "id": "SSIFLNOKKP",
         "numDex": 258,
         "species": "Mudkip",
         "type1": "Water",
@@ -12281,7 +12281,7 @@
         ]
     },
     {
-        "id": "KUMALXVSGR",
+        "id": "LDRMVRGRBG",
         "numDex": 259,
         "species": "Marshtomp",
         "type1": "Water",
@@ -12328,7 +12328,7 @@
         ]
     },
     {
-        "id": "AHKGKXBBIC",
+        "id": "ABDOTFFGWW",
         "numDex": 260,
         "species": "Swampert",
         "type1": "Water",
@@ -12375,7 +12375,7 @@
         ]
     },
     {
-        "id": "KWDJAFMOMD",
+        "id": "FPVUDJSLCV",
         "numDex": 261,
         "species": "Poochyena",
         "type1": "Dark",
@@ -12423,7 +12423,7 @@
         ]
     },
     {
-        "id": "ZPHLSQCWPW",
+        "id": "YSZBOIZKML",
         "numDex": 262,
         "species": "Mightyena",
         "type1": "Dark",
@@ -12471,7 +12471,7 @@
         ]
     },
     {
-        "id": "MYFOJLXAZE",
+        "id": "QQJOLSQPQM",
         "numDex": 263,
         "species": "Zigzagoon",
         "type1": "Normal",
@@ -12519,7 +12519,7 @@
         ]
     },
     {
-        "id": "DWZEFKOJXA",
+        "id": "XEQORNSQUB",
         "numDex": 264,
         "species": "Linoone",
         "type1": "Normal",
@@ -12567,7 +12567,7 @@
         ]
     },
     {
-        "id": "QRTMVMKDXA",
+        "id": "VFVXIAXEQU",
         "numDex": 265,
         "species": "Wurmple",
         "type1": "Bug",
@@ -12614,7 +12614,7 @@
         ]
     },
     {
-        "id": "JXNXAKNBFE",
+        "id": "TIXKHMARAE",
         "numDex": 266,
         "species": "Silcoon",
         "type1": "Bug",
@@ -12660,7 +12660,7 @@
         ]
     },
     {
-        "id": "NQDUQQKKZK",
+        "id": "GAAKQNOUVX",
         "numDex": 267,
         "species": "Beautifly",
         "type1": "Bug",
@@ -12707,7 +12707,7 @@
         ]
     },
     {
-        "id": "QJJIDXEOWV",
+        "id": "ZPTELSGGLK",
         "numDex": 268,
         "species": "Cascoon",
         "type1": "Bug",
@@ -12753,7 +12753,7 @@
         ]
     },
     {
-        "id": "DOKFBXWDEW",
+        "id": "TSPBYUEWRL",
         "numDex": 269,
         "species": "Dustox",
         "type1": "Bug",
@@ -12800,7 +12800,7 @@
         ]
     },
     {
-        "id": "QJINHTHOTS",
+        "id": "TFXEGWLMCM",
         "numDex": 270,
         "species": "Lotad",
         "type1": "Water",
@@ -12848,7 +12848,7 @@
         ]
     },
     {
-        "id": "QQBKZRKMXD",
+        "id": "UHTGLDQVOY",
         "numDex": 271,
         "species": "Lombre",
         "type1": "Water",
@@ -12896,7 +12896,7 @@
         ]
     },
     {
-        "id": "LVJEBVFNPG",
+        "id": "AMCERRIRYP",
         "numDex": 272,
         "species": "Ludicolo",
         "type1": "Water",
@@ -12944,7 +12944,7 @@
         ]
     },
     {
-        "id": "OCKEDBSGXW",
+        "id": "RYGSCIHICR",
         "numDex": 273,
         "species": "Seedot",
         "type1": "Grass",
@@ -12992,7 +12992,7 @@
         ]
     },
     {
-        "id": "TITJXSXZNW",
+        "id": "IAUUPEPLDT",
         "numDex": 274,
         "species": "Nuzleaf",
         "type1": "Grass",
@@ -13040,7 +13040,7 @@
         ]
     },
     {
-        "id": "PVHVALDKRG",
+        "id": "WGSFAHSYOE",
         "numDex": 275,
         "species": "Shiftry",
         "type1": "Grass",
@@ -13088,7 +13088,7 @@
         ]
     },
     {
-        "id": "MGHASAMCKV",
+        "id": "VVMHRLLMJT",
         "numDex": 276,
         "species": "Taillow",
         "type1": "Normal",
@@ -13135,7 +13135,7 @@
         ]
     },
     {
-        "id": "KTXRMCVQEN",
+        "id": "RMHOVTESQK",
         "numDex": 277,
         "species": "Swellow",
         "type1": "Normal",
@@ -13182,7 +13182,7 @@
         ]
     },
     {
-        "id": "VFGJQSZBIW",
+        "id": "CMISIGYOOA",
         "numDex": 278,
         "species": "Wingull",
         "type1": "Water",
@@ -13230,7 +13230,7 @@
         ]
     },
     {
-        "id": "XCEORNUSAP",
+        "id": "KQIBXMJONZ",
         "numDex": 279,
         "species": "Pelipper",
         "type1": "Water",
@@ -13278,7 +13278,7 @@
         ]
     },
     {
-        "id": "LUOMTAVWYY",
+        "id": "PZFGSSDDAL",
         "numDex": 280,
         "species": "Ralts",
         "type1": "Psychic",
@@ -13326,7 +13326,7 @@
         ]
     },
     {
-        "id": "UJGIXQPVGI",
+        "id": "YPMENHZPER",
         "numDex": 281,
         "species": "Kirlia",
         "type1": "Psychic",
@@ -13374,7 +13374,7 @@
         ]
     },
     {
-        "id": "YZEJHIGWGP",
+        "id": "BQSSUVWHAM",
         "numDex": 282,
         "species": "Gardevoir",
         "type1": "Psychic",
@@ -13422,7 +13422,7 @@
         ]
     },
     {
-        "id": "IRVTTXLUQB",
+        "id": "LHDWGIAEGD",
         "numDex": 283,
         "species": "Surskit",
         "type1": "Bug",
@@ -13469,7 +13469,7 @@
         ]
     },
     {
-        "id": "IVKVWUHHMV",
+        "id": "HTAJNCHJFI",
         "numDex": 284,
         "species": "Masquerain",
         "type1": "Bug",
@@ -13516,7 +13516,7 @@
         ]
     },
     {
-        "id": "WKDXNULELW",
+        "id": "EGBGUJURVJ",
         "numDex": 285,
         "species": "Shroomish",
         "type1": "Grass",
@@ -13564,7 +13564,7 @@
         ]
     },
     {
-        "id": "KPYVXGVFEW",
+        "id": "DRRYFXVJBP",
         "numDex": 286,
         "species": "Breloom",
         "type1": "Grass",
@@ -13612,7 +13612,7 @@
         ]
     },
     {
-        "id": "GTKYBAHJFS",
+        "id": "JLPKYUDEPL",
         "numDex": 287,
         "species": "Slakoth",
         "type1": "Normal",
@@ -13658,7 +13658,7 @@
         ]
     },
     {
-        "id": "YZHYIGIELJ",
+        "id": "GJPFXDZJFK",
         "numDex": 288,
         "species": "Vigoroth",
         "type1": "Normal",
@@ -13704,7 +13704,7 @@
         ]
     },
     {
-        "id": "SJJLHNZTNS",
+        "id": "FSWXDFPYHP",
         "numDex": 289,
         "species": "Slaking",
         "type1": "Normal",
@@ -13750,7 +13750,7 @@
         ]
     },
     {
-        "id": "AOSUPCXWMA",
+        "id": "BJMSGPNYHB",
         "numDex": 290,
         "species": "Nincada",
         "type1": "Bug",
@@ -13797,7 +13797,7 @@
         ]
     },
     {
-        "id": "PFBTRFVYAO",
+        "id": "EAAZEIRBZG",
         "numDex": 291,
         "species": "Ninjask",
         "type1": "Bug",
@@ -13844,7 +13844,7 @@
         ]
     },
     {
-        "id": "CJSLQPDOMV",
+        "id": "NYMYZNXNAF",
         "numDex": 292,
         "species": "Shedinja",
         "type1": "Bug",
@@ -13890,7 +13890,7 @@
         ]
     },
     {
-        "id": "QITMEADORE",
+        "id": "UWPZRTDBDN",
         "numDex": 293,
         "species": "Whismur",
         "type1": "Normal",
@@ -13937,7 +13937,7 @@
         ]
     },
     {
-        "id": "KUODGCSIHU",
+        "id": "ZWDWFNDSHZ",
         "numDex": 294,
         "species": "Loudred",
         "type1": "Normal",
@@ -13984,7 +13984,7 @@
         ]
     },
     {
-        "id": "NKTTPVBSCM",
+        "id": "FPTWGWZCWV",
         "numDex": 295,
         "species": "Exploud",
         "type1": "Normal",
@@ -14031,7 +14031,7 @@
         ]
     },
     {
-        "id": "EAXICTBXNA",
+        "id": "MHEHTHPQYK",
         "numDex": 296,
         "species": "Makuhita",
         "type1": "Fighting",
@@ -14079,7 +14079,7 @@
         ]
     },
     {
-        "id": "WBTQMUXJGT",
+        "id": "HCOQMKWBUF",
         "numDex": 297,
         "species": "Hariyama",
         "type1": "Fighting",
@@ -14127,7 +14127,7 @@
         ]
     },
     {
-        "id": "PGBKRWHFHL",
+        "id": "HTXSMKTLZM",
         "numDex": 298,
         "species": "Azurill",
         "type1": "Normal",
@@ -14175,7 +14175,7 @@
         ]
     },
     {
-        "id": "HAVZZPQQYY",
+        "id": "KXKRGBQVGM",
         "numDex": 299,
         "species": "Nosepass",
         "type1": "Rock",
@@ -14223,7 +14223,7 @@
         ]
     },
     {
-        "id": "VHSUCACFZM",
+        "id": "CZPLFJQJAQ",
         "numDex": 300,
         "species": "Skitty",
         "type1": "Normal",
@@ -14271,7 +14271,7 @@
         ]
     },
     {
-        "id": "YJHMTSUZFR",
+        "id": "HEPBJFVQOO",
         "numDex": 301,
         "species": "Delcatty",
         "type1": "Normal",
@@ -14319,7 +14319,7 @@
         ]
     },
     {
-        "id": "DQOWXCSGKO",
+        "id": "TOIQKGBHGA",
         "numDex": 302,
         "species": "Sableye",
         "type1": "Dark",
@@ -14367,7 +14367,7 @@
         ]
     },
     {
-        "id": "SWIIFSLPXW",
+        "id": "XTOUMUPONS",
         "numDex": 303,
         "species": "Mawile",
         "type1": "Steel",
@@ -14415,7 +14415,7 @@
         ]
     },
     {
-        "id": "LDPVKQIIVE",
+        "id": "PCOHMXSQJD",
         "numDex": 304,
         "species": "Aron",
         "type1": "Steel",
@@ -14463,7 +14463,7 @@
         ]
     },
     {
-        "id": "XJDEXZJINA",
+        "id": "JWLATZJYZS",
         "numDex": 305,
         "species": "Lairon",
         "type1": "Steel",
@@ -14511,7 +14511,7 @@
         ]
     },
     {
-        "id": "QKFTECEYJN",
+        "id": "CACSDALGSU",
         "numDex": 306,
         "species": "Aggron",
         "type1": "Steel",
@@ -14559,7 +14559,7 @@
         ]
     },
     {
-        "id": "VFRRMDGWUK",
+        "id": "FKWWYVHBUU",
         "numDex": 307,
         "species": "Meditite",
         "type1": "Fighting",
@@ -14606,7 +14606,7 @@
         ]
     },
     {
-        "id": "FABAAZBASB",
+        "id": "MLUYFUFKOP",
         "numDex": 308,
         "species": "Medicham",
         "type1": "Fighting",
@@ -14653,7 +14653,7 @@
         ]
     },
     {
-        "id": "MOJEQEIINR",
+        "id": "PYLMJIUNME",
         "numDex": 309,
         "species": "Electrike",
         "type1": "Electric",
@@ -14701,7 +14701,7 @@
         ]
     },
     {
-        "id": "KBZGLUZZBZ",
+        "id": "QLSWIIJQXR",
         "numDex": 310,
         "species": "Manectric",
         "type1": "Electric",
@@ -14749,7 +14749,7 @@
         ]
     },
     {
-        "id": "VBVFMQXGNY",
+        "id": "MZUVFCIVGG",
         "numDex": 311,
         "species": "Plusle",
         "type1": "Electric",
@@ -14796,7 +14796,7 @@
         ]
     },
     {
-        "id": "SMIZAUUAHG",
+        "id": "ZCTALRVUXV",
         "numDex": 312,
         "species": "Minun",
         "type1": "Electric",
@@ -14843,7 +14843,7 @@
         ]
     },
     {
-        "id": "FPBHRZXMAR",
+        "id": "IGOQRJXRLV",
         "numDex": 313,
         "species": "Volbeat",
         "type1": "Bug",
@@ -14891,7 +14891,7 @@
         ]
     },
     {
-        "id": "IXXIEQQUTE",
+        "id": "ZTFKMBFNLH",
         "numDex": 314,
         "species": "Illumise",
         "type1": "Bug",
@@ -14939,7 +14939,7 @@
         ]
     },
     {
-        "id": "WLRHSRZRIA",
+        "id": "DSYLDABBWF",
         "numDex": 315,
         "species": "Roselia",
         "type1": "Grass",
@@ -14987,7 +14987,7 @@
         ]
     },
     {
-        "id": "OAGJXMSKOU",
+        "id": "RUDQOGMERE",
         "numDex": 316,
         "species": "Gulpin",
         "type1": "Poison",
@@ -15035,7 +15035,7 @@
         ]
     },
     {
-        "id": "XWFKAYFBSK",
+        "id": "TTLFERFJSW",
         "numDex": 317,
         "species": "Swalot",
         "type1": "Poison",
@@ -15083,7 +15083,7 @@
         ]
     },
     {
-        "id": "ZXFUPFQEAC",
+        "id": "QJITJBQNWA",
         "numDex": 318,
         "species": "Carvanha",
         "type1": "Water",
@@ -15130,7 +15130,7 @@
         ]
     },
     {
-        "id": "EOYPUSPXND",
+        "id": "QKFAJEHQFS",
         "numDex": 319,
         "species": "Sharpedo",
         "type1": "Water",
@@ -15177,7 +15177,7 @@
         ]
     },
     {
-        "id": "BEESMMBGPD",
+        "id": "ZIEKCZUFOT",
         "numDex": 320,
         "species": "Wailmer",
         "type1": "Water",
@@ -15225,7 +15225,7 @@
         ]
     },
     {
-        "id": "QTFYVHOBTH",
+        "id": "FBMHBYVIVI",
         "numDex": 321,
         "species": "Wailord",
         "type1": "Water",
@@ -15273,7 +15273,7 @@
         ]
     },
     {
-        "id": "VIIHMQFYJW",
+        "id": "VNELETHFQL",
         "numDex": 322,
         "species": "Numel",
         "type1": "Fire",
@@ -15321,7 +15321,7 @@
         ]
     },
     {
-        "id": "JDKQZWPGWI",
+        "id": "QSJBLYLMZL",
         "numDex": 323,
         "species": "Camerupt",
         "type1": "Fire",
@@ -15369,7 +15369,7 @@
         ]
     },
     {
-        "id": "DZPHJZVISK",
+        "id": "YEQHCYXOFI",
         "numDex": 324,
         "species": "Torkoal",
         "type1": "Fire",
@@ -15417,7 +15417,7 @@
         ]
     },
     {
-        "id": "KGGNFKAOUY",
+        "id": "PBGFMPXFPQ",
         "numDex": 325,
         "species": "Spoink",
         "type1": "Psychic",
@@ -15465,7 +15465,7 @@
         ]
     },
     {
-        "id": "TEFSVNFUIG",
+        "id": "ULLOKZFKTM",
         "numDex": 326,
         "species": "Grumpig",
         "type1": "Psychic",
@@ -15513,7 +15513,7 @@
         ]
     },
     {
-        "id": "CLTGPBFAMC",
+        "id": "MCQBYDBPBC",
         "numDex": 327,
         "species": "Spinda",
         "type1": "Normal",
@@ -15561,7 +15561,7 @@
         ]
     },
     {
-        "id": "QKYXUOICTL",
+        "id": "RPTPSVADTF",
         "numDex": 328,
         "species": "Trapinch",
         "type1": "Ground",
@@ -15609,7 +15609,7 @@
         ]
     },
     {
-        "id": "EYKSGSHVSZ",
+        "id": "VSOOLSGCJK",
         "numDex": 329,
         "species": "Vibrava",
         "type1": "Ground",
@@ -15655,7 +15655,7 @@
         ]
     },
     {
-        "id": "YBUHWGDWAN",
+        "id": "DSZTLEDODG",
         "numDex": 330,
         "species": "Flygon",
         "type1": "Ground",
@@ -15701,7 +15701,7 @@
         ]
     },
     {
-        "id": "TNTPTRGGBP",
+        "id": "HCWEBNYSPJ",
         "numDex": 331,
         "species": "Cacnea",
         "type1": "Grass",
@@ -15748,7 +15748,7 @@
         ]
     },
     {
-        "id": "SVIZOFHKYH",
+        "id": "UDQDJEEYAW",
         "numDex": 332,
         "species": "Cacturne",
         "type1": "Grass",
@@ -15795,7 +15795,7 @@
         ]
     },
     {
-        "id": "AKRLQYSNKY",
+        "id": "PXKXFYJRYA",
         "numDex": 333,
         "species": "Swablu",
         "type1": "Normal",
@@ -15842,7 +15842,7 @@
         ]
     },
     {
-        "id": "EBIMNXRNZB",
+        "id": "ITBRTWNVMT",
         "numDex": 334,
         "species": "Altaria",
         "type1": "Dragon",
@@ -15889,7 +15889,7 @@
         ]
     },
     {
-        "id": "QLZMDVCOTY",
+        "id": "IRAWWQIWXG",
         "numDex": 335,
         "species": "Zangoose",
         "type1": "Normal",
@@ -15936,7 +15936,7 @@
         ]
     },
     {
-        "id": "VDGZLIIHMV",
+        "id": "UWFPITXAED",
         "numDex": 336,
         "species": "Seviper",
         "type1": "Poison",
@@ -15983,7 +15983,7 @@
         ]
     },
     {
-        "id": "PZXZFGTZFU",
+        "id": "ZKAMOHUNKM",
         "numDex": 337,
         "species": "Lunatone",
         "type1": "Rock",
@@ -16029,7 +16029,7 @@
         ]
     },
     {
-        "id": "KXPOVLJVSF",
+        "id": "BPDVPNQYOL",
         "numDex": 338,
         "species": "Solrock",
         "type1": "Rock",
@@ -16075,7 +16075,7 @@
         ]
     },
     {
-        "id": "WDVLVKSAYG",
+        "id": "DURPJIPZFA",
         "numDex": 339,
         "species": "Barboach",
         "type1": "Water",
@@ -16123,7 +16123,7 @@
         ]
     },
     {
-        "id": "BPIBWKITAY",
+        "id": "QRSTRRQCQF",
         "numDex": 340,
         "species": "Whiscash",
         "type1": "Water",
@@ -16171,7 +16171,7 @@
         ]
     },
     {
-        "id": "CIUUTIOMON",
+        "id": "ESAPOPNWAP",
         "numDex": 341,
         "species": "Corphish",
         "type1": "Water",
@@ -16219,7 +16219,7 @@
         ]
     },
     {
-        "id": "UUWKZGUZAQ",
+        "id": "BBASNPIHMT",
         "numDex": 342,
         "species": "Crawdaunt",
         "type1": "Water",
@@ -16267,7 +16267,7 @@
         ]
     },
     {
-        "id": "SJZJMIZNCT",
+        "id": "GCORDWRPLF",
         "numDex": 343,
         "species": "Baltoy",
         "type1": "Ground",
@@ -16313,7 +16313,7 @@
         ]
     },
     {
-        "id": "ZJPEOLCCWU",
+        "id": "BOXTBBKEZZ",
         "numDex": 344,
         "species": "Claydol",
         "type1": "Ground",
@@ -16359,7 +16359,7 @@
         ]
     },
     {
-        "id": "QDMGZBWECQ",
+        "id": "PIAOWLWYGT",
         "numDex": 345,
         "species": "Lileep",
         "type1": "Rock",
@@ -16406,7 +16406,7 @@
         ]
     },
     {
-        "id": "IZQTNGRUUW",
+        "id": "XCFLVLRTAG",
         "numDex": 346,
         "species": "Cradily",
         "type1": "Rock",
@@ -16453,7 +16453,7 @@
         ]
     },
     {
-        "id": "NPQIOMYDCI",
+        "id": "VEVWJUUEWX",
         "numDex": 347,
         "species": "Anorith",
         "type1": "Rock",
@@ -16500,7 +16500,7 @@
         ]
     },
     {
-        "id": "AXLKCEZCMQ",
+        "id": "YZVGQXGVQR",
         "numDex": 348,
         "species": "Armaldo",
         "type1": "Rock",
@@ -16547,7 +16547,7 @@
         ]
     },
     {
-        "id": "MARUOLXAZI",
+        "id": "XVGUGETHBS",
         "numDex": 349,
         "species": "Feebas",
         "type1": "Water",
@@ -16595,7 +16595,7 @@
         ]
     },
     {
-        "id": "ZOAEWIKGDN",
+        "id": "TZVNHMMXHY",
         "numDex": 350,
         "species": "Milotic",
         "type1": "Water",
@@ -16643,7 +16643,7 @@
         ]
     },
     {
-        "id": "QNDDCBGMFM",
+        "id": "BOVULGEUEU",
         "numDex": 351,
         "species": "Castform",
         "type1": "Normal",
@@ -16689,7 +16689,7 @@
         ]
     },
     {
-        "id": "BISWBXAQGJ",
+        "id": "TJCMWQDMUW",
         "numDex": 352,
         "species": "Kecleon",
         "type1": "Normal",
@@ -16736,7 +16736,7 @@
         ]
     },
     {
-        "id": "VOMJUODCWI",
+        "id": "YFQUXTMGIY",
         "numDex": 353,
         "species": "Shuppet",
         "type1": "Ghost",
@@ -16784,7 +16784,7 @@
         ]
     },
     {
-        "id": "YNOXWFNWPD",
+        "id": "ZRIUENHFVF",
         "numDex": 354,
         "species": "Banette",
         "type1": "Ghost",
@@ -16832,7 +16832,7 @@
         ]
     },
     {
-        "id": "ZUEQKCHVYB",
+        "id": "OYTSOVBQEA",
         "numDex": 355,
         "species": "Duskull",
         "type1": "Ghost",
@@ -16879,7 +16879,7 @@
         ]
     },
     {
-        "id": "JUIPYYPHBR",
+        "id": "XQBHZLNMXZ",
         "numDex": 356,
         "species": "Dusclops",
         "type1": "Ghost",
@@ -16926,7 +16926,7 @@
         ]
     },
     {
-        "id": "XYDHDNPZWB",
+        "id": "ZHUTJBBCJL",
         "numDex": 357,
         "species": "Tropius",
         "type1": "Grass",
@@ -16974,7 +16974,7 @@
         ]
     },
     {
-        "id": "BPALQTPUIY",
+        "id": "JGKTRULBZC",
         "numDex": 358,
         "species": "Chimecho",
         "type1": "Psychic",
@@ -17020,7 +17020,7 @@
         ]
     },
     {
-        "id": "IMRZDBQQXI",
+        "id": "ELYPJLTNLT",
         "numDex": 359,
         "species": "Absol",
         "type1": "Dark",
@@ -17068,7 +17068,7 @@
         ]
     },
     {
-        "id": "DYBXTZNWNV",
+        "id": "KXDYUZXICW",
         "numDex": 360,
         "species": "Wynaut",
         "type1": "Psychic",
@@ -17115,7 +17115,7 @@
         ]
     },
     {
-        "id": "HECJVBCDSW",
+        "id": "CVILLTIUFJ",
         "numDex": 361,
         "species": "Snorunt",
         "type1": "Ice",
@@ -17163,7 +17163,7 @@
         ]
     },
     {
-        "id": "FAEHZPGMOH",
+        "id": "YIZMVHONFU",
         "numDex": 362,
         "species": "Glalie",
         "type1": "Ice",
@@ -17211,7 +17211,7 @@
         ]
     },
     {
-        "id": "RVFOQBFELH",
+        "id": "BLGVQSXBNO",
         "numDex": 363,
         "species": "Spheal",
         "type1": "Ice",
@@ -17259,7 +17259,7 @@
         ]
     },
     {
-        "id": "BRWPWJYRAH",
+        "id": "PADVUNGSAH",
         "numDex": 364,
         "species": "Sealeo",
         "type1": "Ice",
@@ -17307,7 +17307,7 @@
         ]
     },
     {
-        "id": "GFVFDKLUVL",
+        "id": "YGCLNIATRW",
         "numDex": 365,
         "species": "Walrein",
         "type1": "Ice",
@@ -17355,7 +17355,7 @@
         ]
     },
     {
-        "id": "XINMOBVMSU",
+        "id": "UATGQNEZTE",
         "numDex": 366,
         "species": "Clamperl",
         "type1": "Water",
@@ -17402,7 +17402,7 @@
         ]
     },
     {
-        "id": "TJCJVARMDL",
+        "id": "ZHITDCJZGA",
         "numDex": 367,
         "species": "Huntail",
         "type1": "Water",
@@ -17449,7 +17449,7 @@
         ]
     },
     {
-        "id": "KACAHYRUWK",
+        "id": "OOCTZQTRKI",
         "numDex": 368,
         "species": "Gorebyss",
         "type1": "Water",
@@ -17496,7 +17496,7 @@
         ]
     },
     {
-        "id": "MCKUUVHIMB",
+        "id": "IKJJAQRZQO",
         "numDex": 369,
         "species": "Relicanth",
         "type1": "Water",
@@ -17544,7 +17544,7 @@
         ]
     },
     {
-        "id": "LPSLPXRKIO",
+        "id": "VKACBYZZKC",
         "numDex": 370,
         "species": "Luvdisc",
         "type1": "Water",
@@ -17591,7 +17591,7 @@
         ]
     },
     {
-        "id": "HPFNGITEXL",
+        "id": "KDAPSMGJXQ",
         "numDex": 371,
         "species": "Bagon",
         "type1": "Dragon",
@@ -17638,7 +17638,7 @@
         ]
     },
     {
-        "id": "DVGFYSRSJT",
+        "id": "XBTHDTTPYA",
         "numDex": 372,
         "species": "Shelgon",
         "type1": "Dragon",
@@ -17685,7 +17685,7 @@
         ]
     },
     {
-        "id": "PZKHDPPJRQ",
+        "id": "XBEDVGNVTC",
         "numDex": 373,
         "species": "Salamence",
         "type1": "Dragon",
@@ -17732,7 +17732,7 @@
         ]
     },
     {
-        "id": "VBCWFZRGTG",
+        "id": "NMWEYKQMXC",
         "numDex": 374,
         "species": "Beldum",
         "type1": "Steel",
@@ -17779,7 +17779,7 @@
         ]
     },
     {
-        "id": "KLDWULVQSU",
+        "id": "PFJLWVWNXP",
         "numDex": 375,
         "species": "Metang",
         "type1": "Steel",
@@ -17826,7 +17826,7 @@
         ]
     },
     {
-        "id": "OJSWNJECUY",
+        "id": "MSVSHXVXGL",
         "numDex": 376,
         "species": "Metagross",
         "type1": "Steel",
@@ -17873,7 +17873,7 @@
         ]
     },
     {
-        "id": "GSWVWQIBIT",
+        "id": "VROEMNQTAX",
         "numDex": 377,
         "species": "Regirock",
         "type1": "Rock",
@@ -17920,7 +17920,7 @@
         ]
     },
     {
-        "id": "MQBAQZAQRM",
+        "id": "IMXDAJPNKF",
         "numDex": 378,
         "species": "Regice",
         "type1": "Ice",
@@ -17967,7 +17967,7 @@
         ]
     },
     {
-        "id": "GIKNUBLMYN",
+        "id": "NGFFFFTZSR",
         "numDex": 379,
         "species": "Registeel",
         "type1": "Steel",
@@ -18014,7 +18014,7 @@
         ]
     },
     {
-        "id": "TXZJMVPTHR",
+        "id": "HULJKSMOCA",
         "numDex": 380,
         "species": "Latias",
         "type1": "Dragon",
@@ -18060,7 +18060,7 @@
         ]
     },
     {
-        "id": "MUGPLGFEDL",
+        "id": "MIDDSAIAKL",
         "numDex": 381,
         "species": "Latios",
         "type1": "Dragon",
@@ -18106,7 +18106,7 @@
         ]
     },
     {
-        "id": "QYLJZHNTBP",
+        "id": "NSNFLNWTWU",
         "numDex": 382,
         "species": "Kyogre",
         "type1": "Water",
@@ -18152,7 +18152,7 @@
         ]
     },
     {
-        "id": "CRDNYRHCKN",
+        "id": "KRGRCEBWIV",
         "numDex": 383,
         "species": "Groudon",
         "type1": "Ground",
@@ -18198,7 +18198,7 @@
         ]
     },
     {
-        "id": "DTSTEKZBYR",
+        "id": "ILABXBIGON",
         "numDex": 384,
         "species": "Rayquaza",
         "type1": "Dragon",
@@ -18244,7 +18244,7 @@
         ]
     },
     {
-        "id": "JFJKFPNNZH",
+        "id": "QNKLKEJQXK",
         "numDex": 385,
         "species": "Jirachi",
         "type1": "Steel",
@@ -18290,7 +18290,7 @@
         ]
     },
     {
-        "id": "OOYXLNQMUG",
+        "id": "QACAIXZJJK",
         "numDex": 386,
         "species": "Deoxys",
         "type1": "Psychic",
@@ -18336,7 +18336,7 @@
         ]
     },
     {
-        "id": "BRHDQQMTDF",
+        "id": "ZHDOOKNMNY",
         "numDex": 387,
         "species": "Turtwig",
         "type1": "Grass",
@@ -18383,7 +18383,7 @@
         ]
     },
     {
-        "id": "MUUCGOEKLY",
+        "id": "HLENPRQQUE",
         "numDex": 388,
         "species": "Grotle",
         "type1": "Grass",
@@ -18430,7 +18430,7 @@
         ]
     },
     {
-        "id": "VGJLTNSNXQ",
+        "id": "NKWMUXVZCM",
         "numDex": 389,
         "species": "Torterra",
         "type1": "Grass",
@@ -18477,7 +18477,7 @@
         ]
     },
     {
-        "id": "VSZNQPJWHS",
+        "id": "FWPQEYGJDT",
         "numDex": 390,
         "species": "Chimchar",
         "type1": "Fire",
@@ -18524,7 +18524,7 @@
         ]
     },
     {
-        "id": "VCYCHMJAVT",
+        "id": "BULMWCDTFA",
         "numDex": 391,
         "species": "Monferno",
         "type1": "Fire",
@@ -18571,7 +18571,7 @@
         ]
     },
     {
-        "id": "QLPAGSQQEB",
+        "id": "HIAXERUCPA",
         "numDex": 392,
         "species": "Infernape",
         "type1": "Fire",
@@ -18618,7 +18618,7 @@
         ]
     },
     {
-        "id": "OFMLSCJZNS",
+        "id": "FNPMSXWRKG",
         "numDex": 393,
         "species": "Piplup",
         "type1": "Water",
@@ -18665,7 +18665,7 @@
         ]
     },
     {
-        "id": "OMGHXEQWRR",
+        "id": "FRYOXYDJQN",
         "numDex": 394,
         "species": "Prinplup",
         "type1": "Water",
@@ -18712,7 +18712,7 @@
         ]
     },
     {
-        "id": "PQZAZPWVFN",
+        "id": "VGTNAMSAHU",
         "numDex": 395,
         "species": "Empoleon",
         "type1": "Water",
@@ -18759,7 +18759,7 @@
         ]
     },
     {
-        "id": "WPUYBNCGRT",
+        "id": "MZPEQUHCHR",
         "numDex": 396,
         "species": "Starly",
         "type1": "Normal",
@@ -18806,7 +18806,7 @@
         ]
     },
     {
-        "id": "ZJTIAOZTBL",
+        "id": "SDYSABMILV",
         "numDex": 397,
         "species": "Staravia",
         "type1": "Normal",
@@ -18853,7 +18853,7 @@
         ]
     },
     {
-        "id": "DOJNMQMRUI",
+        "id": "ZBBYZXTPCN",
         "numDex": 398,
         "species": "Staraptor",
         "type1": "Normal",
@@ -18900,7 +18900,7 @@
         ]
     },
     {
-        "id": "MPIBPWTTBN",
+        "id": "XQCKKWJVBL",
         "numDex": 399,
         "species": "Bidoof",
         "type1": "Normal",
@@ -18948,7 +18948,7 @@
         ]
     },
     {
-        "id": "MSFYPAOIXT",
+        "id": "YUECASKFDB",
         "numDex": 400,
         "species": "Bibarel",
         "type1": "Normal",
@@ -18996,7 +18996,7 @@
         ]
     },
     {
-        "id": "BUTOCKMMUR",
+        "id": "HEBFLRMXMR",
         "numDex": 401,
         "species": "Kricketot",
         "type1": "Bug",
@@ -19043,7 +19043,7 @@
         ]
     },
     {
-        "id": "IPKTANYCAY",
+        "id": "TLLLRZSYTC",
         "numDex": 402,
         "species": "Kricketune",
         "type1": "Bug",
@@ -19090,7 +19090,7 @@
         ]
     },
     {
-        "id": "ZOIRKJHHRH",
+        "id": "BPTPFDZCZN",
         "numDex": 403,
         "species": "Shinx",
         "type1": "Electric",
@@ -19138,7 +19138,7 @@
         ]
     },
     {
-        "id": "YZNOMIKQET",
+        "id": "ZQYWBCDKID",
         "numDex": 404,
         "species": "Luxio",
         "type1": "Electric",
@@ -19186,7 +19186,7 @@
         ]
     },
     {
-        "id": "WHZXLLEHOO",
+        "id": "EDCYGOHKQD",
         "numDex": 405,
         "species": "Luxray",
         "type1": "Electric",
@@ -19234,7 +19234,7 @@
         ]
     },
     {
-        "id": "VZHLXAXYFP",
+        "id": "TLYOUPRBHU",
         "numDex": 406,
         "species": "Budew",
         "type1": "Grass",
@@ -19282,7 +19282,7 @@
         ]
     },
     {
-        "id": "UCTECSKLUC",
+        "id": "UVFVKBDKIE",
         "numDex": 407,
         "species": "Roserade",
         "type1": "Grass",
@@ -19330,7 +19330,7 @@
         ]
     },
     {
-        "id": "ECIBBAKIFQ",
+        "id": "NGNVOZEKNA",
         "numDex": 408,
         "species": "Cranidos",
         "type1": "Rock",
@@ -19377,7 +19377,7 @@
         ]
     },
     {
-        "id": "CUSPYWLJZM",
+        "id": "JHHIPCTVNK",
         "numDex": 409,
         "species": "Rampardos",
         "type1": "Rock",
@@ -19424,7 +19424,7 @@
         ]
     },
     {
-        "id": "VBHEPPYEYT",
+        "id": "EEEUOYIWZR",
         "numDex": 410,
         "species": "Shieldon",
         "type1": "Rock",
@@ -19471,7 +19471,7 @@
         ]
     },
     {
-        "id": "YVDYJZPGGY",
+        "id": "ZYJSKOVRVW",
         "numDex": 411,
         "species": "Bastiodon",
         "type1": "Rock",
@@ -19518,7 +19518,7 @@
         ]
     },
     {
-        "id": "YBNLHIRZBF",
+        "id": "ZJHVEOGEVP",
         "numDex": 412,
         "species": "Burmy",
         "type1": "Bug",
@@ -19565,7 +19565,7 @@
         ]
     },
     {
-        "id": "TOFYSJPRSQ",
+        "id": "WXDZMXKAGI",
         "numDex": 413,
         "species": "Wormadam",
         "type1": "Bug",
@@ -19612,7 +19612,7 @@
         ]
     },
     {
-        "id": "BBVNDRNNTB",
+        "id": "KTVQMWLIEL",
         "numDex": 414,
         "species": "Mothim",
         "type1": "Bug",
@@ -19659,7 +19659,7 @@
         ]
     },
     {
-        "id": "VXFKKTDDSP",
+        "id": "WQXMLVMENK",
         "numDex": 415,
         "species": "Combee",
         "type1": "Bug",
@@ -19706,7 +19706,7 @@
         ]
     },
     {
-        "id": "AOWGDCFNNJ",
+        "id": "GMLTBXVFXL",
         "numDex": 416,
         "species": "Vespiquen",
         "type1": "Bug",
@@ -19753,7 +19753,7 @@
         ]
     },
     {
-        "id": "GYQFCAEIUQ",
+        "id": "FAKBDCMAJQ",
         "numDex": 417,
         "species": "Pachirisu",
         "type1": "Electric",
@@ -19801,7 +19801,7 @@
         ]
     },
     {
-        "id": "MCIAKSSHMX",
+        "id": "LVUWSJIXVN",
         "numDex": 418,
         "species": "Buizel",
         "type1": "Water",
@@ -19848,7 +19848,7 @@
         ]
     },
     {
-        "id": "GOIRKUZYGQ",
+        "id": "WESJZIUVMH",
         "numDex": 419,
         "species": "Floatzel",
         "type1": "Water",
@@ -19895,7 +19895,7 @@
         ]
     },
     {
-        "id": "VXLLLRWBEM",
+        "id": "KCZHHUQSOX",
         "numDex": 420,
         "species": "Cherubi",
         "type1": "Grass",
@@ -19941,7 +19941,7 @@
         ]
     },
     {
-        "id": "BWOKHOZPTI",
+        "id": "QCHCSHUYRH",
         "numDex": 421,
         "species": "Cherrim",
         "type1": "Grass",
@@ -19987,7 +19987,7 @@
         ]
     },
     {
-        "id": "GVROSOYIXR",
+        "id": "TVAGTBBETT",
         "numDex": 422,
         "species": "Shellos",
         "type1": "Water",
@@ -20035,7 +20035,7 @@
         ]
     },
     {
-        "id": "KUJJVJONJR",
+        "id": "PXAHCVMVLN",
         "numDex": 423,
         "species": "Gastrodon",
         "type1": "Water",
@@ -20083,7 +20083,7 @@
         ]
     },
     {
-        "id": "RJCTIXQHXY",
+        "id": "PYFNXYDORK",
         "numDex": 424,
         "species": "Ambipom",
         "type1": "Normal",
@@ -20131,7 +20131,7 @@
         ]
     },
     {
-        "id": "XGRCQEBDEQ",
+        "id": "GYISSAPHZB",
         "numDex": 425,
         "species": "Drifloon",
         "type1": "Ghost",
@@ -20179,7 +20179,7 @@
         ]
     },
     {
-        "id": "LCAUMEFNBD",
+        "id": "WHBGMJTKKD",
         "numDex": 426,
         "species": "Drifblim",
         "type1": "Ghost",
@@ -20227,7 +20227,7 @@
         ]
     },
     {
-        "id": "NMBPSYHECC",
+        "id": "ZGPSFQUBQM",
         "numDex": 427,
         "species": "Buneary",
         "type1": "Normal",
@@ -20275,7 +20275,7 @@
         ]
     },
     {
-        "id": "IRCOTTUKLG",
+        "id": "GOBFKLBQEW",
         "numDex": 428,
         "species": "Lopunny",
         "type1": "Normal",
@@ -20323,7 +20323,7 @@
         ]
     },
     {
-        "id": "PNDKLEDIKE",
+        "id": "MAATGGMYOC",
         "numDex": 429,
         "species": "Mismagius",
         "type1": "Ghost",
@@ -20369,7 +20369,7 @@
         ]
     },
     {
-        "id": "UGCRYOJWSQ",
+        "id": "DZMNZNEPUO",
         "numDex": 430,
         "species": "Honchkrow",
         "type1": "Dark",
@@ -20417,7 +20417,7 @@
         ]
     },
     {
-        "id": "HZWDQDTYGW",
+        "id": "QLWMANSTXD",
         "numDex": 431,
         "species": "Glameow",
         "type1": "Normal",
@@ -20465,7 +20465,7 @@
         ]
     },
     {
-        "id": "YWAFLRPIQN",
+        "id": "ZUEHMSOKRX",
         "numDex": 432,
         "species": "Purugly",
         "type1": "Normal",
@@ -20513,7 +20513,7 @@
         ]
     },
     {
-        "id": "SEQXENGYPK",
+        "id": "KHBHAEBIJT",
         "numDex": 433,
         "species": "Chingling",
         "type1": "Psychic",
@@ -20559,7 +20559,7 @@
         ]
     },
     {
-        "id": "MNDOTRJFLA",
+        "id": "BVMTEDQOQO",
         "numDex": 434,
         "species": "Stunky",
         "type1": "Poison",
@@ -20607,7 +20607,7 @@
         ]
     },
     {
-        "id": "LJMCGBTJDU",
+        "id": "KJXLOEWXTL",
         "numDex": 435,
         "species": "Skuntank",
         "type1": "Poison",
@@ -20655,7 +20655,7 @@
         ]
     },
     {
-        "id": "RRMLEMUSPP",
+        "id": "DHWQQMSRVM",
         "numDex": 436,
         "species": "Bronzor",
         "type1": "Steel",
@@ -20703,7 +20703,7 @@
         ]
     },
     {
-        "id": "ACXEMUWBIS",
+        "id": "JGBZOXTSCU",
         "numDex": 437,
         "species": "Bronzong",
         "type1": "Steel",
@@ -20751,7 +20751,7 @@
         ]
     },
     {
-        "id": "LXUOSMIOIE",
+        "id": "AKWXNSPWHA",
         "numDex": 438,
         "species": "Bonsly",
         "type1": "Rock",
@@ -20799,7 +20799,7 @@
         ]
     },
     {
-        "id": "TKTJKEQFBE",
+        "id": "YQNFERZWCK",
         "numDex": 439,
         "species": "Mime Jr.",
         "type1": "Psychic",
@@ -20847,7 +20847,7 @@
         ]
     },
     {
-        "id": "JYXRJBZDMM",
+        "id": "OYVKOLNKQB",
         "numDex": 440,
         "species": "Happiny",
         "type1": "Normal",
@@ -20895,7 +20895,7 @@
         ]
     },
     {
-        "id": "XVQKWTBROA",
+        "id": "HUBTNBQSZW",
         "numDex": 441,
         "species": "Chatot",
         "type1": "Normal",
@@ -20943,7 +20943,7 @@
         ]
     },
     {
-        "id": "TUUZBEQYBB",
+        "id": "BWZCSDZBDU",
         "numDex": 442,
         "species": "Spiritomb",
         "type1": "Ghost",
@@ -20990,7 +20990,7 @@
         ]
     },
     {
-        "id": "QYYNJCZAEK",
+        "id": "FPJWZESZZQ",
         "numDex": 443,
         "species": "Gible",
         "type1": "Dragon",
@@ -21037,7 +21037,7 @@
         ]
     },
     {
-        "id": "GVZYRLXJDM",
+        "id": "TPPZKALITF",
         "numDex": 444,
         "species": "Gabite",
         "type1": "Dragon",
@@ -21084,7 +21084,7 @@
         ]
     },
     {
-        "id": "SJGYAGHDWX",
+        "id": "RRDYLJLDPI",
         "numDex": 445,
         "species": "Garchomp",
         "type1": "Dragon",
@@ -21131,7 +21131,7 @@
         ]
     },
     {
-        "id": "GAAOCWKHHG",
+        "id": "WPHJDXSIPU",
         "numDex": 446,
         "species": "Munchlax",
         "type1": "Normal",
@@ -21179,7 +21179,7 @@
         ]
     },
     {
-        "id": "JTZOLBOJKD",
+        "id": "NOJRAUCSOC",
         "numDex": 447,
         "species": "Riolu",
         "type1": "Fighting",
@@ -21227,7 +21227,7 @@
         ]
     },
     {
-        "id": "MQONJLNPOM",
+        "id": "CAGMTMHOFV",
         "numDex": 448,
         "species": "Lucario",
         "type1": "Fighting",
@@ -21275,7 +21275,7 @@
         ]
     },
     {
-        "id": "VSIGUXNZPZ",
+        "id": "OQLARIWKWD",
         "numDex": 449,
         "species": "Hippopotas",
         "type1": "Ground",
@@ -21322,7 +21322,7 @@
         ]
     },
     {
-        "id": "BDYLFXEHKV",
+        "id": "YOFBPALSZI",
         "numDex": 450,
         "species": "Hippowdon",
         "type1": "Ground",
@@ -21369,7 +21369,7 @@
         ]
     },
     {
-        "id": "LYJWHWKDUR",
+        "id": "LEEQVCTUAQ",
         "numDex": 451,
         "species": "Skorupi",
         "type1": "Poison",
@@ -21417,7 +21417,7 @@
         ]
     },
     {
-        "id": "KFZFGCPCZE",
+        "id": "FNTVTDCQUW",
         "numDex": 452,
         "species": "Drapion",
         "type1": "Poison",
@@ -21465,7 +21465,7 @@
         ]
     },
     {
-        "id": "DGLGQUMCBM",
+        "id": "EARANXTICA",
         "numDex": 453,
         "species": "Croagunk",
         "type1": "Poison",
@@ -21513,7 +21513,7 @@
         ]
     },
     {
-        "id": "VAWCTEDPCB",
+        "id": "MZXVPZOMTD",
         "numDex": 454,
         "species": "Toxicroak",
         "type1": "Poison",
@@ -21561,7 +21561,7 @@
         ]
     },
     {
-        "id": "HNZVKMQEOX",
+        "id": "AHATCHUIFY",
         "numDex": 455,
         "species": "Carnivine",
         "type1": "Grass",
@@ -21607,7 +21607,7 @@
         ]
     },
     {
-        "id": "OYSTAZIZWT",
+        "id": "VXHMIMTCGT",
         "numDex": 456,
         "species": "Finneon",
         "type1": "Water",
@@ -21655,7 +21655,7 @@
         ]
     },
     {
-        "id": "ANUGIDJQEU",
+        "id": "YYMUJTZVRE",
         "numDex": 457,
         "species": "Lumineon",
         "type1": "Water",
@@ -21703,7 +21703,7 @@
         ]
     },
     {
-        "id": "DWTNKSYPKE",
+        "id": "IWWHUXXMUD",
         "numDex": 458,
         "species": "Mantyke",
         "type1": "Water",
@@ -21751,7 +21751,7 @@
         ]
     },
     {
-        "id": "YLUMXZWVRW",
+        "id": "DNUDBUAWLL",
         "numDex": 459,
         "species": "Snover",
         "type1": "Grass",
@@ -21798,7 +21798,7 @@
         ]
     },
     {
-        "id": "IQMEOWXNNB",
+        "id": "MYVYCHLWYF",
         "numDex": 460,
         "species": "Abomasnow",
         "type1": "Grass",
@@ -21845,7 +21845,7 @@
         ]
     },
     {
-        "id": "PDLKEKHRWJ",
+        "id": "PJNKUHBUHJ",
         "numDex": 461,
         "species": "Weavile",
         "type1": "Dark",
@@ -21892,7 +21892,7 @@
         ]
     },
     {
-        "id": "LCFXFHFYRB",
+        "id": "MRNYJBWKEU",
         "numDex": 462,
         "species": "Magnezone",
         "type1": "Electric",
@@ -21940,7 +21940,7 @@
         ]
     },
     {
-        "id": "JNSXKALZRI",
+        "id": "PAFMSCSLPY",
         "numDex": 463,
         "species": "Lickilicky",
         "type1": "Normal",
@@ -21988,7 +21988,7 @@
         ]
     },
     {
-        "id": "POLBJYIADY",
+        "id": "SAXZXTTDOF",
         "numDex": 464,
         "species": "Rhyperior",
         "type1": "Ground",
@@ -22036,7 +22036,7 @@
         ]
     },
     {
-        "id": "UITUXTSGRQ",
+        "id": "LHUNALBSAH",
         "numDex": 465,
         "species": "Tangrowth",
         "type1": "Grass",
@@ -22084,7 +22084,7 @@
         ]
     },
     {
-        "id": "GHRERWLILU",
+        "id": "ZMYDOZRBOD",
         "numDex": 466,
         "species": "Electivire",
         "type1": "Electric",
@@ -22131,7 +22131,7 @@
         ]
     },
     {
-        "id": "PGFQRWXNSC",
+        "id": "PMKNQTGXJC",
         "numDex": 467,
         "species": "Magmortar",
         "type1": "Fire",
@@ -22178,7 +22178,7 @@
         ]
     },
     {
-        "id": "FIPADAZHTQ",
+        "id": "ZXZJWNORDT",
         "numDex": 468,
         "species": "Togekiss",
         "type1": "Fairy",
@@ -22226,7 +22226,7 @@
         ]
     },
     {
-        "id": "TBWCLOCRDG",
+        "id": "QZEZIRHXRI",
         "numDex": 469,
         "species": "Yanmega",
         "type1": "Bug",
@@ -22274,7 +22274,7 @@
         ]
     },
     {
-        "id": "AAGYGKTJEM",
+        "id": "PTRIIQNRVS",
         "numDex": 470,
         "species": "Leafeon",
         "type1": "Grass",
@@ -22321,7 +22321,7 @@
         ]
     },
     {
-        "id": "AVAQMMVXTJ",
+        "id": "RHGVSWLTFL",
         "numDex": 471,
         "species": "Glaceon",
         "type1": "Ice",
@@ -22368,7 +22368,7 @@
         ]
     },
     {
-        "id": "VHXQYJVAHW",
+        "id": "SUUUDTQXCU",
         "numDex": 472,
         "species": "Gliscor",
         "type1": "Ground",
@@ -22416,7 +22416,7 @@
         ]
     },
     {
-        "id": "KTHLIKVIPR",
+        "id": "NWRYBTVGWT",
         "numDex": 473,
         "species": "Mamoswine",
         "type1": "Ice",
@@ -22464,7 +22464,7 @@
         ]
     },
     {
-        "id": "QCZIJBONPF",
+        "id": "MYQMMYPNDY",
         "numDex": 474,
         "species": "Porygon-Z",
         "type1": "Normal",
@@ -22512,7 +22512,7 @@
         ]
     },
     {
-        "id": "YNJPDNHVMC",
+        "id": "XZIVZEGTAN",
         "numDex": 475,
         "species": "Gallade",
         "type1": "Psychic",
@@ -22560,7 +22560,7 @@
         ]
     },
     {
-        "id": "HWKGUOSOJW",
+        "id": "LCRKKKXBLD",
         "numDex": 476,
         "species": "Probopass",
         "type1": "Rock",
@@ -22608,7 +22608,7 @@
         ]
     },
     {
-        "id": "JXJLWWJMCL",
+        "id": "QPEKSSFAQM",
         "numDex": 477,
         "species": "Dusknoir",
         "type1": "Ghost",
@@ -22655,7 +22655,7 @@
         ]
     },
     {
-        "id": "SSLGXDPZDY",
+        "id": "LYTULSKGSY",
         "numDex": 478,
         "species": "Froslass",
         "type1": "Ice",
@@ -22702,7 +22702,7 @@
         ]
     },
     {
-        "id": "EXUKBEUKHZ",
+        "id": "AYHGJJUEET",
         "numDex": 479,
         "species": "Rotom",
         "type1": "Electric",
@@ -22748,7 +22748,7 @@
         ]
     },
     {
-        "id": "KCFHMKNHAS",
+        "id": "IFKHWKCLNI",
         "numDex": 480,
         "species": "Uxie",
         "type1": "Psychic",
@@ -22794,7 +22794,7 @@
         ]
     },
     {
-        "id": "ZKSHXXJPSA",
+        "id": "APFVNCGMYS",
         "numDex": 481,
         "species": "Mesprit",
         "type1": "Psychic",
@@ -22840,7 +22840,7 @@
         ]
     },
     {
-        "id": "IASCEVZSKQ",
+        "id": "BVSODUAUMP",
         "numDex": 482,
         "species": "Azelf",
         "type1": "Psychic",
@@ -22886,7 +22886,7 @@
         ]
     },
     {
-        "id": "ZMHRKJAWFG",
+        "id": "SNABGIKRIQ",
         "numDex": 483,
         "species": "Dialga",
         "type1": "Steel",
@@ -22933,7 +22933,7 @@
         ]
     },
     {
-        "id": "AKWOMRRXNC",
+        "id": "HUDCFGGNEJ",
         "numDex": 484,
         "species": "Palkia",
         "type1": "Water",
@@ -22980,7 +22980,7 @@
         ]
     },
     {
-        "id": "QEDPNRFMXM",
+        "id": "PFBYJQGMVG",
         "numDex": 485,
         "species": "Heatran",
         "type1": "Fire",
@@ -23027,7 +23027,7 @@
         ]
     },
     {
-        "id": "QAYHITTXAX",
+        "id": "UDBPVCMQZB",
         "numDex": 486,
         "species": "Regigigas",
         "type1": "Normal",
@@ -23073,7 +23073,7 @@
         ]
     },
     {
-        "id": "AOKLYATURE",
+        "id": "EEXMSXRFIK",
         "numDex": 487,
         "species": "Giratina",
         "type1": "Ghost",
@@ -23121,7 +23121,7 @@
         ]
     },
     {
-        "id": "IPYDUJRRSD",
+        "id": "MLKBWWOJGE",
         "numDex": 488,
         "species": "Cresselia",
         "type1": "Psychic",
@@ -23167,7 +23167,7 @@
         ]
     },
     {
-        "id": "IRNQHWMQOT",
+        "id": "GZJCAIDAJW",
         "numDex": 489,
         "species": "Phione",
         "type1": "Water",
@@ -23213,7 +23213,7 @@
         ]
     },
     {
-        "id": "DYYMHKSCYW",
+        "id": "IZUXCOTNIN",
         "numDex": 490,
         "species": "Manaphy",
         "type1": "Water",
@@ -23259,7 +23259,7 @@
         ]
     },
     {
-        "id": "FNTMZJDCMA",
+        "id": "JTMDQVYCWU",
         "numDex": 491,
         "species": "Darkrai",
         "type1": "Dark",
@@ -23305,7 +23305,7 @@
         ]
     },
     {
-        "id": "JWPNDFQWZE",
+        "id": "URBKBLDOKG",
         "numDex": 492,
         "species": "Shaymin",
         "type1": "Grass",
@@ -23352,7 +23352,7 @@
         ]
     },
     {
-        "id": "ERVJXEDCLI",
+        "id": "NSJFAFGXJD",
         "numDex": 493,
         "species": "Arceus",
         "type1": "Normal",
@@ -23398,7 +23398,7 @@
         ]
     },
     {
-        "id": "TIOOWJTKXB",
+        "id": "RQLSXOFPYK",
         "numDex": 494,
         "species": "Victini",
         "type1": "Psychic",
@@ -23444,7 +23444,7 @@
         ]
     },
     {
-        "id": "ZNSTSZOJCD",
+        "id": "HEHWPSVAJQ",
         "numDex": 495,
         "species": "Snivy",
         "type1": "Grass",
@@ -23491,7 +23491,7 @@
         ]
     },
     {
-        "id": "QFZSNVDNHG",
+        "id": "VRZHTYGFBK",
         "numDex": 496,
         "species": "Servine",
         "type1": "Grass",
@@ -23538,7 +23538,7 @@
         ]
     },
     {
-        "id": "MTLQRRGDEO",
+        "id": "IHHRPTBBMX",
         "numDex": 497,
         "species": "Serperior",
         "type1": "Grass",
@@ -23585,7 +23585,7 @@
         ]
     },
     {
-        "id": "CBWHXEHTON",
+        "id": "SUKMYBQCTA",
         "numDex": 498,
         "species": "Tepig",
         "type1": "Fire",
@@ -23632,7 +23632,7 @@
         ]
     },
     {
-        "id": "GMVVLDOIAB",
+        "id": "IVGIVNEXGH",
         "numDex": 499,
         "species": "Pignite",
         "type1": "Fire",
@@ -23679,7 +23679,7 @@
         ]
     },
     {
-        "id": "XCVUOWNXRG",
+        "id": "HIGDTVSTSG",
         "numDex": 500,
         "species": "Emboar",
         "type1": "Fire",
@@ -23726,7 +23726,7 @@
         ]
     },
     {
-        "id": "DPKJSRJEWO",
+        "id": "DEONUDGGFP",
         "numDex": 501,
         "species": "Oshawott",
         "type1": "Water",
@@ -23773,7 +23773,7 @@
         ]
     },
     {
-        "id": "FJTENIFJAM",
+        "id": "LOTDWGFPOY",
         "numDex": 502,
         "species": "Dewott",
         "type1": "Water",
@@ -23820,7 +23820,7 @@
         ]
     },
     {
-        "id": "BWSHWRKPZI",
+        "id": "REGVKVIBFI",
         "numDex": 503,
         "species": "Samurott",
         "type1": "Water",
@@ -23867,7 +23867,7 @@
         ]
     },
     {
-        "id": "YIKABHLEUK",
+        "id": "XGFWDZHEFR",
         "numDex": 504,
         "species": "Patrat",
         "type1": "Normal",
@@ -23915,7 +23915,7 @@
         ]
     },
     {
-        "id": "WKVVJGTJXZ",
+        "id": "YCTUAIVZJG",
         "numDex": 505,
         "species": "Watchog",
         "type1": "Normal",
@@ -23963,7 +23963,7 @@
         ]
     },
     {
-        "id": "FCQALDQQSO",
+        "id": "GDDSDVCUCG",
         "numDex": 506,
         "species": "Lillipup",
         "type1": "Normal",
@@ -24011,7 +24011,7 @@
         ]
     },
     {
-        "id": "UMCZLAPADG",
+        "id": "GLZVVJSBZB",
         "numDex": 507,
         "species": "Herdier",
         "type1": "Normal",
@@ -24059,7 +24059,7 @@
         ]
     },
     {
-        "id": "CNMCMIRURN",
+        "id": "OTDDIURJCE",
         "numDex": 508,
         "species": "Stoutland",
         "type1": "Normal",
@@ -24107,7 +24107,7 @@
         ]
     },
     {
-        "id": "QZHFAOREMZ",
+        "id": "NKFKNPIJIT",
         "numDex": 509,
         "species": "Purrloin",
         "type1": "Dark",
@@ -24155,7 +24155,7 @@
         ]
     },
     {
-        "id": "SMZWIXYRRW",
+        "id": "MBPKEXLHFV",
         "numDex": 510,
         "species": "Liepard",
         "type1": "Dark",
@@ -24203,7 +24203,7 @@
         ]
     },
     {
-        "id": "UCSYYYQUUY",
+        "id": "HLQBOTVDSU",
         "numDex": 511,
         "species": "Pansage",
         "type1": "Grass",
@@ -24250,7 +24250,7 @@
         ]
     },
     {
-        "id": "AHNFSYPOIO",
+        "id": "DTRBEAZXYC",
         "numDex": 512,
         "species": "Simisage",
         "type1": "Grass",
@@ -24297,7 +24297,7 @@
         ]
     },
     {
-        "id": "ZUPWIEBARM",
+        "id": "ILDLTDUOIL",
         "numDex": 513,
         "species": "Pansear",
         "type1": "Fire",
@@ -24344,7 +24344,7 @@
         ]
     },
     {
-        "id": "WNZXMAHYCH",
+        "id": "IIKCPIXOYA",
         "numDex": 514,
         "species": "Simisear",
         "type1": "Fire",
@@ -24391,7 +24391,7 @@
         ]
     },
     {
-        "id": "VXSOXBKFVJ",
+        "id": "RGCNLUPTBS",
         "numDex": 515,
         "species": "Panpour",
         "type1": "Water",
@@ -24438,7 +24438,7 @@
         ]
     },
     {
-        "id": "BGMPAJGLGJ",
+        "id": "FBYMVYQYYO",
         "numDex": 516,
         "species": "Simipour",
         "type1": "Water",
@@ -24485,7 +24485,7 @@
         ]
     },
     {
-        "id": "JAGAKWAQEJ",
+        "id": "SXIQXILNJL",
         "numDex": 517,
         "species": "Munna",
         "type1": "Psychic",
@@ -24533,7 +24533,7 @@
         ]
     },
     {
-        "id": "KJUAOTUGAB",
+        "id": "IIGBRRGMGP",
         "numDex": 518,
         "species": "Musharna",
         "type1": "Psychic",
@@ -24581,7 +24581,7 @@
         ]
     },
     {
-        "id": "BCDPMAQNFY",
+        "id": "YSUBELKHFE",
         "numDex": 519,
         "species": "Pidove",
         "type1": "Normal",
@@ -24629,7 +24629,7 @@
         ]
     },
     {
-        "id": "PPWUICCOKA",
+        "id": "JSSKGPYGZL",
         "numDex": 520,
         "species": "Tranquill",
         "type1": "Normal",
@@ -24677,7 +24677,7 @@
         ]
     },
     {
-        "id": "QNLBOBFYAI",
+        "id": "XMHPPTXDMP",
         "numDex": 521,
         "species": "Unfezant",
         "type1": "Normal",
@@ -24725,7 +24725,7 @@
         ]
     },
     {
-        "id": "UCQRNLVGWO",
+        "id": "UVLZRYBLSX",
         "numDex": 522,
         "species": "Blitzle",
         "type1": "Electric",
@@ -24773,7 +24773,7 @@
         ]
     },
     {
-        "id": "OLGCBMTNMC",
+        "id": "GPOOBPMHSS",
         "numDex": 523,
         "species": "Zebstrika",
         "type1": "Electric",
@@ -24821,7 +24821,7 @@
         ]
     },
     {
-        "id": "MDWWAMNLEV",
+        "id": "NCFMNVRYNN",
         "numDex": 524,
         "species": "Roggenrola",
         "type1": "Rock",
@@ -24869,7 +24869,7 @@
         ]
     },
     {
-        "id": "CCNKVKFBEP",
+        "id": "TVJGNMNAZN",
         "numDex": 525,
         "species": "Boldore",
         "type1": "Rock",
@@ -24917,7 +24917,7 @@
         ]
     },
     {
-        "id": "QFWLYJNFDY",
+        "id": "NZHRVNABXG",
         "numDex": 526,
         "species": "Gigalith",
         "type1": "Rock",
@@ -24965,7 +24965,7 @@
         ]
     },
     {
-        "id": "PVZHMENCIB",
+        "id": "PCOGFIBREV",
         "numDex": 527,
         "species": "Woobat",
         "type1": "Psychic",
@@ -25013,7 +25013,7 @@
         ]
     },
     {
-        "id": "CNNOFFHEWQ",
+        "id": "WKZMNFOJNF",
         "numDex": 528,
         "species": "Swoobat",
         "type1": "Psychic",
@@ -25061,7 +25061,7 @@
         ]
     },
     {
-        "id": "DIBKAUSVWX",
+        "id": "XXGRFHCNEU",
         "numDex": 529,
         "species": "Drilbur",
         "type1": "Ground",
@@ -25109,7 +25109,7 @@
         ]
     },
     {
-        "id": "HHCFTKYLAW",
+        "id": "TPDYALEOLF",
         "numDex": 530,
         "species": "Excadrill",
         "type1": "Ground",
@@ -25157,7 +25157,7 @@
         ]
     },
     {
-        "id": "XPXMTYVKQN",
+        "id": "KOYSAKQLJW",
         "numDex": 531,
         "species": "Audino",
         "type1": "Normal",
@@ -25205,7 +25205,7 @@
         ]
     },
     {
-        "id": "XECHLAVOIC",
+        "id": "ZXGKNYZUMM",
         "numDex": 532,
         "species": "Timburr",
         "type1": "Fighting",
@@ -25253,7 +25253,7 @@
         ]
     },
     {
-        "id": "QEFUDNIDGX",
+        "id": "QCQZDWUADW",
         "numDex": 533,
         "species": "Gurdurr",
         "type1": "Fighting",
@@ -25301,7 +25301,7 @@
         ]
     },
     {
-        "id": "JHHFUFGMUB",
+        "id": "HTTMZBPBRL",
         "numDex": 534,
         "species": "Conkeldurr",
         "type1": "Fighting",
@@ -25349,7 +25349,7 @@
         ]
     },
     {
-        "id": "FVDEWIANDY",
+        "id": "ADNJZLHXAR",
         "numDex": 535,
         "species": "Tympole",
         "type1": "Water",
@@ -25397,7 +25397,7 @@
         ]
     },
     {
-        "id": "OBGZOZIGQH",
+        "id": "ENEJQENHAV",
         "numDex": 536,
         "species": "Palpitoad",
         "type1": "Water",
@@ -25445,7 +25445,7 @@
         ]
     },
     {
-        "id": "UQRJHZIIDH",
+        "id": "ITLWGZEQIB",
         "numDex": 537,
         "species": "Seismitoad",
         "type1": "Water",
@@ -25493,7 +25493,7 @@
         ]
     },
     {
-        "id": "MPMUTECFDW",
+        "id": "SYWLQXTVLU",
         "numDex": 538,
         "species": "Throh",
         "type1": "Fighting",
@@ -25541,7 +25541,7 @@
         ]
     },
     {
-        "id": "RMVKQFJWXF",
+        "id": "VVMKNQGFPH",
         "numDex": 539,
         "species": "Sawk",
         "type1": "Fighting",
@@ -25589,7 +25589,7 @@
         ]
     },
     {
-        "id": "MINBFRZWSO",
+        "id": "ETXFOZBNYS",
         "numDex": 540,
         "species": "Sewaddle",
         "type1": "Bug",
@@ -25637,7 +25637,7 @@
         ]
     },
     {
-        "id": "UAGZGJBJLJ",
+        "id": "MXETJQNDCP",
         "numDex": 541,
         "species": "Swadloon",
         "type1": "Bug",
@@ -25685,7 +25685,7 @@
         ]
     },
     {
-        "id": "LWGQLAZLFQ",
+        "id": "IMSMTBQIWC",
         "numDex": 542,
         "species": "Leavanny",
         "type1": "Bug",
@@ -25733,7 +25733,7 @@
         ]
     },
     {
-        "id": "IUONUBIHOV",
+        "id": "NBUQKWOMHK",
         "numDex": 543,
         "species": "Venipede",
         "type1": "Bug",
@@ -25781,7 +25781,7 @@
         ]
     },
     {
-        "id": "ZSSUBXWCXN",
+        "id": "RAKISGJZBF",
         "numDex": 544,
         "species": "Whirlipede",
         "type1": "Bug",
@@ -25829,7 +25829,7 @@
         ]
     },
     {
-        "id": "IKWNQICYLI",
+        "id": "PXNWMPYXXL",
         "numDex": 545,
         "species": "Scolipede",
         "type1": "Bug",
@@ -25877,7 +25877,7 @@
         ]
     },
     {
-        "id": "HTFJRRYAOG",
+        "id": "BMJRLXWSXW",
         "numDex": 546,
         "species": "Cottonee",
         "type1": "Grass",
@@ -25925,7 +25925,7 @@
         ]
     },
     {
-        "id": "XVSRDHQMFZ",
+        "id": "VEUEIJTNRQ",
         "numDex": 547,
         "species": "Whimsicott",
         "type1": "Grass",
@@ -25973,7 +25973,7 @@
         ]
     },
     {
-        "id": "SRQLJGTGGC",
+        "id": "XZTAEJBVEZ",
         "numDex": 548,
         "species": "Petilil",
         "type1": "Grass",
@@ -26021,7 +26021,7 @@
         ]
     },
     {
-        "id": "CPZGRUPOLT",
+        "id": "XCZHRAPDIH",
         "numDex": 549,
         "species": "Lilligant",
         "type1": "Grass",
@@ -26069,7 +26069,7 @@
         ]
     },
     {
-        "id": "QQLHBVLPYI",
+        "id": "ILDYWDEAXA",
         "numDex": 550,
         "species": "Basculin",
         "type1": "Water",
@@ -26119,7 +26119,7 @@
         ]
     },
     {
-        "id": "AFLJLVRQWZ",
+        "id": "GKDWOYOUAU",
         "numDex": 551,
         "species": "Sandile",
         "type1": "Ground",
@@ -26167,7 +26167,7 @@
         ]
     },
     {
-        "id": "HZEUJNJAXW",
+        "id": "QKGSQIYLIV",
         "numDex": 552,
         "species": "Krokorok",
         "type1": "Ground",
@@ -26215,7 +26215,7 @@
         ]
     },
     {
-        "id": "OMGGQNSFIQ",
+        "id": "GACMTGVQTC",
         "numDex": 553,
         "species": "Krookodile",
         "type1": "Ground",
@@ -26263,7 +26263,7 @@
         ]
     },
     {
-        "id": "TGKEUGOPZY",
+        "id": "ABORQUPUYN",
         "numDex": 554,
         "species": "Darumaka",
         "type1": "Fire",
@@ -26310,7 +26310,7 @@
         ]
     },
     {
-        "id": "IWZMTPVBQY",
+        "id": "MIEEANEGZK",
         "numDex": 555,
         "species": "Darmanitan",
         "type1": "Fire",
@@ -26357,7 +26357,7 @@
         ]
     },
     {
-        "id": "EQPBFICNKB",
+        "id": "RVWVGWRYOY",
         "numDex": 556,
         "species": "Maractus",
         "type1": "Grass",
@@ -26405,7 +26405,7 @@
         ]
     },
     {
-        "id": "KESSUYTWNE",
+        "id": "YUYHFQSCPA",
         "numDex": 557,
         "species": "Dwebble",
         "type1": "Bug",
@@ -26453,7 +26453,7 @@
         ]
     },
     {
-        "id": "WLNWPZDPOU",
+        "id": "GDFOAAMOIK",
         "numDex": 558,
         "species": "Crustle",
         "type1": "Bug",
@@ -26501,7 +26501,7 @@
         ]
     },
     {
-        "id": "QKKINXEOZM",
+        "id": "HQIKIYEETF",
         "numDex": 559,
         "species": "Scraggy",
         "type1": "Dark",
@@ -26549,7 +26549,7 @@
         ]
     },
     {
-        "id": "VYRRHDLKKX",
+        "id": "VVKVBZSEKT",
         "numDex": 560,
         "species": "Scrafty",
         "type1": "Dark",
@@ -26597,7 +26597,7 @@
         ]
     },
     {
-        "id": "KNCVYMFOLX",
+        "id": "DDWEUGKRAD",
         "numDex": 561,
         "species": "Sigilyph",
         "type1": "Psychic",
@@ -26645,7 +26645,7 @@
         ]
     },
     {
-        "id": "TJWTYYQJLT",
+        "id": "NYJVYKXXLG",
         "numDex": 562,
         "species": "Yamask",
         "type1": "Ghost",
@@ -26691,7 +26691,7 @@
         ]
     },
     {
-        "id": "ACTELERDLP",
+        "id": "MZKNYXOCDL",
         "numDex": 563,
         "species": "Cofagrigus",
         "type1": "Ghost",
@@ -26737,7 +26737,7 @@
         ]
     },
     {
-        "id": "CLTZRCZPFL",
+        "id": "GWOZETBHUZ",
         "numDex": 564,
         "species": "Tirtouga",
         "type1": "Water",
@@ -26785,7 +26785,7 @@
         ]
     },
     {
-        "id": "WLCDKNLUUS",
+        "id": "SUXZEXAOFP",
         "numDex": 565,
         "species": "Carracosta",
         "type1": "Water",
@@ -26833,7 +26833,7 @@
         ]
     },
     {
-        "id": "XFYYXGTPQS",
+        "id": "ZMGJQAYEAX",
         "numDex": 566,
         "species": "Archen",
         "type1": "Rock",
@@ -26879,7 +26879,7 @@
         ]
     },
     {
-        "id": "VFDNCWLFCP",
+        "id": "LXWRUVDFYJ",
         "numDex": 567,
         "species": "Archeops",
         "type1": "Rock",
@@ -26925,7 +26925,7 @@
         ]
     },
     {
-        "id": "HKSVPJGKGI",
+        "id": "SEBBDQPPPU",
         "numDex": 568,
         "species": "Trubbish",
         "type1": "Poison",
@@ -26973,7 +26973,7 @@
         ]
     },
     {
-        "id": "MWTCNPGFMH",
+        "id": "THPBASKIXE",
         "numDex": 569,
         "species": "Garbodor",
         "type1": "Poison",
@@ -27021,7 +27021,7 @@
         ]
     },
     {
-        "id": "GYYCBCWSKJ",
+        "id": "KBAXNURVKJ",
         "numDex": 570,
         "species": "Zorua",
         "type1": "Dark",
@@ -27067,7 +27067,7 @@
         ]
     },
     {
-        "id": "IDELYRRCPS",
+        "id": "FCILCOLYVM",
         "numDex": 571,
         "species": "Zoroark",
         "type1": "Dark",
@@ -27113,7 +27113,7 @@
         ]
     },
     {
-        "id": "QPSQEWEJZE",
+        "id": "JACYJPENHM",
         "numDex": 572,
         "species": "Minccino",
         "type1": "Normal",
@@ -27161,7 +27161,7 @@
         ]
     },
     {
-        "id": "AAVRWZLEEI",
+        "id": "JITXGJXQEI",
         "numDex": 573,
         "species": "Cinccino",
         "type1": "Normal",
@@ -27209,7 +27209,7 @@
         ]
     },
     {
-        "id": "OLATRKVRBO",
+        "id": "HLDWMXAVCQ",
         "numDex": 574,
         "species": "Gothita",
         "type1": "Psychic",
@@ -27257,7 +27257,7 @@
         ]
     },
     {
-        "id": "EZWUHEQYQZ",
+        "id": "HZCHTJUZSN",
         "numDex": 575,
         "species": "Gothorita",
         "type1": "Psychic",
@@ -27305,7 +27305,7 @@
         ]
     },
     {
-        "id": "QNBMHKCVNB",
+        "id": "EMMSYRKWFH",
         "numDex": 576,
         "species": "Gothitelle",
         "type1": "Psychic",
@@ -27353,7 +27353,7 @@
         ]
     },
     {
-        "id": "MKPKIUJLRI",
+        "id": "LPEIRBORPM",
         "numDex": 577,
         "species": "Solosis",
         "type1": "Psychic",
@@ -27401,7 +27401,7 @@
         ]
     },
     {
-        "id": "QZZQWFZLJI",
+        "id": "OCCYWRUVDR",
         "numDex": 578,
         "species": "Duosion",
         "type1": "Psychic",
@@ -27449,7 +27449,7 @@
         ]
     },
     {
-        "id": "QUPMWIABMC",
+        "id": "YWBXKQOBXY",
         "numDex": 579,
         "species": "Reuniclus",
         "type1": "Psychic",
@@ -27497,7 +27497,7 @@
         ]
     },
     {
-        "id": "MXHQAJPJTK",
+        "id": "GVOPPTTSSU",
         "numDex": 580,
         "species": "Ducklett",
         "type1": "Water",
@@ -27545,7 +27545,7 @@
         ]
     },
     {
-        "id": "LEPVATZZTX",
+        "id": "MSXEOHSRRT",
         "numDex": 581,
         "species": "Swanna",
         "type1": "Water",
@@ -27593,7 +27593,7 @@
         ]
     },
     {
-        "id": "RYUOEOSGCI",
+        "id": "SHIOCYSZRX",
         "numDex": 582,
         "species": "Vanillite",
         "type1": "Ice",
@@ -27641,7 +27641,7 @@
         ]
     },
     {
-        "id": "FTJTSTPYXN",
+        "id": "DTILMETEEH",
         "numDex": 583,
         "species": "Vanillish",
         "type1": "Ice",
@@ -27689,7 +27689,7 @@
         ]
     },
     {
-        "id": "RMQDLWMNEJ",
+        "id": "OGLQFLNLCU",
         "numDex": 584,
         "species": "Vanilluxe",
         "type1": "Ice",
@@ -27737,7 +27737,7 @@
         ]
     },
     {
-        "id": "SKBTHDWYDI",
+        "id": "FVKXXSPTJN",
         "numDex": 585,
         "species": "Deerling",
         "type1": "Normal",
@@ -27785,7 +27785,7 @@
         ]
     },
     {
-        "id": "YKZYSNVZXL",
+        "id": "CBTBTJPTDM",
         "numDex": 586,
         "species": "Sawsbuck",
         "type1": "Normal",
@@ -27833,7 +27833,7 @@
         ]
     },
     {
-        "id": "OIFJRERYKD",
+        "id": "FKPSKQCKKK",
         "numDex": 587,
         "species": "Emolga",
         "type1": "Electric",
@@ -27880,7 +27880,7 @@
         ]
     },
     {
-        "id": "EGPNFJVRLA",
+        "id": "FFXQFBEXPZ",
         "numDex": 588,
         "species": "Karrablast",
         "type1": "Bug",
@@ -27928,7 +27928,7 @@
         ]
     },
     {
-        "id": "ENRZSBNIFU",
+        "id": "XFLDHGWDUJ",
         "numDex": 589,
         "species": "Escavalier",
         "type1": "Bug",
@@ -27976,7 +27976,7 @@
         ]
     },
     {
-        "id": "HGCMOVUBNU",
+        "id": "HBZMFSICKN",
         "numDex": 590,
         "species": "Foongus",
         "type1": "Grass",
@@ -28023,7 +28023,7 @@
         ]
     },
     {
-        "id": "LEEUGSTNAH",
+        "id": "RMZAYRDKUO",
         "numDex": 591,
         "species": "Amoonguss",
         "type1": "Grass",
@@ -28070,7 +28070,7 @@
         ]
     },
     {
-        "id": "JQCGBFCVHL",
+        "id": "IVWSZGSAMT",
         "numDex": 592,
         "species": "Frillish",
         "type1": "Water",
@@ -28118,7 +28118,7 @@
         ]
     },
     {
-        "id": "OUMQDIKSEU",
+        "id": "VDOLPRPNJS",
         "numDex": 593,
         "species": "Jellicent",
         "type1": "Water",
@@ -28166,7 +28166,7 @@
         ]
     },
     {
-        "id": "OGHFNTOQEJ",
+        "id": "EXBJSRHNAX",
         "numDex": 594,
         "species": "Alomomola",
         "type1": "Water",
@@ -28214,7 +28214,7 @@
         ]
     },
     {
-        "id": "JUXESVRTDU",
+        "id": "SHJSVMPPTU",
         "numDex": 595,
         "species": "Joltik",
         "type1": "Bug",
@@ -28262,7 +28262,7 @@
         ]
     },
     {
-        "id": "EJBDDDFBAN",
+        "id": "HNKOILVCCQ",
         "numDex": 596,
         "species": "Galvantula",
         "type1": "Bug",
@@ -28310,7 +28310,7 @@
         ]
     },
     {
-        "id": "VOGNDHNYAT",
+        "id": "ZVKXRHGWHS",
         "numDex": 597,
         "species": "Ferroseed",
         "type1": "Grass",
@@ -28356,7 +28356,7 @@
         ]
     },
     {
-        "id": "PWRSCOWSKQ",
+        "id": "WQWSMFCASU",
         "numDex": 598,
         "species": "Ferrothorn",
         "type1": "Grass",
@@ -28403,7 +28403,7 @@
         ]
     },
     {
-        "id": "RTNQEDTNFU",
+        "id": "TMADRMZJUG",
         "numDex": 599,
         "species": "Klink",
         "type1": "Steel",
@@ -28451,7 +28451,7 @@
         ]
     },
     {
-        "id": "UPFFILRVXC",
+        "id": "WNCUTGIEOJ",
         "numDex": 600,
         "species": "Klang",
         "type1": "Steel",
@@ -28499,7 +28499,7 @@
         ]
     },
     {
-        "id": "UCHXWIRPTD",
+        "id": "JBBLBKDCYL",
         "numDex": 601,
         "species": "Klinklang",
         "type1": "Steel",
@@ -28547,7 +28547,7 @@
         ]
     },
     {
-        "id": "GYFPQPPJJZ",
+        "id": "TYCWFLEIWV",
         "numDex": 602,
         "species": "Tynamo",
         "type1": "Electric",
@@ -28593,7 +28593,7 @@
         ]
     },
     {
-        "id": "WUMGAEKUMA",
+        "id": "BBIFCVHVLT",
         "numDex": 603,
         "species": "Eelektrik",
         "type1": "Electric",
@@ -28639,7 +28639,7 @@
         ]
     },
     {
-        "id": "ERBRRGURYQ",
+        "id": "NTHSJVPSHK",
         "numDex": 604,
         "species": "Eelektross",
         "type1": "Electric",
@@ -28685,7 +28685,7 @@
         ]
     },
     {
-        "id": "UQZPZLIZLE",
+        "id": "WYZYTIMFPM",
         "numDex": 605,
         "species": "Elgyem",
         "type1": "Psychic",
@@ -28733,7 +28733,7 @@
         ]
     },
     {
-        "id": "HZICFYCLZX",
+        "id": "UKCEDIVCYB",
         "numDex": 606,
         "species": "Beheeyem",
         "type1": "Psychic",
@@ -28781,7 +28781,7 @@
         ]
     },
     {
-        "id": "BIVYFCWDWY",
+        "id": "OKKXAVLWHS",
         "numDex": 607,
         "species": "Litwick",
         "type1": "Ghost",
@@ -28829,7 +28829,7 @@
         ]
     },
     {
-        "id": "SKUTCVVYGK",
+        "id": "CGTCAOYHYS",
         "numDex": 608,
         "species": "Lampent",
         "type1": "Ghost",
@@ -28877,7 +28877,7 @@
         ]
     },
     {
-        "id": "CCWZMGHVKO",
+        "id": "DHPIREHCTH",
         "numDex": 609,
         "species": "Chandelure",
         "type1": "Ghost",
@@ -28925,7 +28925,7 @@
         ]
     },
     {
-        "id": "YDSZWIVHAC",
+        "id": "HANIOREMFJ",
         "numDex": 610,
         "species": "Axew",
         "type1": "Dragon",
@@ -28973,7 +28973,7 @@
         ]
     },
     {
-        "id": "HYHGYDPHRX",
+        "id": "FOJHMWNCEV",
         "numDex": 611,
         "species": "Fraxure",
         "type1": "Dragon",
@@ -29021,7 +29021,7 @@
         ]
     },
     {
-        "id": "QTESQHLHGF",
+        "id": "QGWJJXIFMM",
         "numDex": 612,
         "species": "Haxorus",
         "type1": "Dragon",
@@ -29069,7 +29069,7 @@
         ]
     },
     {
-        "id": "TZXNLEVUPL",
+        "id": "FCDBUDIJUQ",
         "numDex": 613,
         "species": "Cubchoo",
         "type1": "Ice",
@@ -29117,7 +29117,7 @@
         ]
     },
     {
-        "id": "EELEFJGNGA",
+        "id": "XREYUSSZRK",
         "numDex": 614,
         "species": "Beartic",
         "type1": "Ice",
@@ -29165,7 +29165,7 @@
         ]
     },
     {
-        "id": "DBLWROJYFM",
+        "id": "PPASDYTNRH",
         "numDex": 615,
         "species": "Cryogonal",
         "type1": "Ice",
@@ -29211,7 +29211,7 @@
         ]
     },
     {
-        "id": "ZFXGDNNZKO",
+        "id": "EHRHYLKXSN",
         "numDex": 616,
         "species": "Shelmet",
         "type1": "Bug",
@@ -29259,7 +29259,7 @@
         ]
     },
     {
-        "id": "MXCLWRVRIK",
+        "id": "FAYZONYURU",
         "numDex": 617,
         "species": "Accelgor",
         "type1": "Bug",
@@ -29307,7 +29307,7 @@
         ]
     },
     {
-        "id": "PNCZMEHCOY",
+        "id": "GXZQAZPZXY",
         "numDex": 618,
         "species": "Stunfisk",
         "type1": "Ground",
@@ -29355,7 +29355,7 @@
         ]
     },
     {
-        "id": "PGLWXEQCVS",
+        "id": "SIYETEHBJD",
         "numDex": 619,
         "species": "Mienfoo",
         "type1": "Fighting",
@@ -29403,7 +29403,7 @@
         ]
     },
     {
-        "id": "UQTTYXHMHO",
+        "id": "SYUGALCXHR",
         "numDex": 620,
         "species": "Mienshao",
         "type1": "Fighting",
@@ -29451,7 +29451,7 @@
         ]
     },
     {
-        "id": "TMONVDYFZM",
+        "id": "MXUSARXEJZ",
         "numDex": 621,
         "species": "Druddigon",
         "type1": "Dragon",
@@ -29499,7 +29499,7 @@
         ]
     },
     {
-        "id": "NORJDGPZFJ",
+        "id": "DNOUTDOIMG",
         "numDex": 622,
         "species": "Golett",
         "type1": "Ground",
@@ -29547,7 +29547,7 @@
         ]
     },
     {
-        "id": "QMQVGNNTIY",
+        "id": "YSRNXCYIGG",
         "numDex": 623,
         "species": "Golurk",
         "type1": "Ground",
@@ -29595,7 +29595,7 @@
         ]
     },
     {
-        "id": "AWHRHWYTMT",
+        "id": "KURZCBACFQ",
         "numDex": 624,
         "species": "Pawniard",
         "type1": "Dark",
@@ -29643,7 +29643,7 @@
         ]
     },
     {
-        "id": "ZLFRZWZHVK",
+        "id": "KEDCGMMPYZ",
         "numDex": 625,
         "species": "Bisharp",
         "type1": "Dark",
@@ -29691,7 +29691,7 @@
         ]
     },
     {
-        "id": "EOMBDTOFKN",
+        "id": "VTACBWWCKS",
         "numDex": 626,
         "species": "Bouffalant",
         "type1": "Normal",
@@ -29739,7 +29739,7 @@
         ]
     },
     {
-        "id": "JOBZHDOQYP",
+        "id": "UYFZKXTSXP",
         "numDex": 627,
         "species": "Rufflet",
         "type1": "Normal",
@@ -29787,7 +29787,7 @@
         ]
     },
     {
-        "id": "ZSWFUPOQAT",
+        "id": "UEPKWFYIYL",
         "numDex": 628,
         "species": "Braviary",
         "type1": "Normal",
@@ -29835,7 +29835,7 @@
         ]
     },
     {
-        "id": "DVIYVGRRLT",
+        "id": "YIYTAFATYJ",
         "numDex": 629,
         "species": "Vullaby",
         "type1": "Dark",
@@ -29883,7 +29883,7 @@
         ]
     },
     {
-        "id": "XAOUZVXNTF",
+        "id": "KFQYPJWPPN",
         "numDex": 630,
         "species": "Mandibuzz",
         "type1": "Dark",
@@ -29931,7 +29931,7 @@
         ]
     },
     {
-        "id": "WHRSCRHUWX",
+        "id": "IWCEFMENDP",
         "numDex": 631,
         "species": "Heatmor",
         "type1": "Fire",
@@ -29979,7 +29979,7 @@
         ]
     },
     {
-        "id": "JWYLQACZCY",
+        "id": "YJAGJTURAN",
         "numDex": 632,
         "species": "Durant",
         "type1": "Bug",
@@ -30027,7 +30027,7 @@
         ]
     },
     {
-        "id": "CSIDEDZDAA",
+        "id": "VARZYIXXNA",
         "numDex": 633,
         "species": "Deino",
         "type1": "Dark",
@@ -30073,7 +30073,7 @@
         ]
     },
     {
-        "id": "NHBAZRBJGG",
+        "id": "OJHBPGXALL",
         "numDex": 634,
         "species": "Zweilous",
         "type1": "Dark",
@@ -30119,7 +30119,7 @@
         ]
     },
     {
-        "id": "ROFZSDLADN",
+        "id": "WPCBQZOVFL",
         "numDex": 635,
         "species": "Hydreigon",
         "type1": "Dark",
@@ -30165,7 +30165,7 @@
         ]
     },
     {
-        "id": "FUMPUPSZLD",
+        "id": "LVUCDVTEQZ",
         "numDex": 636,
         "species": "Larvesta",
         "type1": "Bug",
@@ -30212,7 +30212,7 @@
         ]
     },
     {
-        "id": "AKTKZTWNCY",
+        "id": "CTDPCHIIWG",
         "numDex": 637,
         "species": "Volcarona",
         "type1": "Bug",
@@ -30259,7 +30259,7 @@
         ]
     },
     {
-        "id": "TOCOTHYXOH",
+        "id": "FZSGRTLYYG",
         "numDex": 638,
         "species": "Cobalion",
         "type1": "Steel",
@@ -30305,7 +30305,7 @@
         ]
     },
     {
-        "id": "JSVIQDNPVH",
+        "id": "IXDRBKFBGX",
         "numDex": 639,
         "species": "Terrakion",
         "type1": "Rock",
@@ -30351,7 +30351,7 @@
         ]
     },
     {
-        "id": "UYEYMLTION",
+        "id": "WHUVSKHGUQ",
         "numDex": 640,
         "species": "Virizion",
         "type1": "Grass",
@@ -30397,7 +30397,7 @@
         ]
     },
     {
-        "id": "AQDETFKTJL",
+        "id": "ZYZVHFMIDA",
         "numDex": 641,
         "species": "Tornadus",
         "type1": "Flying",
@@ -30445,7 +30445,7 @@
         ]
     },
     {
-        "id": "WNRJQPHHDK",
+        "id": "MOVLPTXBRE",
         "numDex": 642,
         "species": "Thundurus",
         "type1": "Electric",
@@ -30493,7 +30493,7 @@
         ]
     },
     {
-        "id": "WVDFAASBBW",
+        "id": "CVHSWMWSUN",
         "numDex": 643,
         "species": "Reshiram",
         "type1": "Dragon",
@@ -30539,7 +30539,7 @@
         ]
     },
     {
-        "id": "POUOBJVFUH",
+        "id": "MSWODNMYZW",
         "numDex": 644,
         "species": "Zekrom",
         "type1": "Dragon",
@@ -30585,7 +30585,7 @@
         ]
     },
     {
-        "id": "MBLLPXDZSP",
+        "id": "WHMITRVEYF",
         "numDex": 645,
         "species": "Landorus",
         "type1": "Ground",
@@ -30633,7 +30633,7 @@
         ]
     },
     {
-        "id": "QFKEAGROKO",
+        "id": "WXNKYAOYSW",
         "numDex": 646,
         "species": "Kyurem",
         "type1": "Dragon",
@@ -30681,7 +30681,7 @@
         ]
     },
     {
-        "id": "JCNRFUPDBM",
+        "id": "MVPNVGDGMR",
         "numDex": 647,
         "species": "Keldeo",
         "type1": "Water",
@@ -30727,7 +30727,7 @@
         ]
     },
     {
-        "id": "DKUCIJTKFN",
+        "id": "HIMBFDEBTC",
         "numDex": 648,
         "species": "Meloetta",
         "type1": "Normal",
@@ -30773,7 +30773,7 @@
         ]
     },
     {
-        "id": "OVKOFYMLYO",
+        "id": "NVGPJNWPWX",
         "numDex": 649,
         "species": "Genesect",
         "type1": "Bug",
@@ -30819,7 +30819,7 @@
         ]
     },
     {
-        "id": "KNGBNNZRQS",
+        "id": "PVHFNTNQAO",
         "numDex": 650,
         "species": "Chespin",
         "type1": "Grass",
@@ -30866,7 +30866,7 @@
         ]
     },
     {
-        "id": "KDWFGZMCVE",
+        "id": "YLPDTOVPGN",
         "numDex": 651,
         "species": "Quilladin",
         "type1": "Grass",
@@ -30913,7 +30913,7 @@
         ]
     },
     {
-        "id": "GJGHCKDIYX",
+        "id": "XEVHUPLWDP",
         "numDex": 652,
         "species": "Chesnaught",
         "type1": "Grass",
@@ -30960,7 +30960,7 @@
         ]
     },
     {
-        "id": "NDXJGECNHA",
+        "id": "GYKJZTHLJK",
         "numDex": 653,
         "species": "Fennekin",
         "type1": "Fire",
@@ -31007,7 +31007,7 @@
         ]
     },
     {
-        "id": "SRTZQQLVXC",
+        "id": "MCZEZEJDHM",
         "numDex": 654,
         "species": "Braixen",
         "type1": "Fire",
@@ -31054,7 +31054,7 @@
         ]
     },
     {
-        "id": "QMFWJTLITG",
+        "id": "WTEKGILCXR",
         "numDex": 655,
         "species": "Delphox",
         "type1": "Fire",
@@ -31101,7 +31101,7 @@
         ]
     },
     {
-        "id": "UJBWFGAGEK",
+        "id": "XXTBBTZSPR",
         "numDex": 656,
         "species": "Froakie",
         "type1": "Water",
@@ -31148,7 +31148,7 @@
         ]
     },
     {
-        "id": "GBRZQEIOER",
+        "id": "FAKTUNDFDK",
         "numDex": 657,
         "species": "Frogadier",
         "type1": "Water",
@@ -31195,7 +31195,7 @@
         ]
     },
     {
-        "id": "SEWYRBKAYU",
+        "id": "QJXHKUXVZN",
         "numDex": 658,
         "species": "Greninja",
         "type1": "Water",
@@ -31243,7 +31243,7 @@
         ]
     },
     {
-        "id": "OQIQNYLTWQ",
+        "id": "COVMOLJXZS",
         "numDex": 659,
         "species": "Bunnelby",
         "type1": "Normal",
@@ -31291,7 +31291,7 @@
         ]
     },
     {
-        "id": "HTGDZYXZXE",
+        "id": "DHLLFBIBDG",
         "numDex": 660,
         "species": "Diggersby",
         "type1": "Normal",
@@ -31339,7 +31339,7 @@
         ]
     },
     {
-        "id": "PDVWBMWFAM",
+        "id": "PACUGKUMHG",
         "numDex": 661,
         "species": "Fletchling",
         "type1": "Normal",
@@ -31386,7 +31386,7 @@
         ]
     },
     {
-        "id": "AKBLJDLVPZ",
+        "id": "YMOENWHVUS",
         "numDex": 662,
         "species": "Fletchinder",
         "type1": "Fire",
@@ -31433,7 +31433,7 @@
         ]
     },
     {
-        "id": "PZLFINJKJF",
+        "id": "EEMIWZOFKO",
         "numDex": 663,
         "species": "Talonflame",
         "type1": "Fire",
@@ -31480,7 +31480,7 @@
         ]
     },
     {
-        "id": "TFJRCAHAGM",
+        "id": "UWATFNHQKA",
         "numDex": 664,
         "species": "Scatterbug",
         "type1": "Bug",
@@ -31528,7 +31528,7 @@
         ]
     },
     {
-        "id": "AUWHBTHAXO",
+        "id": "ZFMHLVTQDG",
         "numDex": 665,
         "species": "Spewpa",
         "type1": "Bug",
@@ -31575,7 +31575,7 @@
         ]
     },
     {
-        "id": "VEVZPSRRJF",
+        "id": "HZRYLQPJLP",
         "numDex": 666,
         "species": "Vivillon",
         "type1": "Bug",
@@ -31623,7 +31623,7 @@
         ]
     },
     {
-        "id": "KGFGBBDWGJ",
+        "id": "VBURPJJYPT",
         "numDex": 667,
         "species": "Litleo",
         "type1": "Fire",
@@ -31671,7 +31671,7 @@
         ]
     },
     {
-        "id": "ZXDDKRDUKB",
+        "id": "NSLQHNXYIN",
         "numDex": 668,
         "species": "Pyroar",
         "type1": "Fire",
@@ -31719,7 +31719,7 @@
         ]
     },
     {
-        "id": "TCPRLMPUZE",
+        "id": "AWIKPZZORC",
         "numDex": 669,
         "species": "Flabébé",
         "type1": "Fairy",
@@ -31766,7 +31766,7 @@
         ]
     },
     {
-        "id": "LNPKHQOTYI",
+        "id": "AAUKZVYSJR",
         "numDex": 670,
         "species": "Floette",
         "type1": "Fairy",
@@ -31813,7 +31813,7 @@
         ]
     },
     {
-        "id": "EYCGWEKDPK",
+        "id": "FWIRKLFLAF",
         "numDex": 671,
         "species": "Florges",
         "type1": "Fairy",
@@ -31860,7 +31860,7 @@
         ]
     },
     {
-        "id": "YKCXLCNMUV",
+        "id": "DRWCEVZRWT",
         "numDex": 672,
         "species": "Skiddo",
         "type1": "Grass",
@@ -31907,7 +31907,7 @@
         ]
     },
     {
-        "id": "HJWZXDHSDG",
+        "id": "OEYPVFMUML",
         "numDex": 673,
         "species": "Gogoat",
         "type1": "Grass",
@@ -31954,7 +31954,7 @@
         ]
     },
     {
-        "id": "ITWKOXCQAY",
+        "id": "BJNDXEWSJJ",
         "numDex": 674,
         "species": "Pancham",
         "type1": "Fighting",
@@ -32002,7 +32002,7 @@
         ]
     },
     {
-        "id": "EBBVFJFPZW",
+        "id": "YPLEJIYJRM",
         "numDex": 675,
         "species": "Pangoro",
         "type1": "Fighting",
@@ -32050,7 +32050,7 @@
         ]
     },
     {
-        "id": "EZRPROJWIA",
+        "id": "JZXSNCGCHS",
         "numDex": 676,
         "species": "Furfrou",
         "type1": "Normal",
@@ -32096,7 +32096,7 @@
         ]
     },
     {
-        "id": "NPXJYAQKVY",
+        "id": "KXHUUTGPJG",
         "numDex": 677,
         "species": "Espurr",
         "type1": "Psychic",
@@ -32144,7 +32144,7 @@
         ]
     },
     {
-        "id": "IHACFGDJDO",
+        "id": "WFMXRVNEGD",
         "numDex": 678,
         "species": "Meowstic",
         "type1": "Psychic",
@@ -32192,7 +32192,7 @@
         ]
     },
     {
-        "id": "MLRYDJNIFW",
+        "id": "UVLRDBMWDG",
         "numDex": 679,
         "species": "Honedge",
         "type1": "Steel",
@@ -32238,7 +32238,7 @@
         ]
     },
     {
-        "id": "TTCRRUXVZW",
+        "id": "SUXMFYYSVX",
         "numDex": 680,
         "species": "Doublade",
         "type1": "Steel",
@@ -32284,7 +32284,7 @@
         ]
     },
     {
-        "id": "NYFMSTTIKN",
+        "id": "PBPCSNUQSO",
         "numDex": 681,
         "species": "Aegislash",
         "type1": "Steel",
@@ -32330,7 +32330,7 @@
         ]
     },
     {
-        "id": "RNKLXMZOXY",
+        "id": "ISRMKYJQLA",
         "numDex": 682,
         "species": "Spritzee",
         "type1": "Fairy",
@@ -32377,7 +32377,7 @@
         ]
     },
     {
-        "id": "TMMYQFULYQ",
+        "id": "VOWZXYOHVQ",
         "numDex": 683,
         "species": "Aromatisse",
         "type1": "Fairy",
@@ -32424,7 +32424,7 @@
         ]
     },
     {
-        "id": "BBFVQFZMWH",
+        "id": "GWXVQAETFV",
         "numDex": 684,
         "species": "Swirlix",
         "type1": "Fairy",
@@ -32471,7 +32471,7 @@
         ]
     },
     {
-        "id": "YRYDWIGXZL",
+        "id": "AVNGYARSQM",
         "numDex": 685,
         "species": "Slurpuff",
         "type1": "Fairy",
@@ -32518,7 +32518,7 @@
         ]
     },
     {
-        "id": "LWNWZSXZUM",
+        "id": "VHNFBQBXUL",
         "numDex": 686,
         "species": "Inkay",
         "type1": "Dark",
@@ -32566,7 +32566,7 @@
         ]
     },
     {
-        "id": "ZDWJRHEYLL",
+        "id": "TQGRPHBHMQ",
         "numDex": 687,
         "species": "Malamar",
         "type1": "Dark",
@@ -32614,7 +32614,7 @@
         ]
     },
     {
-        "id": "SPNULFXFJV",
+        "id": "MGONDMKQVJ",
         "numDex": 688,
         "species": "Binacle",
         "type1": "Rock",
@@ -32662,7 +32662,7 @@
         ]
     },
     {
-        "id": "PXNCXLVDTK",
+        "id": "ASMCZQMRAM",
         "numDex": 689,
         "species": "Barbaracle",
         "type1": "Rock",
@@ -32710,7 +32710,7 @@
         ]
     },
     {
-        "id": "BHPHGBBHAB",
+        "id": "EPPRZCJTYS",
         "numDex": 690,
         "species": "Skrelp",
         "type1": "Poison",
@@ -32758,7 +32758,7 @@
         ]
     },
     {
-        "id": "IFBLGHJXUX",
+        "id": "ZTJISKKLMK",
         "numDex": 691,
         "species": "Dragalge",
         "type1": "Poison",
@@ -32806,7 +32806,7 @@
         ]
     },
     {
-        "id": "XRHLFYPHLL",
+        "id": "WLFOYDHDET",
         "numDex": 692,
         "species": "Clauncher",
         "type1": "Water",
@@ -32852,7 +32852,7 @@
         ]
     },
     {
-        "id": "XWURSIGDZG",
+        "id": "JCWVOARWPU",
         "numDex": 693,
         "species": "Clawitzer",
         "type1": "Water",
@@ -32898,7 +32898,7 @@
         ]
     },
     {
-        "id": "NOAJGJUEZI",
+        "id": "PFOWBLMKKZ",
         "numDex": 694,
         "species": "Helioptile",
         "type1": "Electric",
@@ -32946,7 +32946,7 @@
         ]
     },
     {
-        "id": "JHRXMPSENY",
+        "id": "KWURGCQEWL",
         "numDex": 695,
         "species": "Heliolisk",
         "type1": "Electric",
@@ -32994,7 +32994,7 @@
         ]
     },
     {
-        "id": "ULREPICODW",
+        "id": "DMZYZPJGUL",
         "numDex": 696,
         "species": "Tyrunt",
         "type1": "Rock",
@@ -33041,7 +33041,7 @@
         ]
     },
     {
-        "id": "CMHZPNAEEG",
+        "id": "NHFKWMUZXZ",
         "numDex": 697,
         "species": "Tyrantrum",
         "type1": "Rock",
@@ -33088,7 +33088,7 @@
         ]
     },
     {
-        "id": "NUVJXBJCAA",
+        "id": "WWOVWRTNCY",
         "numDex": 698,
         "species": "Amaura",
         "type1": "Rock",
@@ -33135,7 +33135,7 @@
         ]
     },
     {
-        "id": "ROIHRUQBQJ",
+        "id": "PMXLJSFOOW",
         "numDex": 699,
         "species": "Aurorus",
         "type1": "Rock",
@@ -33182,7 +33182,7 @@
         ]
     },
     {
-        "id": "TFNULSKOBH",
+        "id": "BBYUQFBZAD",
         "numDex": 700,
         "species": "Sylveon",
         "type1": "Fairy",
@@ -33229,7 +33229,7 @@
         ]
     },
     {
-        "id": "FLUXGBMLDC",
+        "id": "HNMECFGZJK",
         "numDex": 701,
         "species": "Hawlucha",
         "type1": "Fighting",
@@ -33277,7 +33277,7 @@
         ]
     },
     {
-        "id": "TMHOQEYCAS",
+        "id": "JJKMPBIROW",
         "numDex": 702,
         "species": "Dedenne",
         "type1": "Electric",
@@ -33325,7 +33325,7 @@
         ]
     },
     {
-        "id": "GKNXSOTYTO",
+        "id": "ECLYSMGMXK",
         "numDex": 703,
         "species": "Carbink",
         "type1": "Rock",
@@ -33372,7 +33372,7 @@
         ]
     },
     {
-        "id": "EKLCRHNXHM",
+        "id": "OGFGAJCOWY",
         "numDex": 704,
         "species": "Goomy",
         "type1": "Dragon",
@@ -33420,7 +33420,7 @@
         ]
     },
     {
-        "id": "QISGRTBWOI",
+        "id": "VXZKPSMUTB",
         "numDex": 705,
         "species": "Sliggoo",
         "type1": "Dragon",
@@ -33468,7 +33468,7 @@
         ]
     },
     {
-        "id": "FYHQTADDKM",
+        "id": "PHBJFAERXG",
         "numDex": 706,
         "species": "Goodra",
         "type1": "Dragon",
@@ -33516,7 +33516,7 @@
         ]
     },
     {
-        "id": "IJLOZSEDKC",
+        "id": "MCEBJGWDVJ",
         "numDex": 707,
         "species": "Klefki",
         "type1": "Steel",
@@ -33563,7 +33563,7 @@
         ]
     },
     {
-        "id": "UBSMQWQRDT",
+        "id": "WGDRDYCLTV",
         "numDex": 708,
         "species": "Phantump",
         "type1": "Ghost",
@@ -33611,7 +33611,7 @@
         ]
     },
     {
-        "id": "KOEOVYSDRI",
+        "id": "UNEPTLNJQI",
         "numDex": 709,
         "species": "Trevenant",
         "type1": "Ghost",
@@ -33659,7 +33659,7 @@
         ]
     },
     {
-        "id": "BDTXQQBUAU",
+        "id": "SSDRTHDGKM",
         "numDex": 710,
         "species": "Pumpkaboo",
         "type1": "Ghost",
@@ -33707,7 +33707,7 @@
         ]
     },
     {
-        "id": "SWOXLDADKE",
+        "id": "YSQCXIVRJT",
         "numDex": 711,
         "species": "Gourgeist",
         "type1": "Ghost",
@@ -33755,7 +33755,7 @@
         ]
     },
     {
-        "id": "IUVYWVYBEA",
+        "id": "RLXQWLXHVU",
         "numDex": 712,
         "species": "Bergmite",
         "type1": "Ice",
@@ -33803,7 +33803,7 @@
         ]
     },
     {
-        "id": "SWPRBCZEDN",
+        "id": "JSXZZGHDMS",
         "numDex": 713,
         "species": "Avalugg",
         "type1": "Ice",
@@ -33851,7 +33851,7 @@
         ]
     },
     {
-        "id": "EWMEFAAOHM",
+        "id": "CBQYMNVAPX",
         "numDex": 714,
         "species": "Noibat",
         "type1": "Flying",
@@ -33899,7 +33899,7 @@
         ]
     },
     {
-        "id": "HPWSUNTTAB",
+        "id": "XIJRZTTULV",
         "numDex": 715,
         "species": "Noivern",
         "type1": "Flying",
@@ -33947,7 +33947,7 @@
         ]
     },
     {
-        "id": "KGYIRYXFOB",
+        "id": "CPPEBTNHFE",
         "numDex": 716,
         "species": "Xerneas",
         "type1": "Fairy",
@@ -33993,7 +33993,7 @@
         ]
     },
     {
-        "id": "XUXNSQSIZZ",
+        "id": "NYFPJDGZPV",
         "numDex": 717,
         "species": "Yveltal",
         "type1": "Dark",
@@ -34039,7 +34039,7 @@
         ]
     },
     {
-        "id": "EOBROCTEBK",
+        "id": "JLVAZEYVLG",
         "numDex": 718,
         "species": "Zygarde",
         "type1": "Dragon",
@@ -34086,7 +34086,7 @@
         ]
     },
     {
-        "id": "WXODJQYAHF",
+        "id": "HGLKSHVOTL",
         "numDex": 719,
         "species": "Diancie",
         "type1": "Rock",
@@ -34132,7 +34132,7 @@
         ]
     },
     {
-        "id": "VTVVOKKRUV",
+        "id": "TMPOOPVYCV",
         "numDex": 720,
         "species": "Hoopa",
         "type1": "Psychic",
@@ -34178,7 +34178,7 @@
         ]
     },
     {
-        "id": "GXMBOPQRET",
+        "id": "PAHVDCGTJZ",
         "numDex": 721,
         "species": "Volcanion",
         "type1": "Fire",
@@ -34224,7 +34224,7 @@
         ]
     },
     {
-        "id": "HYSCNZSIDB",
+        "id": "LFSIVEYKHB",
         "numDex": 3,
         "species": "M-Venusaur",
         "type1": "Grass",
@@ -34270,7 +34270,7 @@
         ]
     },
     {
-        "id": "WBACFKFDJB",
+        "id": "ABGLGFOWNX",
         "numDex": 373,
         "species": "M-Salamence",
         "type1": "Flying",

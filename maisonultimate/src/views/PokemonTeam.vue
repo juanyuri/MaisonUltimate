@@ -1,7 +1,7 @@
 <template>
   <div class="Pokemon-Cards-Container">
     <div class="Pokemon-Card" v-for="member in store.team" :key="member" @click="selectPokemon(member)">
-      <img :src="member.sprite" alt="" width="80" height="80">
+      <img :src="member.spriteIcon" alt="" width="80" height="80">
     </div>
   </div>
 
@@ -13,7 +13,7 @@
       </div>
 
       <div class="image">
-        <img :src="currentPokemon.sprite" class="pokemon-main-image" width="400" height="400" alt="">
+        <img :src="currentPokemon.spriteImage" class="pokemon-main-image" width="400" height="400" alt="">
       </div>
 
       <div class="selections">
