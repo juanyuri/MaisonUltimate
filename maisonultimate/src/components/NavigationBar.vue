@@ -7,17 +7,9 @@
         </router-link>
 
         <router-link class="Navigation-Bar-item" to="/team">
-            <img src="@/components/icons/pokemon.svg" width="32" height="32">
+            <img src="@/components/icons/pie-chart.svg" width="32" height="32">
         </router-link>
-        <!-- <router-link class="Navigation-Bar-item" to="/moves">
-            <img src="/icons/habilidades.svg" width="32" height="32">
-        </router-link>
-        <router-link class="Navigation-Bar-item" to="/types">
-            <img src="/icons/tipos.svg" width="32" height="32">
-        </router-link>
-        <router-link class="Navigation-Bar-item end" to="/logout">
-            <img src="/icons/logout.svg" width="32" height="32">
-        </router-link> -->
+
     </aside>
     <router-view></router-view>
 </template>

@@ -9,12 +9,12 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: MaisonSets
+      component: PokemonTeam 
     },
     {
       path: '/team',
       name: 'team',
-      component: PokemonTeam
+      component: MaisonSets
     }
   ]
 })
