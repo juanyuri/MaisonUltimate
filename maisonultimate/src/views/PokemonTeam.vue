@@ -7,6 +7,7 @@
 
   <div class="global">
     <div class="main">
+
       <div class="types">
         <img :src="type1Url()" alt="" width="50" height="50">
         <img v-if="currentPokemon.type2 != 'undefined'" :src="type2Url()" alt="" width="50" height="50">
@@ -37,8 +38,72 @@
     </div>
 
     <div class="stats">
-      <PkmnTable :pkmn="currentPokemon" />
+      <div id="pkmn-stats">
+        <div class="table">
+            <div></div>
+            <div class="bold">HP</div>
+            <div class="bold">AT</div>
+            <div class="bold">DF</div>
+            <div class="bold">SP. AT</div>
+            <div class="bold">SP. DF</div>
+            <div class="bold">SP</div>
+
+            <div class="bold">EVS</div>
+            <div><input type="number" step="4" v-model="currentPokemon.evs[0]"></div>
+            <div><input type="number" step="4" v-model="currentPokemon.evs[1]"></div>
+            <div><input type="number" step="4" v-model="currentPokemon.evs[2]"></div>
+            <div><input type="number" step="4" v-model="currentPokemon.evs[3]"></div>
+            <div><input type="number" step="4" v-model="currentPokemon.evs[4]"></div>
+            <div><input type="number" step="4" v-model="currentPokemon.evs[5]"></div>
+
+            <div class="bold">IVS</div>
+            <div><input type="number" v-model="currentPokemon.ivs[0]"></div>
+            <div><input type="number" v-model="currentPokemon.ivs[1]"></div>
+            <div><input type="number" v-model="currentPokemon.ivs[2]"></div>
+            <div><input type="number" v-model="currentPokemon.ivs[3]"></div>
+            <div><input type="number" v-model="currentPokemon.ivs[4]"></div>
+            <div><input type="number" v-model="currentPokemon.ivs[5]"></div>
+
+            <div class="bold">BASE</div>
+            <div>{{ currentPokemon.baseStats[0] }}</div>
+            <div>{{ currentPokemon.baseStats[1] }}</div>
+            <div>{{ currentPokemon.baseStats[2] }}</div>
+            <div>{{ currentPokemon.baseStats[3] }}</div>
+            <div>{{ currentPokemon.baseStats[4] }}</div>
+            <div>{{ currentPokemon.baseStats[5] }}</div>
+
+
+            <div class="bold">TOTAL</div>
+            <div class="total-result">{{ currentPokemon.totalStats[0] }}</div>
+
+            <div class="total-result" :class="{
+                'up': natureEffect(currentPokemon.nature, 1) > 1,
+                'down': natureEffect(currentPokemon.nature, 1) < 1
+            }">{{ currentPokemon.totalStats[1] }}</div>
+
+            <div class="total-result" :class="{
+                'up': natureEffect(currentPokemon.nature, 2) > 1,
+                'down': natureEffect(currentPokemon.nature, 2) < 1
+            }">{{ currentPokemon.totalStats[2] }}</div>
+
+            <div class="total-result" :class="{
+                'up': natureEffect(currentPokemon.nature, 3) > 1,
+                'down': natureEffect(currentPokemon.nature, 3) < 1
+            }">{{ currentPokemon.totalStats[3] }}</div>
+
+            <div class="total-result" :class="{
+                'up': natureEffect(currentPokemon.nature, 4) > 1,
+                'down': natureEffect(currentPokemon.nature, 4) < 1
+            }">{{ currentPokemon.totalStats[4] }}</div>
+
+            <div class="total-result" :class="{
+                'up': natureEffect(currentPokemon.nature, 5) > 1,
+                'down': natureEffect(currentPokemon.nature, 5) < 1
+            }">{{ currentPokemon.totalStats[5] }}</div>
+        </div>
     </div>
+    </div>
+
     <div class="moves">
       <div class="first-column-moves">
         <YuriSearch :items="allMoves"
@@ -61,6 +126,8 @@
       </div>
     </div>
 
+    
+
   </div>
 </template>
 
@@ -74,15 +141,13 @@ import { usePokemon } from '@/composables/pokedex.comp.js'
 import { useMoves } from '@/composables/moves.comp.js'
 import { useAbilities } from '@/composables/abilities.comp.js'
 import { useItems } from '@/composables/items.comp.js'
-import { stats } from '@/composables/stats.comp.js'
+import { stats, natureEffect } from '@/composables/stats.comp.js'
 import {useNatures} from '@/composables/natures.comp.js'
-
 /* Pinia Store for saving Team Composition */
 import { useStore } from '@/stores/TeamStore.js'
 
 /* Components */
 import YuriSearch from '@/components/YuriSearch.vue'
-import PkmnTable from '@/components/PkmnTable.vue'
 
 const allItems = useItems()
 const allMoves = useMoves()
@@ -152,12 +217,34 @@ const type2Url = () => {
 
 
 <style scoped>
+
+/* to use with: <input type="range" class="css-type-range"> */
+.css-type-range {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 9999px;
+    color: inherit;
+    background-color: gray;
+    background-color: var(--theme-ui-colors-border,#d1d5da);
+}
+
 .Pokemon-Cards-Container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 30px;
+  overflow: hidden;
 }
 
 .Pokemon-Card {
@@ -307,5 +394,101 @@ const type2Url = () => {
   flex-direction: column;
 
   gap: 10px;
+}
+
+
+
+
+
+
+
+
+.table {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+    width: 900px;
+    row-gap: 15px;
+    column-gap: 10px;
+
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.table div {
+    /* FLEX CONFIG */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+    /* STYLE CONFIG */
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.table input[type=text],
+.table input[type=number] {
+    width: 91px;
+    height: 35px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #E1E1E1;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.table input[type=number]:focus {
+    outline: 2px solid rgb(0, 30, 255);
+    outline-width: 2px;
+}
+
+.bold {
+    background-color: #535353;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 101px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.up {
+    /* background-color: #E24E4E; */
+    color: #fb0b0b;
+    border-radius: 5px;
+    height: 35px;
+    width: 101px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.down {
+    /* background-color: #4E9DE2; */
+    color: #258ce6;
+    border-radius: 5px;
+    height: 35px;
+    width: 101px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.total-result {
+    font-weight: 700;
+    font-size: 18px;
 }
 </style>

@@ -57,8 +57,11 @@ Please see [the contributing guide](CONTRIBUTING.md) for guidance.
 
 ## TODO:
 
-- [x] Pokemon Team Planner View
-- [ ] Data for Sets, Pokemon and Abilities (Composable, Documentation and Testing)
-- [ ] Data for Stats, Items and Moves (Composable, Documentation and Testing)
-- [ ] Data for Trainers and Pokemon Battle Maison Groups
-- [ ] Pokemon Battle Maison Dashboard View
+- [x] Reactivity of Pokemon Classes in Team Planner View
+- [x] Pokemon Team Planner View v.0.1
+- [ ] Modify JSON of trainers to add Location from another languages
+- [ ] Add all Trainers in Spanish games ORAS/XY
+- [ ] Modify Team Planner View to add ADD, REMOVE, FILTERING Pokemon. (Design First in Adobe XD)
+- [ ] Make smaller Components and distribute Responsibilities across them
+- [ ] MVP. Minimum Viable Project
+- [ ] Document all Changes from start of the project until now
