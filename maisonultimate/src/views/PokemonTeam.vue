@@ -199,6 +199,7 @@ const updateMove = (idxMove, newMove, attrFromDB) => {
 watchEffect(() => {
   totalStats = stats(currentPokemon.value)
   currentPokemon.value.totalStats = totalStats
+  store.updatePokemon(currentPokemon.value)
 })
 
 
