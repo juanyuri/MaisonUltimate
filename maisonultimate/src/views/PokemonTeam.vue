@@ -19,7 +19,7 @@
 
       <div class="selections">
         <YuriSearch :items="allPkmn"
-          :placeholderText="currentPokemon.species ? currentPokemon.species : 'Elige un Pokemon...'" attrToShow="species"
+          :placeholderText="currentPokemon.species ? currentPokemon.species : 'Choose a Pokemon...'" attrToShow="species"
           :minLength="1" @onItemSelected="(event) => updateSelection(event)" />
 
         <YuriSearch :items="allAbilities"
@@ -31,9 +31,7 @@
           attrToShow="name" :minLength="1"
           @onItemSelected="(event) => update('item', event, 'name')" />
 
-        <YuriSearch :items="natures" :placeholderText="currentPokemon.nature ? currentPokemon.nature : 'Choose a Nature...'"
-          attrToShow="name" :minLength="1"
-          @onItemSelected="(event) => update('nature', event, 'name')" />
+        
       </div>
     </div>
 
@@ -102,26 +100,30 @@
             }">{{ currentPokemon.totalStats[5] }}</div>
         </div>
     </div>
+
+    <YuriSearch :items="natures" :placeholderText="currentPokemon.nature ? currentPokemon.nature : 'Choose a Nature...'"
+          attrToShow="name" :minLength="1"
+          @onItemSelected="(event) => update('nature', event, 'name')" />
     </div>
 
     <div class="moves">
       <div class="first-column-moves">
         <YuriSearch :items="allMoves"
-          :placeholderText="currentPokemon.moves[0] ? currentPokemon.moves[0] : 'Elige un Movimiento...'"
+          :placeholderText="currentPokemon.moves[0] ? currentPokemon.moves[0] : 'Choose a Move'"
           attrToShow="name" :minLength="1" @onItemSelected="(event) => updateMove(0, event, 'name', currentPokemon.species)" />
 
         <YuriSearch :items="allMoves"
-          :placeholderText="currentPokemon.moves[1] ? currentPokemon.moves[1] : 'Elige un Movimiento...'"
+          :placeholderText="currentPokemon.moves[1] ? currentPokemon.moves[1] : 'Choose a Move'"
           attrToShow="name" :minLength="1" @onItemSelected="(event) => updateMove(1, event, 'name', currentPokemon.species)" />
       </div>
 
       <div class="second-column-moves">
         <YuriSearch :items="allMoves" class="second-column-moves"
-          :placeholderText="currentPokemon.moves[2] ? currentPokemon.moves[2] : 'Elige un Movimiento...'"
+          :placeholderText="currentPokemon.moves[2] ? currentPokemon.moves[2] : 'Choose a Move'"
           attrToShow="name" :minLength="1" @onItemSelected="(event) => updateMove(2, event, 'name', currentPokemon.species)" />
 
         <YuriSearch :items="allMoves" class="second-column-moves"
-          :placeholderText="currentPokemon.moves[3] ? currentPokemon.moves[3] : 'Elige un Movimiento...'"
+          :placeholderText="currentPokemon.moves[3] ? currentPokemon.moves[3] : 'Choose a Move'"
           attrToShow="name" :minLength="1" @onItemSelected="(event) => updateMove(3, event, 'name', currentPokemon.species)" />
       </div>
     </div>
@@ -270,8 +272,8 @@ const type2Url = () => {
 
 .global {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: .6fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: .6fr 1.5fr;
   grid-template-areas: "main stats"
     "main moves";
   row-gap: 18px;
@@ -316,6 +318,8 @@ const type2Url = () => {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap:20px;
 }
 
 .moves {
@@ -325,12 +329,14 @@ const type2Url = () => {
 
   margin-bottom: 18px;
   margin-right: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  display: grid;
-  grid-template-areas: "first second"
-    "button button";
+  /* display: grid;
+  grid-template-areas: "first second";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr .7fr;
+  grid-template-rows: 1fr; */
 }
 
 
@@ -393,7 +399,7 @@ const type2Url = () => {
   justify-content: center;
   flex-direction: column;
 
-  gap: 10px;
+  gap: 20px;
 }
 
 
