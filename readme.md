@@ -10,50 +10,33 @@ My personal goal: win at least once in Battle Maison from Pokemon Omega Ruby and
 
 <br> 
 <div style="text-align:center" align="center">
-  <img src="https://raw.githubusercontent.com/juanyuri/figures/main/maison-ultimate/teamplanner_04.png" width="800" height="450"  />
+  <img src="./img/snapshot_4_November.png" width="800" height="450"  />
 </div>
-
-## Vue Router
-
-- <h4>All Routes in Pokemon Battle Maison Ultimate</h4>
-
-  - Battle Maison Dashboard `/dashboard/oras`
-  - Team Planner `/team-planner/`
-  - National Dex ORAS `/pokedex/`
-  - Type Coverages `/typedex/`
 
 ## Project setup
 
-To set up the project, you'll need to have Node.js and npm installed on your machine. You can download and install them from the [official Node.js website](https://nodejs.org/).
+1. To set up the project, you'll need to have Node.js and npm installed on your machine. You can download and install them from the [official Node.js website](https://nodejs.org/).
 
-Once you have Node.js and npm installed, you can clone this repository and install the dependencies by running the following commands:
+2. Clone this repository using Git Bash:
 
-`git clone https://github.com/juanyuri/MaisonUltimate.git`
+```bash
+git clone https://github.com/juanyuri/MaisonUltimate.git
+```
 
+3. Install dependencies in the folder of the package.json
+```bash
+npm install
+```
 
 ## Running the app
 
-To run the app, you can use the following command:
+Use the following command to run the website
 
-`npm run dev`
+```bash
+npm run dev
+```
 
-This will start a development server at `http://localhost:5173` where you can view the app in your web browser.
-
-## Testing the app
-
-To run the tests for the app, you can use the following command:
-
-`cd .\maisonultimate\` <br>
-
-For End To End Tests use:
-`nightwatch ./tests/e2e/example.js`
-
-For Unit Testing use:
-`npx vitest`
-
-## Contributing
-
-Please see [the contributing guide](CONTRIBUTING.md) for guidance.
+This will start a development server at <a href="http://localhost:5173">Localhost with port 5173</a>
 
 
 ## TODO:
