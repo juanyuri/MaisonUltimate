@@ -1,11 +1,12 @@
 # Pokemon Maison Ultimate
-
-## Juan Yuri Díaz Sánchez - Main Creator
 Hello everyone!
 My name is Yuri and I'm a Computer Scientist in Galicia, northwest of Spain.
 <br>  I'm really into Pokemon, Data analysis, and Frontend web development, and I'm excited to share my latest project with you.
 
 My personal goal: win at least once in Battle Maison from Pokemon Omega Ruby and Alpha Sapphire to become a true Pokemon Master!!
+
+> [!IMPORTANT]
+> This project is under construction. Your feedback is highly valuable and will greatly assist me in making improvements
 
 <br> 
 <div style="text-align:center" align="center">
@@ -66,17 +67,5 @@ Please see [the contributing guide](CONTRIBUTING.md) for guidance.
 - [ ] MVP. Minimum Viable Project
 - [ ] Document all Changes from start of the project until now
 
-[!NOTE]
-Esto es un información adicional que puede ayudar al usuario
-
-[!TIP]
-Esto es un información adicional que puede ayudar al usuario
-
-[!IMPORTANT]
-Esto es un información crucial
-
-[!WARNING]
-Necesita la atención del usuario
-
-[!CAUTION]
-Consecuencias negativas si no haces esto
+> [!NOTE]
+> There may be more features in the future!
