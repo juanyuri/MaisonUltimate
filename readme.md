@@ -1,16 +1,14 @@
 # Pokemon Maison Ultimate
-Hello everyone!
-My name is Yuri and I'm a Computer Scientist in Galicia, northwest of Spain.
-<br>  I'm really into Pokemon, Data analysis, and Frontend web development, and I'm excited to share my latest project with you.
+> [!WARNING]
+> This project is under construction. Your feedback is highly valuable and will improve this web application
 
-My personal goal: win at least once in Battle Maison from Pokemon Omega Ruby and Alpha Sapphire to become a true Pokemon Master!!
 
-> [!IMPORTANT]
-> This project is under construction. Your feedback is highly valuable and will greatly assist me in making improvements
+My name is Yuri and I'm a Computer Scientist in Galicia, Spain. This project is made to win in the Battle Maison of Pokemon ORAS/XY to become a Pokemon Máster!!
+
 
 <br> 
 <div style="text-align:center" align="center">
-  <img src="./img/snapshot_4_November.png" width="800" height="450"  />
+  <img src="./img/snapshot_4_November.png" width="800" height="390"  />
 </div>
 
 ## Project setup
@@ -36,19 +34,19 @@ Use the following command to run the website
 npm run dev
 ```
 
-This will start a development server at <a href="http://localhost:5173">Localhost with port 5173</a>
+This will start a development server at <a href="http://localhost:5173" target="_blank">Localhost with port 5173</a>
 
 
-## TODO:
+## Working on...
 
 - [x] Reactivity of Pokemon Classes in Team Planner View
 - [x] Pokemon Team Planner View v.0.1
-- [ ] Modify JSON of trainers to add Location from another languages
-- [ ] Add all Trainers in Spanish games ORAS/XY
-- [ ] Modify Team Planner View to add ADD, REMOVE, FILTERING Pokemon. (Design First in Adobe XD)
-- [ ] Make smaller Components and distribute Responsibilities across them
+- [ ] Modify JSON of trainers to add Location from english Game Version (ORAS, XY)
 - [ ] MVP. Minimum Viable Project
-- [ ] Document all Changes from start of the project until now
+- [ ] Add all Trainers in Spanish games ORAS
+- [ ] Modify Team Planner View to add FILTERING Pokemon.
+- [ ] Make smaller Components and distribute Responsibilities across them
+- [ ] Document the project architecture
 
 > [!NOTE]
-> There may be more features in the future!
+> All these features are not necessarely implemented in alpha versions
