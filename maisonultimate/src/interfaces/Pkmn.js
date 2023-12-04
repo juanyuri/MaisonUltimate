@@ -1,10 +1,3 @@
-/* const pkmn = new Pkmn(
-    id, numDex, species, level, abilities, baseStats,
-    evs, ivs, weight, type1, type2, moves,
-    nature, item, sprite_icon, sprite_image
-)
- */
-
 export default class Pkmn {
     constructor(id, numDex, species, level, abilities, baseStats,
         evs, ivs, weight, type1, type2, moves, nature,

@@ -1,8 +1,28 @@
 <template>
   <div class="Pokemon-Cards-Container">
-    <div class="Pokemon-Card" v-for="member in store.team" :key="member" @click="selectPokemon(member)">
-      <img :src="member.spriteIcon" alt="" width="80" height="80">
+
+
+    <div class="Pokemon-Card" v-for="(pkmn, index) in store.team" :key="pkmn" @click="selectPokemon(index, pkmn)">
+      <img :src="pkmn.spriteIcon" alt="pkmn.species" width="80" height="80" />
     </div>
+
+    <div class="Pokemon-Card" v-if="store.team.length == 0" @click="addDefault(defaultPokemon)">
+      <img src="../components/icons/plus.svg" alt="" width="40" height="80">
+    </div>
+
+    <div class="Pokemon-Card" v-if="store.team.length == 1" @click="addDefault(defaultPokemon)">
+      <img src="../components/icons/plus.svg" alt="" width="40" height="80">
+    </div>
+
+    <div class="Pokemon-Card" v-if="store.team.length == 2" @click="addDefault(defaultPokemon)">
+      <img src="../components/icons/plus.svg" alt="" width="40" height="80">
+    </div>
+
+    <div class="Pokemon-Card" v-if="store.team.length == 3" @click="addDefault(defaultPokemon)">
+      <img src="../components/icons/plus.svg" alt="" width="40" height="80">
+    </div>
+
+    
   </div>
 
   <div class="global">
@@ -162,27 +182,56 @@ const DEF_IMG_URL = "https://raw.githubusercontent.com/msikma/pokesprite/master/
 
 
 
-let currentPokemon = ref(allPkmn[0])
+let currentPokemon = ref(allPkmn[9])
+let defaultPokemon = ref(allPkmn[0])
+
 console.log(store.team)
 if(store.team.length > 0)
   currentPokemon.value = store.team[0]
 
+if(store.team.length === 0){
+  store.addToTeam(defaultPokemon.value)
+  currentPokemon.value= defaultPokemon.value
+}
+
 let totalStats = stats(currentPokemon.value)
 
-const selectPokemon = (poke) => {
+const selectPokemon = (index, poke) => {
+  console.log("Selecting...", poke.species)
   currentPokemon.value = poke
-  totalStats = stats(currentPokemon.value)
-  currentPokemon.value.totalStats = totalStats
+  currentPokemon.value.totalStats = stats(currentPokemon.value)
+
+  if( store.team.length > 4){
+    console.log("Updating pokemon in position " + index)
+    store.updatePokemon(currentPokemon.value, index )
+    console.log("added new poke" + currentPokemon.value.species)
+  }
 }
+
 
 const removePoke = () => {
   store.removeFromTeam(currentPokemon.value.species)
   currentPokemon.value = store.team[0] /* TODO: caught error when no more pokemon can be removed */
 }
 
+const addDefault = item => {
+  currentPokemon.value = item
+}
+
 /* What to do when item object comes from Search component */
-const updateSelection = (item) => {
-  store.addToTeam(item)
+const updateSelection = (item, current) => {
+  /* store.addToTeam(item) */
+  console.log("Previous: " + currentPokemon.value.species)
+  console.log("New: " + item.species)
+  /* currentPokemon.value = item */
+  let pos = store.findPokemonPosition(currentPokemon.value.species)
+  
+  if(store.team.length >= 4){
+    store.updatePokemon(item, pos)
+    currentPokemon.value = item
+  }else{
+    store.addToTeam(item)
+  }
 }
 
 const update = (attr, newValue, attrFromDB) => {
@@ -197,9 +246,9 @@ const updateMove = (idxMove, newMove, attrFromDB) => {
 }
 
 watchEffect(() => {
-  totalStats = stats(currentPokemon.value)
-  currentPokemon.value.totalStats = totalStats
-  store.updatePokemon(currentPokemon.value)
+  currentPokemon.value.totalStats = stats(currentPokemon.value)
+  let pos = store.findPokemonPosition(currentPokemon.species)
+  store.updatePokemon(currentPokemon.value, pos)
 })
 
 
@@ -270,6 +319,23 @@ const type2Url = () => {
   cursor: pointer;
 }
 
+.global-2{
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: .6fr 1.5fr;
+  grid-template-areas: "main stats"
+    "main moves";
+  row-gap: 18px;
+  column-gap: 18px;
+  background-color: #E1E1E1;
+  border-radius: 15px;
+
+  width: 90%;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
 
 .global {
   display: grid;

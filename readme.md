@@ -65,3 +65,18 @@ Please see [the contributing guide](CONTRIBUTING.md) for guidance.
 - [ ] Make smaller Components and distribute Responsibilities across them
 - [ ] MVP. Minimum Viable Project
 - [ ] Document all Changes from start of the project until now
+
+[!NOTE]
+Esto es un información adicional que puede ayudar al usuario
+
+[!TIP]
+Esto es un información adicional que puede ayudar al usuario
+
+[!IMPORTANT]
+Esto es un información crucial
+
+[!WARNING]
+Necesita la atención del usuario
+
+[!CAUTION]
+Consecuencias negativas si no haces esto

@@ -28,14 +28,30 @@ export const useStore = defineStore('storeTeam', () => {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(filtering))
     }
 
-    const updatePokemon = (pkmn) => {
-        const index = team.value.findIndex((p) => p.species === pkmn.species)
-
-        /* If the index is not -1, use splice function to replace the Pokemon object at the index with the new pkmn */
-        if (index !== -1) {
-            team.value.splice(index, 1, pkmn)
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(team.value))
-        }
+    const findPokemonPosition = (species) => {
+        const index = team.value.findIndex(p => p.species === species)
+        return index
     }
-    return { team, addToTeam, removeFromTeam, updatePokemon }
+
+    const updatePokemon = (pkmn, replacePosition) => {
+        const position = findPokemonPosition(pkmn.species)
+            
+        if (position !== -1) {
+            // If the Pokemon already exists in the team, replace it
+            team.value.splice(position, 1, pkmn)
+        } else if (team.value.length < 4) {
+            // If the Pokemon does not exist in the team and the team has less than 4 Pokemon, add it
+            team.value.push(pkmn)
+        } else {
+            // If the Pokemon does not exist in the team and the team is full, replace the Pokemon at the specified position
+            team.value.splice(replacePosition, 1, pkmn)
+            console.log(`The team is full. Replaced the Pokemon at position ${replacePosition} with ${pkmn.species}.`)
+        }
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(team.value))
+        return true
+    }
+
+
+
+    return { team, addToTeam, removeFromTeam, updatePokemon, findPokemonPosition }
 })

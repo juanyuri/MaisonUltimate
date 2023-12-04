@@ -48,7 +48,7 @@ let inputText = ref('')
 const onResultClick = (result) => {
   inputRef.value.blur();
   inputText.value = ''/* result[props.attrToShow] */
-  selected.value = true
+  selected.value = false
   emit('onItemSelected', result)
 }
 
