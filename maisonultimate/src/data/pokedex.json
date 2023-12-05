@@ -34224,7 +34224,7 @@
         ]
     },
     {
-        "id": "MZMGYIXLWX",
+        "id": "LVFSZERBCI",
         "numDex": 3,
         "species": "M-Venusaur",
         "type1": "Grass",
@@ -34270,7 +34270,421 @@
         ]
     },
     {
-        "id": "BDFENUIPRA",
+        "id": "FNOATHFJXO",
+        "numDex": 6,
+        "species": "M-Charizard-X",
+        "type1": "Fire",
+        "type2": "Dragon",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/8/84/latest/20230319131441/Mega-Charizard_X_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_006b_regular.png",
+        "weight": 110.5,
+        "abilities": {
+            "0": "Tough Claws"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            78,
+            130,
+            111,
+            130,
+            85,
+            100
+        ],
+        "item": "Charizardite X",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "HNIOEBYJZV",
+        "numDex": 6,
+        "species": "M-Charizard-Y",
+        "type1": "Fire",
+        "type2": "Flying",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c7/latest/20230319130551/Mega-Charizard_Y_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_006c_regular.png",
+        "weight": 100.5,
+        "abilities": {
+            "0": "Drought"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            78,
+            104,
+            78,
+            159,
+            115,
+            100
+        ],
+        "item": "Charizardite Y",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "WLSRQXVFIG",
+        "numDex": 9,
+        "species": "M-Blastoise",
+        "type1": "Water",
+        "type2": "undefined",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c8/latest/20230319132014/Mega-Blastoise_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_009b_regular.png",
+        "weight": 101.1,
+        "abilities": {
+            "0": "Mega Launcher"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            79,
+            103,
+            120,
+            135,
+            115,
+            78
+        ],
+        "item": "Blastoisinite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "QFRHDIRKAH",
+        "numDex": 65,
+        "species": "M-Alakazam",
+        "type1": "Psychic",
+        "type2": "undefined",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d9/latest/20230319125719/Alakazam_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_065b_regular.png",
+        "weight": 48.0,
+        "abilities": {
+            "0": "Trace"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            55,
+            50,
+            65,
+            175,
+            95,
+            150
+        ],
+        "item": "Alakazite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "RBASOUWNXS",
+        "numDex": 94,
+        "species": "M-Gengar",
+        "type1": "Ghost",
+        "type2": "Poison",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f1/latest/20230319124850/Mega-Gengar_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_065b_regular.png",
+        "weight": 48.0,
+        "abilities": {
+            "0": "Shadow Tag"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            60,
+            65,
+            80,
+            170,
+            95,
+            130
+        ],
+        "item": "Alakazite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "LEVZAESWAF",
+        "numDex": 115,
+        "species": "M-Kangaskhan",
+        "type1": "Normal",
+        "type2": "undefined",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c2/latest/20230319131455/Kangaskhan_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_115b_regular.png",
+        "weight": 100.0,
+        "abilities": {
+            "0": "Parental Bond"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            60,
+            65,
+            80,
+            170,
+            95,
+            130
+        ],
+        "item": "Kangaskhanite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "YWERHIQQWD",
+        "numDex": 127,
+        "species": "M-Pinsir",
+        "type1": "Normal",
+        "type2": "undefined",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c2/latest/20230319125436/Pinsir_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_127b_regular.png",
+        "weight": 59.0,
+        "abilities": {
+            "0": "Parental Bond"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            65,
+            155,
+            120,
+            65,
+            90,
+            105
+        ],
+        "item": "Pinsirite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "TVXVENGUWI",
+        "numDex": 130,
+        "species": "M-Gyarados",
+        "type1": "Water",
+        "type2": "Dark",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/1/10/latest/20230319124306/Mega-Gyarados_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_130b_regular.png",
+        "weight": 305.0,
+        "abilities": {
+            "0": "Mold Breaker"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            95,
+            155,
+            109,
+            70,
+            130,
+            81
+        ],
+        "item": "Gyaradosite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "GDAFXWAPUE",
+        "numDex": 142,
+        "species": "M-Aerodactyl",
+        "type1": "Rock",
+        "type2": "Flying",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/a/af/latest/20230319125324/Mega-Aerodactyl_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_142b_regular.png",
+        "weight": 79.0,
+        "abilities": {
+            "0": "Tough Claws"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            80,
+            135,
+            85,
+            70,
+            95,
+            150
+        ],
+        "item": "Aerodactylite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "BWMOJYEMBA",
         "numDex": 373,
         "species": "M-Salamence",
         "type1": "Flying",
