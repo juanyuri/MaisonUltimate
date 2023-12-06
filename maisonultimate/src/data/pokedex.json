@@ -34224,7 +34224,7 @@
         ]
     },
     {
-        "id": "LVFSZERBCI",
+        "id": "ZCYVAIQBKV",
         "numDex": 3,
         "species": "M-Venusaur",
         "type1": "Grass",
@@ -34270,7 +34270,7 @@
         ]
     },
     {
-        "id": "FNOATHFJXO",
+        "id": "XAKCDGJPRM",
         "numDex": 6,
         "species": "M-Charizard-X",
         "type1": "Fire",
@@ -34316,7 +34316,7 @@
         ]
     },
     {
-        "id": "HNIOEBYJZV",
+        "id": "MMETLUFKHI",
         "numDex": 6,
         "species": "M-Charizard-Y",
         "type1": "Fire",
@@ -34362,7 +34362,7 @@
         ]
     },
     {
-        "id": "WLSRQXVFIG",
+        "id": "DEDYRCXCVE",
         "numDex": 9,
         "species": "M-Blastoise",
         "type1": "Water",
@@ -34408,7 +34408,7 @@
         ]
     },
     {
-        "id": "QFRHDIRKAH",
+        "id": "JLJFHTJLEU",
         "numDex": 65,
         "species": "M-Alakazam",
         "type1": "Psychic",
@@ -34454,7 +34454,7 @@
         ]
     },
     {
-        "id": "RBASOUWNXS",
+        "id": "PXUOWTOLLH",
         "numDex": 94,
         "species": "M-Gengar",
         "type1": "Ghost",
@@ -34500,7 +34500,7 @@
         ]
     },
     {
-        "id": "LEVZAESWAF",
+        "id": "MTBGCJDQGW",
         "numDex": 115,
         "species": "M-Kangaskhan",
         "type1": "Normal",
@@ -34546,7 +34546,7 @@
         ]
     },
     {
-        "id": "YWERHIQQWD",
+        "id": "MOQGHIUHLM",
         "numDex": 127,
         "species": "M-Pinsir",
         "type1": "Normal",
@@ -34592,7 +34592,7 @@
         ]
     },
     {
-        "id": "TVXVENGUWI",
+        "id": "KJMFKAJQIQ",
         "numDex": 130,
         "species": "M-Gyarados",
         "type1": "Water",
@@ -34638,7 +34638,7 @@
         ]
     },
     {
-        "id": "GDAFXWAPUE",
+        "id": "GJYLDSKONZ",
         "numDex": 142,
         "species": "M-Aerodactyl",
         "type1": "Rock",
@@ -34684,7 +34684,467 @@
         ]
     },
     {
-        "id": "BWMOJYEMBA",
+        "id": "FYCCINJJMK",
+        "numDex": 150,
+        "species": "M-Mewtwo-X",
+        "type1": "Psychic",
+        "type2": "Fighting",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/b/bd/latest/20230319132323/Mega-Mewtwo_X_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_150b_regular.png",
+        "weight": 127.0,
+        "abilities": {
+            "0": "Steadfast"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            106,
+            190,
+            100,
+            154,
+            100,
+            130
+        ],
+        "item": "Mewtwonite X",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "APPHRAWPXB",
+        "numDex": 150,
+        "species": "M-Mewtwo-Y",
+        "type1": "Psychic",
+        "type2": "undefined",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/9/90/latest/20230319130824/Mega-Mewtwo_Y_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_150c_regular.png",
+        "weight": 33.0,
+        "abilities": {
+            "0": "Insomnia"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            106,
+            150,
+            70,
+            194,
+            120,
+            140
+        ],
+        "item": "Mewtwonite Y",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "DPTEZCQALL",
+        "numDex": 181,
+        "species": "M-Ampharos",
+        "type1": "Electric",
+        "type2": "undefined",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f1/latest/20230319130422/Mega-Ampharos_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_181b_regular.png",
+        "weight": 61.5,
+        "abilities": {
+            "0": "Mold Breaker"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            90,
+            95,
+            105,
+            165,
+            110,
+            45
+        ],
+        "item": "Ampharosite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "SYDWOJCMBV",
+        "numDex": 212,
+        "species": "M-Scizor",
+        "type1": "Bug",
+        "type2": "Steel",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/8/8e/latest/20230319131532/Mega-Scizor_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_212b_regular.png",
+        "weight": 125.0,
+        "abilities": {
+            "0": "Technician"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            70,
+            150,
+            140,
+            65,
+            100,
+            75
+        ],
+        "item": "Scizorite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "ONALFNSPVQ",
+        "numDex": 229,
+        "species": "M-Houndoom",
+        "type1": "Dark",
+        "type2": "Fire",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/2/23/latest/20230319130452/Mega-Houndoom_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_229b_regular.png",
+        "weight": 49.5,
+        "abilities": {
+            "0": "Solar Power"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            75,
+            90,
+            90,
+            140,
+            90,
+            115
+        ],
+        "item": "Houndoominite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "KQCZQDSVSP",
+        "numDex": 248,
+        "species": "M-Tyrantiar",
+        "type1": "Rock",
+        "type2": "Dark",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/e/ee/latest/20230319124747/Mega-Tyranitar_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_248b_regular.png",
+        "weight": 255.0,
+        "abilities": {
+            "0": "Sand Stream"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            100,
+            164,
+            150,
+            95,
+            120,
+            71
+        ],
+        "item": "Tyranitarite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "HZMMCMMXRQ",
+        "numDex": 214,
+        "species": "M-Heracross",
+        "type1": "Bug",
+        "type2": "Steel",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f3/latest/20230319132325/Mega-Heracross_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_212b_regular.png",
+        "weight": 125.0,
+        "abilities": {
+            "0": "Skill Link"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            70,
+            150,
+            140,
+            65,
+            100,
+            75
+        ],
+        "item": "Scizorite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "QOYVNGDEEW",
+        "numDex": 257,
+        "species": "M-Blaziken",
+        "type1": "Fire",
+        "type2": "Fighting",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c9/latest/20230319132132/Mega-Blaziken_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_257b_regular.png",
+        "weight": 52.0,
+        "abilities": {
+            "0": "Speed Boost"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            80,
+            160,
+            80,
+            130,
+            80,
+            100
+        ],
+        "item": "Blazikenite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "DKOAXMJRAL",
+        "numDex": 282,
+        "species": "M-Gardevoir",
+        "type1": "Psychic",
+        "type2": "Fairy",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/5/5c/latest/20230319131428/Mega-Gardevoir_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_282b_regular.png",
+        "weight": 48.4,
+        "abilities": {
+            "0": "Pixilate"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            68,
+            85,
+            65,
+            165,
+            135,
+            100
+        ],
+        "item": "Gardevoirite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "NLTRFNVHLY",
+        "numDex": 303,
+        "species": "M-Mawile",
+        "type1": "Steel",
+        "type2": "Fairy",
+        "sprite_icon": "https://images.wikidexcdn.net/mwuploads/wikidex/3/3a/latest/20230319131033/Mega-Mawile_icono_HOME.png",
+        "sprite_image": "https://cdn.toast-studio.com/typedex/home/_303b_regular.png",
+        "weight": 23.5,
+        "abilities": {
+            "0": "Huge Power"
+        },
+        "level": 50,
+        "ivs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "evs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "baseStats": [
+            50,
+            105,
+            125,
+            55,
+            95,
+            50
+        ],
+        "item": "Mawilite",
+        "nature": "Adamant",
+        "moves": [
+            "Protect",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "SIGORRFBUY",
         "numDex": 373,
         "species": "M-Salamence",
         "type1": "Flying",
