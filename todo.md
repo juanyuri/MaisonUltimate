@@ -25,6 +25,40 @@
     - [x] MEGA MAWILE
     - Finished on 6 Dec. 2023
     
-- [ ] Add 8 more megaevolutions XY
-- [ ] Add 10 more megaevolutions ORAS
-- [ ] Add 10 more megaevolutions ORAS
+- [x] Add 10 more megaevolutions XY
+    - [x] MEGA AGGRON
+    - [x] MEGA MEDICHAM
+    - [x] MEGA MANECTRIC
+    - [x] MEGA BANETTE
+    - [x] MEGA ABSOL
+    - [x] MEGA GARCHOMP
+    - [x] MEGA LUCARIO
+    - [x] MEGA ABOMASNOW
+    Finished 9 Dec. 2023
+
+- [x] Add 10 more megaevolutions ORAS
+    - [x] MEGA BEEDRILL
+    - [x] MEGA PIDGEOT
+    - [x] MEGA SLOWBRO
+    - [x] MEGA STEELIX
+    - [x] MEGA SCEPTILE
+    - [x] MEGA SWAMPERT
+    - [x] MEGA SABLEYE
+    - [x] MEGA SHARPEDO
+    - [x] MEGA CAMERUPT
+    - [x] MEGA SALAMENCE
+    - Finished 9 Dec. 2023
+
+
+- [x] Add 10 more megaevolutions ORAS/Primal Regression
+    - [x] MEGA METAGROSS
+    - [x] MEGA LATIAS
+    - [x] MEGA LATIOS
+    - [x] MEGA RAYQUAZA
+    - [x] MEGA LOPPUNY
+    - [x] MEGA GALLADE
+    - [x] MEGA AUDINO
+    - [x] MEGA DIANCIE
+    - [x] PRIMAL KYOGRE
+    - [x] PRIMAL GROUDON
+    - Finished 16 Dec. 2023
