@@ -30,3 +30,4 @@ coverage
 
 logs/
 tests_output/
+vscode/
