@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import trainers_data from '@/data/trainers.json'
+import trainers_data from '@/data/trainers_eng.json'
 import Trainer from '@/interfaces/Trainer.js'
 
 /**
@@ -17,16 +17,14 @@ export const useTrainers = () => {
     for (let trainer_data of trainers_data) {
         
         const {
-            name, trainer_type, win_streak_range, name_xy, 
-            name_oras, trainer_id, pkmn_group, ivs, pokemon       
+            id, name_xy, name_oras, pkmn_group, tier, ivs, rounds       
         } = trainer_data
 
         const trainer = new Trainer(
-            name, trainer_type, win_streak_range, name_xy, 
-            name_oras, trainer_id, pkmn_group, ivs, pokemon 
+            id, name_xy, name_oras, pkmn_group, tier, ivs, rounds 
         )
         
-        if(trainer_id)
+        if(id)
             countWithIds++
 
         if(pkmn_group)
@@ -39,14 +37,14 @@ export const useTrainers = () => {
             
         trainers.push(trainer)
     }
-    
-    /* console.group()
-    console.log("Number of trainers: " + trainers.length)
-    console.log("Number of trainers with ids: " + countWithIds)
-    console.log("Number of trainers with 19 IVS: " + count19ivs)
-    console.log("Number of trainers with 23 IVS: " + count23ivs)
-    console.log("Number of trainers with Groups: " + countGroups)
-    console.groupEnd() */
+
+    // console.group()
+    // console.log("Number of trainers: " + trainers.length)
+    // console.log("Number of trainers with ids: " + countWithIds)
+    // console.log("Number of trainers with 19 IVS: " + count19ivs)
+    // console.log("Number of trainers with 23 IVS: " + count23ivs)
+    // console.log("Number of trainers with Groups: " + countGroups)
+    // console.groupEnd()
 
     return ref(trainers)
 }

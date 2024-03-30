@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import groups_data from '@/data/groups.json'
+import groups_data from '@/data/groups2.json'
 import Group from '@/interfaces/Group.js'
 
 /**
@@ -10,16 +10,16 @@ import Group from '@/interfaces/Group.js'
 export const useGroups = () => {
     const groups = []
 
-    for (let group_data of groups_data) {
+    for (let group_data of Object.values(groups_data)) {
         const {
             name, sets_in_group, trainers_using_group
         } = group_data
 
         const group = new Group(
-            name, sets_in_group, trainers_using_group
+            name, sets_in_group
         )
         groups.push(group)
-    }
+      }
 
     return ref(groups)
 }

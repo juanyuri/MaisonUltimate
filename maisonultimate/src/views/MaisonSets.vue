@@ -96,11 +96,12 @@ let changePokemon = (number) => {
 }
 
 const filteredSets = computed(() => {
+  
   return query.value === ''
     ? sets.value
     : findSets(
       allTrainers.value
-        .filter(trainer => trainer.name === query.value)[0]['pkmn_group']
+        .filter(trainer => trainer.name_oras === query.value)[0].pkmn_group
     ) 
 })
 

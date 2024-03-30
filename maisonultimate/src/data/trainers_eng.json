@@ -1,0 +1,2172 @@
+[
+    {
+        "id": 111,
+        "name_xy": "Pablo",
+        "name_oras": "Amarnath",
+        "pkmn_group": "BUG_NORMAL_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 112,
+        "name_xy": "Nathan",
+        "name_oras": "Masaharu",
+        "pkmn_group": "BUG_NORMAL_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 113,
+        "name_xy": "Lauren",
+        "name_oras": "Kana",
+        "pkmn_group": "FAIRY_NORMAL_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 114,
+        "name_xy": "Eva",
+        "name_oras": "Reena",
+        "pkmn_group": "FAIRY_NORMAL_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 115,
+        "name_xy": "Fritz",
+        "name_oras": "Potter",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 116,
+        "name_xy": "Schuyler",
+        "name_oras": "Schuyler",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 117,
+        "name_xy": "Kaya",
+        "name_oras": "Kaya",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 118,
+        "name_xy": "Athena",
+        "name_oras": "Athena",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 119,
+        "name_xy": "Kasper",
+        "name_oras": "Lachlan",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 120,
+        "name_xy": "Auric",
+        "name_oras": "Sione",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 121,
+        "name_xy": "Aline",
+        "name_oras": "Holly",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 122,
+        "name_xy": "Francoise",
+        "name_oras": "Glynnis",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 123,
+        "name_xy": "Cody",
+        "name_oras": "Sulo",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 124,
+        "name_xy": "Preston",
+        "name_oras": "Gwillym",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 125,
+        "name_xy": "Ava",
+        "name_oras": "Sakura",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 126,
+        "name_xy": "Madison",
+        "name_oras": "Uta",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 127,
+        "name_xy": "Erroll",
+        "name_oras": "Maxen",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 128,
+        "name_xy": "Seamus",
+        "name_oras": "Ranwyl",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 129,
+        "name_xy": "Edirne",
+        "name_oras": "Edirne",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 130,
+        "name_xy": "Marbella",
+        "name_oras": "Marbella",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 131,
+        "name_xy": "Caleb",
+        "name_oras": "Narry",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 132,
+        "name_xy": "Basim",
+        "name_oras": "Joel",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 133,
+        "name_xy": "Char",
+        "name_oras": "Char",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 134,
+        "name_xy": "Tilapia",
+        "name_oras": "Tilapia",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 135,
+        "name_xy": "Antony",
+        "name_oras": "Alekhya",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 136,
+        "name_xy": "Rhett",
+        "name_oras": "Konani",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 137,
+        "name_xy": "Dierdre",
+        "name_oras": "Veronica",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 138,
+        "name_xy": "Ophelia",
+        "name_oras": "Olonno",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 139,
+        "name_xy": "Deck",
+        "name_oras": "Palani",
+        "pkmn_group": "GROUND_ROCK_STEEL_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 140,
+        "name_xy": "Abseil",
+        "name_oras": "Abseil",
+        "pkmn_group": "GROUND_ROCK_STEEL_1",
+        "tier": 1,
+        "ivs": 19,
+        "rounds": [
+            "1-10"
+        ]
+    },
+    {
+        "id": 141,
+        "name_xy": "Jamie",
+        "name_oras": "Jamie",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 142,
+        "name_xy": "Tilde",
+        "name_oras": "Tilde",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 143,
+        "name_xy": "Jeanette",
+        "name_oras": "Jeanette",
+        "pkmn_group": "FAIRY_NORMAL_PSYCHIC_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 144,
+        "name_xy": "Sylvia",
+        "name_oras": "Sylvia",
+        "pkmn_group": "FAIRY_NORMAL_PSYCHIC_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 145,
+        "name_xy": "Aurore",
+        "name_oras": "Aurore",
+        "pkmn_group": "FAIRY_NORMAL_PSYCHIC_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 146,
+        "name_xy": "Oberon",
+        "name_oras": "Channing",
+        "pkmn_group": "DARK_POISON_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 147,
+        "name_xy": "Triton",
+        "name_oras": "Cruz",
+        "pkmn_group": "DARK_POISON_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 148,
+        "name_xy": "Pan",
+        "name_oras": "Darius",
+        "pkmn_group": "DARK_POISON_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 149,
+        "name_xy": "Rhea",
+        "name_oras": "Rhea",
+        "pkmn_group": "DARK_POISON_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 150,
+        "name_xy": "Titania",
+        "name_oras": "Titania",
+        "pkmn_group": "DARK_POISON_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 151,
+        "name_xy": "Ariel",
+        "name_oras": "Ariel",
+        "pkmn_group": "DARK_POISON_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 152,
+        "name_xy": "Jus",
+        "name_oras": "Jus",
+        "pkmn_group": "FIRE_GRASS_WATER_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 153,
+        "name_xy": "Dariole",
+        "name_oras": "Dariole",
+        "pkmn_group": "FIRE_GRASS_WATER_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 154,
+        "name_xy": "Florentine",
+        "name_oras": "Florentine",
+        "pkmn_group": "FIRE_GRASS_WATER_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 155,
+        "name_xy": "Joshua",
+        "name_oras": "Joshua",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 156,
+        "name_xy": "Elias",
+        "name_oras": "Elias",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 157,
+        "name_xy": "Jude",
+        "name_oras": "Jude",
+        "pkmn_group": "TEAM_BC_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 158,
+        "name_xy": "Beth",
+        "name_oras": "Beth",
+        "pkmn_group": "TEAM_AB_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 159,
+        "name_xy": "Paige",
+        "name_oras": "Paige",
+        "pkmn_group": "TEAM_CD_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 160,
+        "name_xy": "Joelle",
+        "name_oras": "Joelle",
+        "pkmn_group": "TEAM_BC_1",
+        "tier": 2,
+        "ivs": 19,
+        "rounds": [
+            "1-10",
+            "11-20"
+        ]
+    },
+    {
+        "id": 161,
+        "name_xy": "Jasper",
+        "name_oras": "Jasper",
+        "pkmn_group": "TEAM_AB_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 162,
+        "name_xy": "Gray",
+        "name_oras": "Gray",
+        "pkmn_group": "TEAM_CD_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 163,
+        "name_xy": "Rufous",
+        "name_oras": "Rufous",
+        "pkmn_group": "TEAM_BC_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 164,
+        "name_xy": "Carmine",
+        "name_oras": "Carmine",
+        "pkmn_group": "TEAM_AB_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 165,
+        "name_xy": "Sienna",
+        "name_oras": "Sienna",
+        "pkmn_group": "TEAM_CD_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 166,
+        "name_xy": "Scarlet",
+        "name_oras": "Scarlet",
+        "pkmn_group": "TEAM_BC_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 167,
+        "name_xy": "Arnau",
+        "name_oras": "Arnau",
+        "pkmn_group": "GROUND_ROCK_STEEL_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 168,
+        "name_xy": "Leo",
+        "name_oras": "Leo",
+        "pkmn_group": "GROUND_ROCK_STEEL_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 169,
+        "name_xy": "Esteban",
+        "name_oras": "Esteban",
+        "pkmn_group": "GROUND_ROCK_STEEL_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 170,
+        "name_xy": "Jules",
+        "name_oras": "Jules",
+        "pkmn_group": "GROUND_ROCK_STEEL_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 171,
+        "name_xy": "Manuel",
+        "name_oras": "Manuel",
+        "pkmn_group": "ELECTRIC_FLYING_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 172,
+        "name_xy": "Rory",
+        "name_oras": "Rory",
+        "pkmn_group": "ELECTRIC_FLYING_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 173,
+        "name_xy": "Clio",
+        "name_oras": "Clio",
+        "pkmn_group": "ELECTRIC_FLYING_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 174,
+        "name_xy": "Sierra",
+        "name_oras": "Sierra",
+        "pkmn_group": "ELECTRIC_FLYING_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 175,
+        "name_xy": "Giacomo",
+        "name_oras": "Giacomo",
+        "pkmn_group": "TEAM_AB_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 176,
+        "name_xy": "Guillaume",
+        "name_oras": "Guillaume",
+        "pkmn_group": "TEAM_CD_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 177,
+        "name_xy": "Carol",
+        "name_oras": "Carol",
+        "pkmn_group": "TEAM_AB_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 178,
+        "name_xy": "Lena",
+        "name_oras": "Lena",
+        "pkmn_group": "TEAM_CD_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 179,
+        "name_xy": "Lucy",
+        "name_oras": "Lucy",
+        "pkmn_group": "DARK_FAIRY_NORMAL_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 180,
+        "name_xy": "Lucinda",
+        "name_oras": "Lucinda",
+        "pkmn_group": "DARK_FAIRY_NORMAL_2",
+        "tier": 3,
+        "ivs": 23,
+        "rounds": [
+            "11-20",
+            "21-30"
+        ]
+    },
+    {
+        "id": 181,
+        "name_xy": "Florian",
+        "name_oras": "Florian",
+        "pkmn_group": "BUG_GRASS_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 182,
+        "name_xy": "Giorgi",
+        "name_oras": "Giorgi",
+        "pkmn_group": "BUG_GRASS_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 183,
+        "name_xy": "Dylan",
+        "name_oras": "Berger",
+        "pkmn_group": "ICE_WATER_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 184,
+        "name_xy": "Apollo",
+        "name_oras": "Bunnie",
+        "pkmn_group": "ICE_WATER_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 185,
+        "name_xy": "O'Hare",
+        "name_oras": "O'Hare",
+        "pkmn_group": "TEAM_AB_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 186,
+        "name_xy": "Heathrow",
+        "name_oras": "Heathrow",
+        "pkmn_group": "TEAM_CD_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 187,
+        "name_xy": "Sydney",
+        "name_oras": "Sydney",
+        "pkmn_group": "TEAM_BC_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 188,
+        "name_xy": "Valencia",
+        "name_oras": "Valencia",
+        "pkmn_group": "TEAM_AB_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 189,
+        "name_xy": "Odessa",
+        "name_oras": "Odessa",
+        "pkmn_group": "TEAM_CD_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 190,
+        "name_xy": "Florence",
+        "name_oras": "Florence",
+        "pkmn_group": "TEAM_BC_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 191,
+        "name_xy": "Ewert",
+        "name_oras": "Ewert",
+        "pkmn_group": "TEAM_AB_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 192,
+        "name_xy": "Jovann",
+        "name_oras": "Jovann",
+        "pkmn_group": "TEAM_CD_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 193,
+        "name_xy": "Noemie",
+        "name_oras": "Noemie",
+        "pkmn_group": "TEAM_AB_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 194,
+        "name_xy": "Zoe",
+        "name_oras": "Zoe",
+        "pkmn_group": "TEAM_CD_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 195,
+        "name_xy": "Harris",
+        "name_oras": "Harris",
+        "pkmn_group": "TEAM_AB_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 196,
+        "name_xy": "Frederik",
+        "name_oras": "Frederik",
+        "pkmn_group": "TEAM_CD_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 197,
+        "name_xy": "Elizabeth",
+        "name_oras": "Elizabeth",
+        "pkmn_group": "TEAM_AB_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 198,
+        "name_xy": "Marie-Noelle",
+        "name_oras": "Marie-Noelle",
+        "pkmn_group": "TEAM_CD_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 199,
+        "name_xy": "Fleur",
+        "name_oras": "Fleur",
+        "pkmn_group": "EEVEELUTIONS_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 200,
+        "name_xy": "Marilla",
+        "name_oras": "Marilla",
+        "pkmn_group": "EEVEELUTIONS_3",
+        "tier": 4,
+        "ivs": 27,
+        "rounds": [
+            "21-30",
+            "31-40"
+        ]
+    },
+    {
+        "id": 201,
+        "name_xy": "Cyril",
+        "name_oras": "Cyril",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 202,
+        "name_xy": "Galton",
+        "name_oras": "Galton",
+        "pkmn_group": "TEAM_CD_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 203,
+        "name_xy": "Neils",
+        "name_oras": "Neils",
+        "pkmn_group": "ELECTRIC_POISON_FOSSIL_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 204,
+        "name_xy": "Sigmund",
+        "name_oras": "Sigmund",
+        "pkmn_group": "ELECTRIC_POISON_FOSSIL_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 205,
+        "name_xy": "Max",
+        "name_oras": "Max",
+        "pkmn_group": "ELECTRIC_POISON_FOSSIL_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 206,
+        "name_xy": "Rosalind",
+        "name_oras": "Rosalind",
+        "pkmn_group": "ELECTRIC_POISON_FOSSIL_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 207,
+        "name_xy": "Candela",
+        "name_oras": "Candela",
+        "pkmn_group": "ELECTRIC_POISON_FOSSIL_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 208,
+        "name_xy": "Jane",
+        "name_oras": "Jane",
+        "pkmn_group": "ELECTRIC_POISON_FOSSIL_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 209,
+        "name_xy": "Uberto",
+        "name_oras": "Uberto",
+        "pkmn_group": "GHOST_PSYCHIC_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 210,
+        "name_xy": "Haskell",
+        "name_oras": "Haskell",
+        "pkmn_group": "GHOST_PSYCHIC_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 211,
+        "name_xy": "Magus",
+        "name_oras": "Magus",
+        "pkmn_group": "GHOST_PSYCHIC_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 212,
+        "name_xy": "Celia",
+        "name_oras": "Celia",
+        "pkmn_group": "GHOST_PSYCHIC_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 213,
+        "name_xy": "Ciara",
+        "name_oras": "Ciara",
+        "pkmn_group": "GHOST_PSYCHIC_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 214,
+        "name_xy": "Lola",
+        "name_oras": "Lola",
+        "pkmn_group": "GHOST_PSYCHIC_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 215,
+        "name_xy": "Wystan",
+        "name_oras": "Wystan",
+        "pkmn_group": "FIGHTING_FIRE_ROCK_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 216,
+        "name_xy": "Sebastian",
+        "name_oras": "Sebastian",
+        "pkmn_group": "FIGHTING_FIRE_ROCK_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 217,
+        "name_xy": "Tyrell",
+        "name_oras": "Tyrell",
+        "pkmn_group": "FIGHTING_FIRE_ROCK_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 218,
+        "name_xy": "Mae",
+        "name_oras": "Mae",
+        "pkmn_group": "FIGHTING_FIRE_ROCK_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 219,
+        "name_xy": "Kata",
+        "name_oras": "Kata",
+        "pkmn_group": "FIGHTING_FIRE_ROCK_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 220,
+        "name_xy": "Rei",
+        "name_oras": "Rei",
+        "pkmn_group": "FIGHTING_FIRE_ROCK_4",
+        "tier": 5,
+        "ivs": 31,
+        "rounds": [
+            "31-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 221,
+        "name_xy": "Hunter",
+        "name_oras": "Hunter",
+        "pkmn_group": "GRASS_WATER_GROUND_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 222,
+        "name_xy": "Parker",
+        "name_oras": "Parker",
+        "pkmn_group": "GRASS_WATER_GROUND_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 223,
+        "name_xy": "Tanner",
+        "name_oras": "Tanner",
+        "pkmn_group": "GRASS_WATER_GROUND_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 224,
+        "name_xy": "Willow",
+        "name_oras": "Willow",
+        "pkmn_group": "GRASS_WATER_GROUND_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 225,
+        "name_xy": "Hazel",
+        "name_oras": "Hazel",
+        "pkmn_group": "GRASS_WATER_GROUND_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 226,
+        "name_xy": "Cerese",
+        "name_oras": "Cerese",
+        "pkmn_group": "GRASS_WATER_GROUND_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 227,
+        "name_xy": "Claus",
+        "name_oras": "Claus",
+        "pkmn_group": "TEAM_AB_4+LATIOS1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 228,
+        "name_xy": "Sigurd",
+        "name_oras": "Sigurd",
+        "pkmn_group": "TEAM_CD_4+LATIOS1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 229,
+        "name_xy": "Colin",
+        "name_oras": "Colin",
+        "pkmn_group": "TEAM_AD_4+LATIOS1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 230,
+        "name_xy": "Gwen",
+        "name_oras": "Gwen",
+        "pkmn_group": "TEAM_AB_4+LATIAS1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 231,
+        "name_xy": "Victoria",
+        "name_oras": "Victoria",
+        "pkmn_group": "TEAM_CD_4+LATIAS1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 232,
+        "name_xy": "Nikita",
+        "name_oras": "Nikita",
+        "pkmn_group": "TEAM_AD_4+LATIAS1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 233,
+        "name_xy": "Howell",
+        "name_oras": "Howell",
+        "pkmn_group": "LEGENDARY_1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 234,
+        "name_xy": "Dorian",
+        "name_oras": "Dorian",
+        "pkmn_group": "LEGENDARY_1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 235,
+        "name_xy": "Stanislaw",
+        "name_oras": "Stanislaw",
+        "pkmn_group": "LEGENDARY_1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 236,
+        "name_xy": "Jake",
+        "name_oras": "Jake",
+        "pkmn_group": "LEGENDARY_1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 237,
+        "name_xy": "Sibyl",
+        "name_oras": "Sibyl",
+        "pkmn_group": "LEGENDARY_1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 238,
+        "name_xy": "Hera",
+        "name_oras": "Hera",
+        "pkmn_group": "LEGENDARY_1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 239,
+        "name_xy": "Catherine",
+        "name_oras": "Catherine",
+        "pkmn_group": "LEGENDARY_1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 240,
+        "name_xy": "Zenobia",
+        "name_oras": "Zenobia",
+        "pkmn_group": "LEGENDARY_1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 241,
+        "name_xy": "Rolf",
+        "name_oras": "Rolf",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 242,
+        "name_xy": "Perdido",
+        "name_oras": "Perdido",
+        "pkmn_group": "TEAM_CD_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 243,
+        "name_xy": "Ibiza",
+        "name_oras": "Ibiza",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 244,
+        "name_xy": "Aire",
+        "name_oras": "Aire",
+        "pkmn_group": "TEAM_CD_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 245,
+        "name_xy": "Porter",
+        "name_oras": "Porter",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 246,
+        "name_xy": "Darcy",
+        "name_oras": "Darcy",
+        "pkmn_group": "TEAM_CD_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 247,
+        "name_xy": "Ilisha",
+        "name_oras": "Ilisha",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 248,
+        "name_xy": "Remora",
+        "name_oras": "Remora",
+        "pkmn_group": "TEAM_CD_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 249,
+        "name_xy": "Choss",
+        "name_oras": "Choss",
+        "pkmn_group": "FIGHTING_GROUND_ROCK_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 250,
+        "name_xy": "Rand",
+        "name_oras": "Rand",
+        "pkmn_group": "FIGHTING_GROUND_ROCK_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 251,
+        "name_xy": "Jai",
+        "name_oras": "Jai",
+        "pkmn_group": "SP._ATTACK",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 252,
+        "name_xy": "Bunny",
+        "name_oras": "Bunny",
+        "pkmn_group": "SP._DEFENSE",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 253,
+        "name_xy": "Anastasia",
+        "name_oras": "Anastasia",
+        "pkmn_group": "GHOST_PSYCHIC_3_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 254,
+        "name_xy": "Mara",
+        "name_oras": "Mara",
+        "pkmn_group": "TRICK_ROOM",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 255,
+        "name_xy": "Deimos",
+        "name_oras": "Quinton",
+        "pkmn_group": "DARK_FIRE_POISON_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 256,
+        "name_xy": "Puck",
+        "name_oras": "Jensen",
+        "pkmn_group": "INTIMIDATE",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 257,
+        "name_xy": "Miranda",
+        "name_oras": "Delaney",
+        "pkmn_group": "DARK_FIRE_POISON_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 258,
+        "name_xy": "Europa",
+        "name_oras": "Hadley",
+        "pkmn_group": "DARK_FIRE_POISON_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 259,
+        "name_xy": "Nicoise",
+        "name_oras": "Angus",
+        "pkmn_group": "FIRE_GRASS_WATER_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 260,
+        "name_xy": "Roux",
+        "name_oras": "Frank",
+        "pkmn_group": "SUN",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 261,
+        "name_xy": "Noah",
+        "name_oras": "Noah",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 262,
+        "name_xy": "Deacon",
+        "name_oras": "Deacon",
+        "pkmn_group": "TEAM_CD_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 263,
+        "name_xy": "Colette",
+        "name_oras": "Clara",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 264,
+        "name_xy": "Ghislaine",
+        "name_oras": "Joan",
+        "pkmn_group": "TEAM_CD_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 265,
+        "name_xy": "Wenge",
+        "name_oras": "Wenge",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 266,
+        "name_xy": "Redd",
+        "name_oras": "Redd",
+        "pkmn_group": "TEAM_CD_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 267,
+        "name_xy": "Azure",
+        "name_oras": "Azure",
+        "pkmn_group": "GROUND_ROCK_STEEL_4+REGIROCK1_2",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 268,
+        "name_xy": "Rose",
+        "name_oras": "Rose",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 269,
+        "name_xy": "Levin",
+        "name_oras": "Levin",
+        "pkmn_group": "GROUND_ROCK_STEEL_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 270,
+        "name_xy": "Rasmus",
+        "name_oras": "Rasmus",
+        "pkmn_group": "SAND",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 271,
+        "name_xy": "Axel",
+        "name_oras": "Axel",
+        "pkmn_group": "GROUND_ROCK_STEEL_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 272,
+        "name_xy": "Ivan",
+        "name_oras": "Ivan",
+        "pkmn_group": "GROUND_ROCK_STEEL_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 273,
+        "name_xy": "Raoul",
+        "name_oras": "Raoul",
+        "pkmn_group": "ELECTRIC_FLYING_3_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 274,
+        "name_xy": "Ryker",
+        "name_oras": "Ryker",
+        "pkmn_group": "ELECTRIC_FLYING_3_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 275,
+        "name_xy": "Aurora",
+        "name_oras": "Aurora",
+        "pkmn_group": "ELECTRIC_FLYING_3_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 276,
+        "name_xy": "Electra",
+        "name_oras": "Electra",
+        "pkmn_group": "ELECTRIC_FLYING_3_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 277,
+        "name_xy": "Alfie",
+        "name_oras": "Alfie",
+        "pkmn_group": "LEGENDARY_3_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 278,
+        "name_xy": "Saba",
+        "name_oras": "Saba",
+        "pkmn_group": "LEGENDARY",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 279,
+        "name_xy": "Eleanor",
+        "name_oras": "Eleanor",
+        "pkmn_group": "LEGENDARY_3_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 280,
+        "name_xy": "Isabella",
+        "name_oras": "Isabella",
+        "pkmn_group": "LEGENDARY",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 281,
+        "name_xy": "Carlos",
+        "name_oras": "Caesar",
+        "pkmn_group": "ICE_WATER_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 282,
+        "name_xy": "Andrei",
+        "name_oras": "Cobb",
+        "pkmn_group": "HAIL",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 283,
+        "name_xy": "Orla",
+        "name_oras": "Kenna",
+        "pkmn_group": "ICE_WATER_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 284,
+        "name_xy": "Claire",
+        "name_oras": "Lana",
+        "pkmn_group": "RAIN",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 285,
+        "name_xy": "Lucetta",
+        "name_oras": "Birdie",
+        "pkmn_group": "DARK_FAIRY_NORMAL_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 286,
+        "name_xy": "Lucille",
+        "name_oras": "Naveen",
+        "pkmn_group": "DARK_FAIRY_NORMAL_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 287,
+        "name_xy": "Hartsfield",
+        "name_oras": "Hartsfield",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 288,
+        "name_xy": "Incheon",
+        "name_oras": "Incheon",
+        "pkmn_group": "TEAM_CD_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 289,
+        "name_xy": "Geneva",
+        "name_oras": "Geneva",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 290,
+        "name_xy": "Chelsea",
+        "name_oras": "Chelsea",
+        "pkmn_group": "TEAM_CD_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 291,
+        "name_xy": "Abbot",
+        "name_oras": "Merekee",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 292,
+        "name_xy": "Tad",
+        "name_oras": "Teppei",
+        "pkmn_group": "STARTERS",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 293,
+        "name_xy": "Josiane",
+        "name_oras": "Gudrun",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 294,
+        "name_xy": "Ina",
+        "name_oras": "Lalaini",
+        "pkmn_group": "STARTERS",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 295,
+        "name_xy": "Kirill",
+        "name_oras": "Kirill",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 296,
+        "name_xy": "Patrice",
+        "name_oras": "Patrice",
+        "pkmn_group": "TEAM_CD_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 297,
+        "name_xy": "Sati",
+        "name_oras": "Inga",
+        "pkmn_group": "TEAM_AB_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 298,
+        "name_xy": "Aparna",
+        "name_oras": "Arabella",
+        "pkmn_group": "TEAM_CD_4",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 299,
+        "name_xy": "Kannon",
+        "name_oras": "Kannon",
+        "pkmn_group": "EEVEELUTIONS",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    },
+    {
+        "id": 300,
+        "name_xy": "Nigella",
+        "name_oras": "Nigella",
+        "pkmn_group": "EEVEELUTIONS",
+        "tier": 6,
+        "ivs": 31,
+        "rounds": [
+            "41+"
+        ]
+    }
+]
