@@ -1,11 +1,11 @@
 <template>
   <main>
-
+    
     <div class="search-container">
       <YuriSearch 
         :items="allTrainers" 
-        placeholderText="Elige un entrenador" 
-        attrToShow="name" 
+        placeholderText="Choose a trainer" 
+        attrToShow="name_oras" 
         :minLength="1"
         @onItemSelected="(event) => updateTrainer(event)"
       />
@@ -100,13 +100,12 @@ const filteredSets = computed(() => {
   return query.value === ''
     ? sets.value
     : findSets(
-      allTrainers.value
-        .filter(trainer => trainer.name_oras === query.value)[0].pkmn_group
+      allTrainers.value.filter(trainer => trainer['name_oras'] == query.value)[0]['pkmn_group']
     ) 
 })
 
 const updateTrainer = (event) => {
-  query.value = event.name
+  query.value = event['name_oras']
 }
 
 const pctg = (result, hp) => {
