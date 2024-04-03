@@ -1,6 +1,5 @@
 <template>
   <main>
-    <p>{{ currentTrainer }}</p>
 
     <div class="search-container">
       <YuriSearch 
@@ -11,7 +10,7 @@
         @onItemSelected="(event) => updateTrainer(event)"
       />
       <p v-if="filteredSets.length === 864">Showing all sets</p>
-      <p v-else>{{ query }} has {{ filteredSets.length }} sets available.</p>
+      <p v-else>{{ currentTrainer.name_oras }} (ORAS), {{ currentTrainer.name_xy }} (XY) has {{ filteredSets.length }} sets available. Found in rounds: {{ currentTrainer.rounds[0] }} </p>
     </div>
       
 
@@ -30,8 +29,8 @@
         </div>
       </div>
 
-
-    <div id="speed-comparator">
+      
+      <div id="speed-comparator">
       <table id="pkmn-table">
         <thead>
           <tr class="header">
@@ -45,7 +44,7 @@
             <th class="pkmn-table-th">DAMAGE</th>
           </tr>
         </thead>
-
+        
         <tbody>
           <tr v-for="set in filteredSets" :key="set">
             <td>{{ set.setName }}</td>
@@ -55,13 +54,13 @@
             <td>{{ set.moves[3] }}</td>
             <td>{{ set.item }} {{ currentTrainer.ivs }}</td>
             <td>{{ set.totalStats[5] }}
-              <p v-if="set.item == 'Choice Scarf'" style="display: inline; color:red; font-weigth:bold;">#</p>
-              <p v-if="set.item == 'Iron Ball'" style="display: inline; color:blue; font-weigth:bold;">*</p>
+              <p v-if="set.item == 'Choice Scarf'" style="display: inline; color:red; font-weight:bold;">#</p>
+              <p v-if="set.item == 'Iron Ball'" style="display: inline; color:blue; font-weight:bold;">*</p>
             </td>
             <td>{{ pctg(damage(set, 85), set.totalStats[0]) }}% - {{pctg(damage(set, 100), set.totalStats[0])}}%
           </td>
-          </tr>
-        </tbody>
+        </tr>
+      </tbody>
       </table>
     </div>
   </main>
@@ -98,17 +97,37 @@ let changePokemon = (number) => {
 }
 
 const filteredSets = computed(() => {
-  
-  return query.value === ''
+
+  /* Query for getting all the sets */
+  let sets = query.value === ''
     ? sets.value
     : findSets(
       allTrainers.value.filter(trainer => trainer['name_oras'] == query.value)[0]['pkmn_group']
-    ) 
+    );
+
+
+  
+  // Modify each set's totalStats based on currentTrainer.ivs
+  sets = sets.map(set => {
+    // Copy the set to avoid modifying the original
+    const modifiedSet = {...set}
+
+
+    let trainerIVs = currentTrainer.ivs
+    modifiedSet.ivs = [trainerIVs, trainerIVs, trainerIVs, trainerIVs, trainerIVs, trainerIVs]
+
+    let finish = stats(modifiedSet)
+    modifiedSet.totalStats = finish
+
+    return modifiedSet
+  })
+
+  return sets
 })
 
-const updateTrainer = (event) => {
-  query.value = event['name_oras']
-  filteredSets
+const updateTrainer = ( trainer ) => {
+  query.value = trainer['name_oras']
+  currentTrainer.value = trainer
 }
 
 const pctg = (result, hp) => {
@@ -286,4 +305,5 @@ table#pkmn-table tr:not(.header):hover {
   padding-top:40px;
   gap: 20px;
 }
+
 </style>
