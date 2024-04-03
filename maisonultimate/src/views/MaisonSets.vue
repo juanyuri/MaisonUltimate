@@ -1,6 +1,7 @@
 <template>
   <main>
-    
+    <p>{{ currentTrainer }}</p>
+
     <div class="search-container">
       <YuriSearch 
         :items="allTrainers" 
@@ -52,13 +53,12 @@
             <td>{{ set.moves[1] }}</td>
             <td>{{ set.moves[2] }}</td>
             <td>{{ set.moves[3] }}</td>
-            <td>{{ set.item }}</td>
+            <td>{{ set.item }} {{ currentTrainer.ivs }}</td>
             <td>{{ set.totalStats[5] }}
               <p v-if="set.item == 'Choice Scarf'" style="display: inline; color:red; font-weigth:bold;">#</p>
               <p v-if="set.item == 'Iron Ball'" style="display: inline; color:blue; font-weigth:bold;">*</p>
             </td>
-            <td>{{ pctg(damage(set, 85), set.totalStats[0]) }}% - 
-            {{pctg(damage(set, 100), set.totalStats[0])}}%
+            <td>{{ pctg(damage(set, 85), set.totalStats[0]) }}% - {{pctg(damage(set, 100), set.totalStats[0])}}%
           </td>
           </tr>
         </tbody>
@@ -90,6 +90,8 @@ const sets = useSets()
 const store = useStore()
 let currentPokemon = ref(store.team[0])
 let query = ref(TRAINER_DEFAULT)
+let currentTrainer = allTrainers.value.find(tr => tr.name_oras == TRAINER_DEFAULT)
+
 
 let changePokemon = (number) => {
   currentPokemon.value = store.team[number]
@@ -106,17 +108,15 @@ const filteredSets = computed(() => {
 
 const updateTrainer = (event) => {
   query.value = event['name_oras']
+  filteredSets
 }
 
 const pctg = (result, hp) => {
-  let statsDeal = []
+  let damagePctg = ~~(result.totalDamage / hp * 100)
 
-  for (let res of result) {
-    statsDeal.push(~~(res.totalDamage / hp * 100))
-  }
-
-  return Math.max(...statsDeal)
+  return damagePctg
 }
+
 
 
 const damage = (opponent, random) => {
@@ -125,18 +125,16 @@ const damage = (opponent, random) => {
 
   let opponentType1 = opponent['type1']
   let opponentType2 = opponent['type2']
-  let attackerType1 = attacker['type2']
+  let attackerType1 = attacker['type1']
   let attackerType2 = attacker['type2']
 
   let attackerLevel = attacker['level']
 
-  /* Initialize an array to store the damage from each attack */
+  /* Storing the damage from each attack */
   const attacksDamage = []
-
 
   /* Calculate the damage from each attack */
   attacker['moves'].forEach(moveName => {
-
     const move = moves.value.find(m => m.name === moveName)
 
     /* Initialize variables for attack and defense stats, base power, type effectiveness, and STAB */
@@ -176,10 +174,12 @@ const damage = (opponent, random) => {
     attacksDamage.push({ totalDamage: resultadoBase, moveName: move.name })
   })
 
+  // Find the maximum damage and move associated
+  let maxDamageMove = attacksDamage.reduce((maxMove, move) => {
+    return move.totalDamage > maxMove.totalDamage ? move : maxMove
+  }, {totalDamage: 0, moveName: ''})
 
-  /* Find the attack with the highest damage and return it */
-  return attacksDamage
-  /* return attacksDamage.reduce((prev, current) => (prev.total_dmg > current.total_dmg) ? prev : current) */
+  return maxDamageMove
 }
 
 </script>
@@ -192,11 +192,6 @@ const damage = (opponent, random) => {
 
   padding-top: 40px;
 }
-
-
-
-
-
 
 
 table#pkmn-table {

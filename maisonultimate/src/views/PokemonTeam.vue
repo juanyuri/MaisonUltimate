@@ -50,8 +50,7 @@
         <YuriSearch :items="allItems" :placeholderText="currentPokemon.item ? currentPokemon.item : 'Choose an Object...'"
           attrToShow="name" :minLength="1"
           @onItemSelected="(event) => update('item', event, 'name')" />
-
-        
+          
       </div>
     </div>
 
@@ -175,7 +174,6 @@ const allItems = useItems()
 const allMoves = useMoves()
 const allAbilities = useAbilities()
 const allPkmn = usePokemon()
-console.log(allPkmn)
 const store = useStore()
 const natures = useNatures()
 const DEF_IMG_URL = "https://raw.githubusercontent.com/msikma/pokesprite/master/misc/types/go/"
