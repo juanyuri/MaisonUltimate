@@ -39,6 +39,7 @@
             <th class="pkmn-table-th">MOVE 2</th>
             <th class="pkmn-table-th">MOVE 3</th>
             <th class="pkmn-table-th">MOVE 4</th>
+            <th class="pkmn-table-th">ABILITY</th>
             <th class="pkmn-table-th">ITEM</th>
             <th class="pkmn-table-th">SPEED</th>
             <th class="pkmn-table-th">DAMAGE</th>
@@ -52,7 +53,8 @@
             <td>{{ set.moves[1] }}</td>
             <td>{{ set.moves[2] }}</td>
             <td>{{ set.moves[3] }}</td>
-            <td>{{ set.item }} {{ currentTrainer.ivs }}</td>
+            <td ><p v-for="ab in set.abilities">{{ ab }}</p></td>
+            <td>{{ set.item }}</td>
             <td>{{ set.totalStats[5] }}
               <p v-if="set.item == 'Choice Scarf'" style="display: inline; color:red; font-weight:bold;">#</p>
               <p v-if="set.item == 'Iron Ball'" style="display: inline; color:blue; font-weight:bold;">*</p>
