@@ -1,9 +1,5 @@
 # Pokemon Maison Ultimate
-> [!WARNING]
-> This project is under construction. Your feedback is highly valuable and will improve this web application
-
-
-My name is Yuri and I'm a Computer Scientist in Galicia, Spain. This project is made to win in the Battle Maison of Pokemon ORAS/XY to become a Pokemon Máster!!
+My name is **Yuri** and I'm a Computer Scientist in Galicia, Spain. This project is made to beat the ORAS/XY Battle Maison and becoming a truly Pokemon Master!!
 
 
 <br> 
@@ -37,16 +33,21 @@ npm run dev
 This will start a development server at <a href="http://localhost:5173" target="_blank">Localhost with port 5173</a>
 
 
-## Working on...
+## Roadmap
 
-- [x] Reactivity of Pokemon Classes in Team Planner View
-- [x] Pokemon Team Planner View v.0.1
-- [ ] Modify JSON of trainers to add Location from english Game Version (ORAS, XY)
+- [x] FRONTEND: Implement all components needed for Team Planning
+- [x] FRONTEND: Implement all components needed for Maison Sets Comparisons
+- [x] Pokemon Team Planner View a.0.1
+- [x] DATA: ORAS/XY JSON with all trainers in English Version
+- [ ] FRONTEND: Button to choose between ORAS or XY trainers
+- [ ] FRONTEND: Button to choose the round you are on
+- [ ] Pokemon Maison Sets View a.0.1
 - [ ] MVP. Minimum Viable Project
-- [ ] Add all Trainers in Spanish games ORAS
-- [ ] Modify Team Planner View to add FILTERING Pokemon.
-- [ ] Make smaller Components and distribute Responsibilities across them
-- [ ] Document the project architecture
+- [ ] FRONTEND: Order all the tables columns by name, values, damage, etc.
+- [ ] FRONTEND: Implement ERROR and SUCCESS screens.
+- [ ] FRONTEND: Add filtering in Pokemon Team Builder
+- [ ] DOCUMENTATION: Add Project TechStack and more information about the structure
+- [ ] DATA: ORAS/XY JSON with all trainers in Spanish Version
 
 > [!NOTE]
-> All these features are not necessarely implemented in alpha versions
+> If you want any other feature, just contact me on: jdsanchez19@esei.uvigo.es
