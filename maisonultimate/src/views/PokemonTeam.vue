@@ -1,6 +1,9 @@
 <template>
-  <div class="Pokemon-Cards-Container">
 
+  <button @click="userStore.changeLanguage('SPANISH')">SPA</button>
+  <button @click="userStore.changeLanguage('ENGLISH')">ENG</button>
+
+  <div class="Pokemon-Cards-Container">
 
     <div class="Pokemon-Card" v-for="(pkmn, index) in store.team" :key="pkmn" @click="selectPokemon(index, pkmn)">
       <img :src="pkmn.spriteIcon" alt="pkmn.species" width="80" height="80" />
@@ -166,6 +169,9 @@ import { stats, natureEffect } from '@/composables/stats.comp.js'
 import {useNatures} from '@/composables/natures.comp.js'
 /* Pinia Store for saving Team Composition */
 import { useStore } from '@/stores/TeamStore.js'
+import { useConfigStore } from '@/stores/UserConfigStore.js'
+
+
 
 /* Components */
 import YuriSearch from '@/components/YuriSearch.vue'
@@ -178,7 +184,8 @@ const store = useStore()
 const natures = useNatures()
 const DEF_IMG_URL = "https://raw.githubusercontent.com/msikma/pokesprite/master/misc/types/go/"
 
-
+const userStore = useConfigStore()
+const userConfiguration = ref(JSON.parse(userStore.userConfiguration))
 
 let currentPokemon = ref(allPkmn[9])
 let defaultPokemon = ref(allPkmn[0])

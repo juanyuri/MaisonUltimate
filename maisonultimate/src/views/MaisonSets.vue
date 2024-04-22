@@ -1,6 +1,11 @@
 <template>
   <main>
 
+    <div class="hello">
+      <button>ORAS</button>
+      <button>XY</button>
+    </div>
+
     <div class="search-container">
       <YuriSearch 
         :items="allTrainers" 
