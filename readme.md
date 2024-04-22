@@ -43,6 +43,7 @@ This will start a development server at <a href="http://localhost:5173" target="
 - [ ] FRONTEND: Button to choose the actual round number of the player and save it on the LocalStorage
 - [ ] Pokemon Maison Sets View a.0.1
 - [ ] FRONTEND: Add button to remove LocalStorage information completely.
+- [ ] FRONTEND: Make a footer showing information about the Project and Author
 - [ ] MVP. MINIMUM VIABLE PRODUCT.
 
 - [ ] FRONTEND: Order all the tables columns by name, values, damage, etc.

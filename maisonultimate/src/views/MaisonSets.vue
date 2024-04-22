@@ -1,10 +1,8 @@
 <template>
   <main>
 
-    <div class="hello">
-      <button>ORAS</button>
-      <button>XY</button>
-    </div>
+    <button @click="userStore.changeVersion('ORAS')">ORAS</button>
+    <button @click="userStore.changeVersion('XY')">XY</button>
 
     <div class="search-container">
       <YuriSearch 
@@ -77,6 +75,7 @@
 import { ref, computed } from 'vue'
 import { useSets, findSets } from '@/composables/sets.comp.js'
 import { useMoves } from '@/composables/moves.comp.js'
+import { useTrainers } from '@/composables/trainers.comp.js'
 import { stats, natureEffect } from '@/composables/stats.comp.js'
 import { getModifiedMoveType, getModifiedMovePower } from '@/composables/stats.comp.js'
 import { getModifiedStatWithItem, getModifiedStatWithAbility } from '@/composables/stats.comp.js'
@@ -84,8 +83,8 @@ import {TRAINER_DEFAULT} from '@/const/filters.js'
 
 /* STORE */
 import { useStore } from '@/stores/TeamStore.js'
-import { useTrainers } from '@/composables/trainers.comp.js'
 /* import { useGroups } from '@/composables/groups.comp.js' */
+import { useConfigStore } from '@/stores/UserConfigStore.js'
 
 import SetCard from '@/components/SetCard.vue'
 import YuriSearch from '@/components/YuriSearch.vue'
@@ -94,6 +93,11 @@ const moves = useMoves()
 const allTrainers = useTrainers()
 const sets = useSets()
 const store = useStore()
+
+const userStore = useConfigStore()
+const userConfiguration = ref(JSON.parse(userStore.userConfiguration))
+
+
 let currentPokemon = ref(store.team[0])
 let query = ref(TRAINER_DEFAULT)
 let currentTrainer = allTrainers.value.find(tr => tr.name_oras == TRAINER_DEFAULT)
