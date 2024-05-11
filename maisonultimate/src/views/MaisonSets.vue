@@ -1,21 +1,20 @@
 <template>
   <main>
-
-    <button @click="userStore.changeVersion('ORAS')">ORAS</button>
-    <button @click="userStore.changeVersion('XY')">XY</button>
+    <p>{{ userConfiguration }}</p>
+    <button @click="userStore.changeVersion('oras')">ORAS</button>
+    <button @click="userStore.changeVersion('xy')">XY</button>
 
     <div class="search-container">
       <YuriSearch 
         :items="allTrainers" 
         placeholderText="Choose a trainer" 
-        attrToShow="name_oras" 
+        attrToShow="oras"
         :minLength="1"
         @onItemSelected="(event) => updateTrainer(event)"
       />
       <p v-if="filteredSets.length === 864">Showing all sets</p>
-      <p v-else>{{ currentTrainer.name_oras }} (ORAS), {{ currentTrainer.name_xy }} (XY) has {{ filteredSets.length }} sets available. Found in rounds: {{ currentTrainer.rounds[0] }} </p>
+      <p v-else>{{ currentTrainer.oras }} (ORAS), {{ currentTrainer.xy }} (XY) has {{ filteredSets.length }} sets available. Found in rounds: {{ currentTrainer.rounds[0] }} </p>
     </div>
-      
 
       <div class="pkmn-cards-container">
         <div class="pkmn-card" @click="changePokemon(0)">
@@ -79,7 +78,7 @@ import { useTrainers } from '@/composables/trainers.comp.js'
 import { stats, natureEffect } from '@/composables/stats.comp.js'
 import { getModifiedMoveType, getModifiedMovePower } from '@/composables/stats.comp.js'
 import { getModifiedStatWithItem, getModifiedStatWithAbility } from '@/composables/stats.comp.js'
-import {TRAINER_DEFAULT} from '@/const/filters.js'
+import {TRAINER_DEFAULT_ORAS, TRAINER_DEFAULT_XY} from '@/const/filters.js'
 
 /* STORE */
 import { useStore } from '@/stores/TeamStore.js'
@@ -96,11 +95,20 @@ const store = useStore()
 
 const userStore = useConfigStore()
 const userConfiguration = ref(JSON.parse(userStore.userConfiguration))
+let currentGameVersion = userConfiguration.value.GAME_VERSION
 
-
+let query = ref()
+let currentTrainer = null
+if (currentGameVersion == "oras"){
+  currentTrainer = allTrainers.value.find(tr => tr.oras == TRAINER_DEFAULT_ORAS)
+  query = ref(TRAINER_DEFAULT_ORAS)
+  console.log("here oras")
+}else{
+  currentTrainer = allTrainers.value.find(tr => tr.xy == TRAINER_DEFAULT_XY)
+  query = ref(TRAINER_DEFAULT_XY)
+  console.log("here xy")
+}
 let currentPokemon = ref(store.team[0])
-let query = ref(TRAINER_DEFAULT)
-let currentTrainer = allTrainers.value.find(tr => tr.name_oras == TRAINER_DEFAULT)
 
 
 let changePokemon = (number) => {
@@ -113,10 +121,10 @@ const filteredSets = computed(() => {
   let sets = query.value === ''
     ? sets.value
     : findSets(
-      allTrainers.value.filter(trainer => trainer['name_oras'] == query.value)[0]['pkmn_group']
+      allTrainers.value.filter(trainer => trainer[currentGameVersion] == query.value)[0]['pkmn_group']
     );
 
-
+  console.log(sets)
   
   // Modify each set's totalStats based on currentTrainer.ivs
   sets = sets.map(set => {
@@ -137,8 +145,10 @@ const filteredSets = computed(() => {
 })
 
 const updateTrainer = ( trainer ) => {
-  query.value = trainer['name_oras']
+  query.value = trainer[currentGameVersion]
+  console.log(query.value)
   currentTrainer.value = trainer
+  console.log(currentTrainer.value)
 }
 
 const pctg = (result, hp) => {

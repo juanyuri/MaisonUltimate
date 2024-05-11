@@ -42,8 +42,11 @@ export const useSets = () => {
 
 /* Find all sets based on a group name */
 export const findSets = (groupName) => {
-    const grupos = useGroups()
-    const setsNames = grupos.value.filter( g => g.name === groupName)[0]['pkmnSets']
+    const groups = useGroups()
+    console.log(groupName)
+    
+
+    const setsNames = groups.value.filter( g => g.name === groupName)[0]['pkmnSets']
 
     const filtered = sets_data.filter(s => setsNames.includes(s.setName))
     return filtered

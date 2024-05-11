@@ -20,6 +20,7 @@ export const useTrainers = () => {
             id, name_xy, name_oras, pkmn_group, tier, ivs, rounds       
         } = trainer_data
 
+        // TODO: change the Trainer Data in MaisonData
         const trainer = new Trainer(
             id, name_xy, name_oras, pkmn_group, tier, ivs, rounds 
         )

@@ -5,8 +5,8 @@ import { USER_CONFIGURATION_KEY } from '@/const/storage.js'
 export const useConfigStore = defineStore(USER_CONFIGURATION_KEY, () => {
 
     const userConfiguration = ref({})
-
     const savedUserConfig = localStorage.getItem(USER_CONFIGURATION_KEY)
+    
     if (savedUserConfig) {
         userConfiguration.value = savedUserConfig
         console.log(userConfiguration)
@@ -15,7 +15,7 @@ export const useConfigStore = defineStore(USER_CONFIGURATION_KEY, () => {
 
         let userDefaultConfiguration = {
             "GAME_LANGUAGE": "SPANISH",
-            "GAME_VERSION": "ORAS",
+            "GAME_VERSION": "oras",
             "NUM_ROUNDS": 0
         }
         userConfiguration.value = JSON.stringify(userDefaultConfiguration)
@@ -43,9 +43,8 @@ export const useConfigStore = defineStore(USER_CONFIGURATION_KEY, () => {
 
         // Parse the string with user info and then change the attribute
         let parsedConfig = JSON.parse(userConfiguration.value)
-        console.log("GAME_VERSION was " + parsedConfig.GAME_VERSION)
         parsedConfig.GAME_VERSION = newGameVersion
-        console.log("GAME_VERSION is " + parsedConfig.GAME_VERSION)
+        console.log("GAME_VERSION changed to " + parsedConfig.GAME_VERSION)
         
         // Convert to string in order to save it in localStorage
         userConfiguration.value = JSON.stringify(parsedConfig)
