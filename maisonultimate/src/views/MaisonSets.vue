@@ -1,20 +1,27 @@
 <template>
   <main>
-    <p>{{ userConfiguration }}</p>
-    <button @click="userStore.changeVersion('oras')">ORAS</button>
-    <button @click="userStore.changeVersion('xy')">XY</button>
+    <!-- <p>{{ currentGameVersion }}</p> -->
+    <button @click="userStore.changeVersion('oras'); updateQueryOras()">ORAS</button>
+    <button @click="userStore.changeVersion('xy'); updateQueryXy()">XY</button>
+    
+    <p>{{ userStore.gameLanguage }}</p>
+    <p>{{ userStore.gameVersion }}</p>
 
+    
     <div class="search-container">
       <YuriSearch 
         :items="allTrainers" 
         placeholderText="Choose a trainer" 
-        attrToShow="oras"
-        :minLength="1"
+        :attrToShow="userStore.gameVersion"
+        minLength="1"
         @onItemSelected="(event) => updateTrainer(event)"
       />
       <p v-if="filteredSets.length === 864">Showing all sets</p>
-      <p v-else>{{ currentTrainer.oras }} (ORAS), {{ currentTrainer.xy }} (XY) has {{ filteredSets.length }} sets available. Found in rounds: {{ currentTrainer.rounds[0] }} </p>
+      <p v-else-if="userStore.gameVersion=='oras'">{{ currentTrainer.oras }} (ORAS) has {{ filteredSets.length }} sets available. Found in rounds: {{ currentTrainer.rounds[0] }}</p>
+      <p v-else-if="userStore.gameVersion=='xy'">{{ currentTrainer.xy }} (XY) has {{ filteredSets.length }} sets available. Found in rounds: {{ currentTrainer.rounds[0] }}</p>
     </div>
+
+    <p>{{ currentTrainer[userStore.gameVersion] }}</p>
 
       <div class="pkmn-cards-container">
         <div class="pkmn-card" @click="changePokemon(0)">
@@ -71,7 +78,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { useSets, findSets } from '@/composables/sets.comp.js'
 import { useMoves } from '@/composables/moves.comp.js'
 import { useTrainers } from '@/composables/trainers.comp.js'
@@ -94,22 +101,36 @@ const sets = useSets()
 const store = useStore()
 
 const userStore = useConfigStore()
-const userConfiguration = ref(JSON.parse(userStore.userConfiguration))
-let currentGameVersion = userConfiguration.value.GAME_VERSION
 
-let query = ref()
-let currentTrainer = null
-if (currentGameVersion == "oras"){
-  currentTrainer = allTrainers.value.find(tr => tr.oras == TRAINER_DEFAULT_ORAS)
-  query = ref(TRAINER_DEFAULT_ORAS)
-  console.log("here oras")
+
+// watch(userStore.gameVersion, (oldVersion, newVersion) => {
+//   console.group()
+//   console.log(oldVersion)
+//   console.log(newVersion)
+//   console.groupEnd()
+// })
+
+
+
+const updateQueryOras = () => {
+  query.value = currentTrainer.value.oras
+}
+
+const updateQueryXy = () => {
+  query.value = currentTrainer.value.xy
+}
+
+
+let query = ref("")
+let currentTrainer = allTrainers.value.find(tr => tr.oras == TRAINER_DEFAULT_ORAS)
+if (userStore.gameVersion == "oras"){
+  currentTrainer = ref(allTrainers.value.find(tr => tr.oras == TRAINER_DEFAULT_ORAS))
+  query.value = TRAINER_DEFAULT_ORAS
 }else{
-  currentTrainer = allTrainers.value.find(tr => tr.xy == TRAINER_DEFAULT_XY)
-  query = ref(TRAINER_DEFAULT_XY)
-  console.log("here xy")
+  currentTrainer = ref(allTrainers.value.find(tr => tr.xy == TRAINER_DEFAULT_XY))
+  query.value = TRAINER_DEFAULT_XY
 }
 let currentPokemon = ref(store.team[0])
-
 
 let changePokemon = (number) => {
   currentPokemon.value = store.team[number]
@@ -121,10 +142,8 @@ const filteredSets = computed(() => {
   let sets = query.value === ''
     ? sets.value
     : findSets(
-      allTrainers.value.filter(trainer => trainer[currentGameVersion] == query.value)[0]['pkmn_group']
-    );
-
-  console.log(sets)
+      allTrainers.value.filter(trainer => trainer[userStore.gameVersion] == query.value)[0]['pkmn_group']
+    )
   
   // Modify each set's totalStats based on currentTrainer.ivs
   sets = sets.map(set => {
@@ -145,10 +164,8 @@ const filteredSets = computed(() => {
 })
 
 const updateTrainer = ( trainer ) => {
-  query.value = trainer[currentGameVersion]
-  console.log(query.value)
+  query.value = trainer[userStore.gameVersion]
   currentTrainer.value = trainer
-  console.log(currentTrainer.value)
 }
 
 const pctg = (result, hp) => {

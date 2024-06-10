@@ -3,6 +3,11 @@
   <button @click="userStore.changeLanguage('SPANISH')">SPA</button>
   <button @click="userStore.changeLanguage('ENGLISH')">ENG</button>
 
+
+  <p>{{ userStore.gameLanguage }}</p>
+  <p>{{ userStore.gameVersion }}</p>
+
+  
   <div class="Pokemon-Cards-Container">
 
     <div class="Pokemon-Card" v-for="(pkmn, index) in store.team" :key="pkmn" @click="selectPokemon(index, pkmn)">
@@ -158,7 +163,7 @@
 
 
 <script setup>
-import { ref, watchEffect } from 'vue'
+import { ref, watchEffect, watch} from 'vue'
 
 /* Import Data */
 import { usePokemon } from '@/composables/pokedex.comp.js'
@@ -167,6 +172,7 @@ import { useAbilities } from '@/composables/abilities.comp.js'
 import { useItems } from '@/composables/items.comp.js'
 import { stats, natureEffect } from '@/composables/stats.comp.js'
 import {useNatures} from '@/composables/natures.comp.js'
+
 /* Pinia Store for saving Team Composition */
 import { useStore } from '@/stores/TeamStore.js'
 import { useConfigStore } from '@/stores/UserConfigStore.js'
@@ -185,12 +191,15 @@ const natures = useNatures()
 const DEF_IMG_URL = "https://raw.githubusercontent.com/msikma/pokesprite/master/misc/types/go/"
 
 const userStore = useConfigStore()
-const userConfiguration = ref(JSON.parse(userStore.userConfiguration))
+// const userConfiguration = ref(JSON.parse(userStore.userConfiguration))
 
 let currentPokemon = ref(allPkmn[9])
 let defaultPokemon = ref(allPkmn[0])
 
-console.log(store.team)
+
+console.log(userStore.gameVersion)
+
+// console.log(store.team)
 if(store.team.length > 0)
   currentPokemon.value = store.team[0]
 
