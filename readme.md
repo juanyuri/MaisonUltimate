@@ -1,5 +1,9 @@
-# Pokemon Maison Ultimate
-My name is **Yuri** and I'm a Computer Scientist in Galicia, Spain. This project is made to beat the ORAS/XY Battle Maison and becoming a truly Pokemon Master!!
+# Pokemon Battle Maison Ultimate
+My name is **Yuri** and I'm a Computer Scientist in Galicia, Spain. I've started this project in order to improve the capabilities of my Pokemon Team in Pokemon Omega Ruby and Alpha Sapphire in the Battle Maison. 
+
+Driven by my love for both programming and Pokemon, I've utilized advanced webscraping techniques in Python 3.10 to gather all the necessary information for my project. Even I had translations for Spanish and English. With this precise and valuable data, I consider that this application can leverage and gain a competitive advantage in the Battle Maison of XY or ORAS.
+
+But my efforts go even further. To present this information in an intuitive and user-friendly manner, I have been developing a Cutting-Edge Frontend Project with Vue. Vue is an up-to-date Frontend Framework whose main principle is reactivity: changes alters the data. In other words, I've crafted an exceptional interface that showcases the full potential of my Pokemon Team.
 
 
 <br> 
@@ -7,6 +11,7 @@ My name is **Yuri** and I'm a Computer Scientist in Galicia, Spain. This project
   <img src="./img/snapshot_4_November.png" width="800" height="390"  />
 </div>
 
+[comment]: [![nasa-retro](https://img.shields.io/badge/START%20NOW-%23006400.svg?&style=for-the-badge&logoColor=white)](https://weatherdelta.vercel.app)
 ## Project setup
 
 1. To set up the project, you'll need to have Node.js and npm installed on your machine. You can download and install them from the [official Node.js website](https://nodejs.org/).
