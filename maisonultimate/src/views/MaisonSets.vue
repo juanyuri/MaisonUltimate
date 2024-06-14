@@ -3,6 +3,9 @@
     <!-- <p>{{ currentGameVersion }}</p> -->
     <button @click="userStore.changeVersion('oras'); updateQueryOras()">ORAS</button>
     <button @click="userStore.changeVersion('xy'); updateQueryXy()">XY</button>
+
+    <button @click="userStore.changeLanguage('SPANISH')">SPA</button>
+    <button @click="userStore.changeLanguage('ENGLISH')">ENG</button>
     
     <p>{{ userStore.gameLanguage }}</p>
     <p>{{ userStore.gameVersion }}</p>
@@ -11,59 +14,63 @@
     <div class="search-container">
       <YuriSearch 
         :items="allTrainers" 
-        placeholderText="Choose a trainer" 
+        :placeholderText="i18n('Choose a trainer')"
         :attrToShow="userStore.gameVersion"
         minLength="1"
         @onItemSelected="(event) => updateTrainer(event)"
       />
       <p v-if="filteredSets.length === 864">Showing all sets</p>
-      <p v-else-if="userStore.gameVersion=='oras'">{{ currentTrainer.oras }} (ORAS) has {{ filteredSets.length }} sets available. Found in rounds: {{ currentTrainer.rounds[0] }}</p>
-      <p v-else-if="userStore.gameVersion=='xy'">{{ currentTrainer.xy }} (XY) has {{ filteredSets.length }} sets available. Found in rounds: {{ currentTrainer.rounds[0] }}</p>
+      <p v-else>
+      {{ currentTrainer[userStore.gameVersion] }} ({{ userStore.gameVersion }}) {{ i18n('Found in rounds') }}: {{ currentTrainer.rounds[0] }}
+      </p>
+      <!-- <p v-else-if="userStore.gameVersion=='xy'">
+        {{ currentTrainer.xy }} (XY) has {{ filteredSets.length }} sets available. Found in rounds: {{ currentTrainer.rounds[0] }}
+      </p> -->
     </div>
 
-    <p>{{ currentTrainer[userStore.gameVersion] }}</p>
+    <!-- <p>{{ currentTrainer[userStore.gameVersion] }}</p> -->
 
-      <div class="pkmn-cards-container">
-        <div class="pkmn-card" @click="changePokemon(0)">
-          <p class="pkmn-card-info">{{ store.team[0].species }}</p>
-        </div>
-        <div class="pkmn-card" @click="changePokemon(1)" v-if="store.team[1]">
-          <p class="pkmn-card-info">{{ store.team[1].species }}</p>
-        </div>
-        <div class="pkmn-card" @click="changePokemon(2)" v-if="store.team[2]">
-          <p class="pkmn-card-info">{{ store.team[2].species }}</p>
-        </div>
-        <div class="pkmn-card" @click="changePokemon(3)" v-if="store.team[3]">
-          <p class="pkmn-card-info">{{ store.team[3].species }}</p>
-        </div>
+    <div class="pkmn-cards-container">
+      <div class="pkmn-card" @click="changePokemon(0)">
+        <p class="pkmn-card-info">{{ store.team[0].species }}</p>
       </div>
+      <div class="pkmn-card" @click="changePokemon(1)" v-if="store.team[1]">
+        <p class="pkmn-card-info">{{ store.team[1].species }}</p>
+      </div>
+      <div class="pkmn-card" @click="changePokemon(2)" v-if="store.team[2]">
+        <p class="pkmn-card-info">{{ store.team[2].species }}</p>
+      </div>
+      <div class="pkmn-card" @click="changePokemon(3)" v-if="store.team[3]">
+        <p class="pkmn-card-info">{{ store.team[3].species }}</p>
+      </div>
+    </div>
 
       
-      <div id="speed-comparator">
+    <div id="speed-comparator">
       <table id="pkmn-table">
         <thead>
           <tr class="header">
-            <th class="pkmn-table-th">SET</th>
-            <th class="pkmn-table-th">MOVE 1</th>
-            <th class="pkmn-table-th">MOVE 2</th>
-            <th class="pkmn-table-th">MOVE 3</th>
-            <th class="pkmn-table-th">MOVE 4</th>
-            <th class="pkmn-table-th">ABILITY</th>
-            <th class="pkmn-table-th">ITEM</th>
-            <th class="pkmn-table-th">SPEED</th>
-            <th class="pkmn-table-th">DAMAGE</th>
+            <th class="pkmn-table-th">{{ i18n("SET NAME") }}</th>
+            <th class="pkmn-table-th">{{ i18n("MOVE 1") }}</th>
+            <th class="pkmn-table-th">{{ i18n("MOVE 2") }}</th>
+            <th class="pkmn-table-th">{{ i18n("MOVE 3") }}</th>
+            <th class="pkmn-table-th">{{ i18n("MOVE 4") }}</th>
+            <th class="pkmn-table-th">{{ i18n("ABILITY") }}</th>
+            <th class="pkmn-table-th">{{ i18n("ITEM") }}</th>
+            <th class="pkmn-table-th">{{ i18n("SPEED") }}</th>
+            <th class="pkmn-table-th">{{ i18n("DAMAGE") }}</th>
           </tr>
         </thead>
         
         <tbody>
           <tr v-for="set in filteredSets" :key="set">
             <td>{{ set.setName }}</td>
-            <td>{{ set.moves[0] }}</td>
-            <td>{{ set.moves[1] }}</td>
-            <td>{{ set.moves[2] }}</td>
-            <td>{{ set.moves[3] }}</td>
+            <td>{{ i18n(set.moves[0]) }}</td>
+            <td>{{ i18n(set.moves[1]) }}</td>
+            <td>{{ i18n(set.moves[2]) }}</td>
+            <td>{{ i18n(set.moves[3]) }}</td>
             <td ><p v-for="ab in set.abilities">{{ ab }}</p></td>
-            <td>{{ set.item }}</td>
+            <td>{{ i18n(set.item) }}</td>
             <td>{{ set.totalStats[5] }}
               <p v-if="set.item == 'Choice Scarf'" style="display: inline; color:red; font-weight:bold;">#</p>
               <p v-if="set.item == 'Iron Ball'" style="display: inline; color:blue; font-weight:bold;">*</p>
@@ -87,6 +94,8 @@ import { getModifiedMoveType, getModifiedMovePower } from '@/composables/stats.c
 import { getModifiedStatWithItem, getModifiedStatWithAbility } from '@/composables/stats.comp.js'
 import {TRAINER_DEFAULT_ORAS, TRAINER_DEFAULT_XY} from '@/const/filters.js'
 
+
+
 /* STORE */
 import { useStore } from '@/stores/TeamStore.js'
 /* import { useGroups } from '@/composables/groups.comp.js' */
@@ -94,6 +103,10 @@ import { useConfigStore } from '@/stores/UserConfigStore.js'
 
 import SetCard from '@/components/SetCard.vue'
 import YuriSearch from '@/components/YuriSearch.vue'
+
+// Translations
+import i18nData from "@/data/i18n_es.json"
+
 
 const moves = useMoves()
 const allTrainers = useTrainers()
@@ -103,13 +116,12 @@ const store = useStore()
 const userStore = useConfigStore()
 
 
-// watch(userStore.gameVersion, (oldVersion, newVersion) => {
-//   console.group()
-//   console.log(oldVersion)
-//   console.log(newVersion)
-//   console.groupEnd()
-// })
-
+const i18n = (englishName) => {
+  if (userStore.gameLanguage == "SPANISH")
+    return i18nData[englishName]
+  
+  return englishName
+}
 
 
 const updateQueryOras = () => {

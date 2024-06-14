@@ -1,0 +1,11 @@
+EPIC STORY: 
+
+AS an User I WANT to change the language SO THAT I can understand the system correctly.
+
+AS an User I WANT to change the game version SO THAT the rival's trainers are updated to my game.
+
+
+
+TODO:
+    Externalizar la gestión de la traducción.
+    Configurar el YuriSearch para que busque en español

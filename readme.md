@@ -44,7 +44,7 @@ This will start a development server at <a href="http://localhost:5173" target="
 - [x] FRONTEND: Implement all components needed for Maison Sets Comparisons
 - [x] Pokemon Team Planner View a.0.1
 - [x] DATA: ORAS/XY JSON with all trainers in English Version
-- [ ] FRONTEND: Button to choose between ORAS or XY trainers and Save the State on LocalStorage
+- [x] FRONTEND: Button to choose between ORAS or XY trainers and Save the State on LocalStorage
 - [ ] FRONTEND: Button to choose the actual round number of the player and save it on the LocalStorage
 - [ ] Pokemon Maison Sets View a.0.1
 - [ ] FRONTEND: Add button to remove LocalStorage information completely.

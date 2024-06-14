@@ -1,5 +1,4 @@
 <template>
-
   <button @click="userStore.changeLanguage('SPANISH')">SPA</button>
   <button @click="userStore.changeLanguage('ENGLISH')">ENG</button>
 
@@ -47,15 +46,15 @@
 
       <div class="selections">
         <YuriSearch :items="allPkmn"
-          :placeholderText="currentPokemon.species ? currentPokemon.species : 'Choose a Pokemon...'" attrToShow="species"
+          :placeholderText="currentPokemon.species ? currentPokemon.species : i18n('Choose a Pokemon...')" attrToShow="species"
           :minLength="1" @onItemSelected="(event) => updateSelection(event)" />
 
         <YuriSearch :items="allAbilities"
-          :placeholderText="currentPokemon.chosenAbility ? currentPokemon.chosenAbility : 'Choose an Abiltiy...'"
+          :placeholderText="currentPokemon.chosenAbility ? i18n(currentPokemon.chosenAbility) : i18n('Choose an Abiltiy...')"
           attrToShow="name" :minLength="1"
           @onItemSelected="(event) => update('chosenAbility', event, 'name')" />
 
-        <YuriSearch :items="allItems" :placeholderText="currentPokemon.item ? currentPokemon.item : 'Choose an Object...'"
+        <YuriSearch :items="allItems" :placeholderText="currentPokemon.item ? i18n(currentPokemon.item) : i18n('Choose an Object...')"
           attrToShow="name" :minLength="1"
           @onItemSelected="(event) => update('item', event, 'name')" />
           
@@ -66,12 +65,12 @@
       <div id="pkmn-stats">
         <div class="table">
             <div></div>
-            <div class="bold">HP</div>
+            <div class="bold">{{ i18n("HP") }}</div>
             <div class="bold">AT</div>
             <div class="bold">DF</div>
             <div class="bold">SP. AT</div>
             <div class="bold">SP. DF</div>
-            <div class="bold">SP</div>
+            <div class="bold">{{ i18n("SPEED") }}</div>
 
             <div class="bold">EVS</div>
             <div><input type="number" step="4" v-model="currentPokemon.evs[0]"></div>
@@ -128,34 +127,37 @@
         </div>
     </div>
 
-    <YuriSearch :items="natures" :placeholderText="currentPokemon.nature ? currentPokemon.nature : 'Choose a Nature...'"
-          attrToShow="name" :minLength="1"
-          @onItemSelected="(event) => update('nature', event, 'name')" />
+
+
+    <YuriSearch :items="natures" 
+        :placeholderText="currentPokemon.nature ? i18n(currentPokemon.nature) : i18n('Choose a Nature...')"
+        attrToShow="name" :minLength="1"
+        @onItemSelected="(event) => update('nature', event, 'name')" />
     </div>
+
+
 
     <div class="moves">
       <div class="first-column-moves">
         <YuriSearch :items="allMoves"
-          :placeholderText="currentPokemon.moves[0] ? currentPokemon.moves[0] : 'Choose a Move'"
+          :placeholderText="currentPokemon.moves[0] ? i18n(currentPokemon.moves[0]) : i18n('Choose a Move')"
           attrToShow="name" :minLength="1" @onItemSelected="(event) => updateMove(0, event, 'name', currentPokemon.species)" />
 
         <YuriSearch :items="allMoves"
-          :placeholderText="currentPokemon.moves[1] ? currentPokemon.moves[1] : 'Choose a Move'"
+          :placeholderText="currentPokemon.moves[1] ? i18n(currentPokemon.moves[1]) : i18n('Choose a Move')"
           attrToShow="name" :minLength="1" @onItemSelected="(event) => updateMove(1, event, 'name', currentPokemon.species)" />
       </div>
 
       <div class="second-column-moves">
         <YuriSearch :items="allMoves" class="second-column-moves"
-          :placeholderText="currentPokemon.moves[2] ? currentPokemon.moves[2] : 'Choose a Move'"
+          :placeholderText="currentPokemon.moves[2] ? i18n(currentPokemon.moves[2]) : i18n('Choose a Move')"
           attrToShow="name" :minLength="1" @onItemSelected="(event) => updateMove(2, event, 'name', currentPokemon.species)" />
 
         <YuriSearch :items="allMoves" class="second-column-moves"
-          :placeholderText="currentPokemon.moves[3] ? currentPokemon.moves[3] : 'Choose a Move'"
+          :placeholderText="currentPokemon.moves[3] ? i18n(currentPokemon.moves[3]) : i18n('Choose a Move')"
           attrToShow="name" :minLength="1" @onItemSelected="(event) => updateMove(3, event, 'name', currentPokemon.species)" />
       </div>
     </div>
-
-    
 
   </div>
 </template>
@@ -177,7 +179,8 @@ import {useNatures} from '@/composables/natures.comp.js'
 import { useStore } from '@/stores/TeamStore.js'
 import { useConfigStore } from '@/stores/UserConfigStore.js'
 
-
+// Translations
+import i18nData from "@/data/i18n_es.json"
 
 /* Components */
 import YuriSearch from '@/components/YuriSearch.vue'
@@ -197,9 +200,15 @@ let currentPokemon = ref(allPkmn[9])
 let defaultPokemon = ref(allPkmn[0])
 
 
-console.log(userStore.gameVersion)
 
-// console.log(store.team)
+const i18n = (englishName) => {
+  if (userStore.gameLanguage == "SPANISH")
+    return i18nData[englishName]
+  
+  return englishName
+}
+
+
 if(store.team.length > 0)
   currentPokemon.value = store.team[0]
 
